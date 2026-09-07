@@ -1,0 +1,3139 @@
+html {
+	scroll-behavior: smooth;
+	font-size: medium;
+	font-family: "Effra Regular";
+  }
+  
+  [lang="ar"]html {
+	font-family: "regularFontAR";
+  }
+  
+  body {
+	font-family: sans-serif;
+  }
+
+
+  #heroVideo { opacity: 0; }
+@keyframes revealVideo { to { opacity: 1; } }
+#heroVideo { animation: revealVideo 0s 3s forwards; } /* reveal after ~3s */
+
+
+.search-arabic-list, .search-arabic-holder{
+	display: none!important;
+}
+
+
+[lang="ar"] .search-english-list{
+    display: none!important;
+}
+
+[lang="ar"] .search-english-holder{
+	display: none!important;
+}
+
+[lang="ar"] .search-arabic-list{
+    display: block!important;
+}
+
+[lang="ar"] .search-arabic-holder{
+	 display: block!important;
+}
+
+/* search-bar-text-animated */
+
+.animated-placeholder {
+  display: flex;
+  align-items: center;
+  gap:5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.scrolling-wrapper {
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.scrolling-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-english-list div,
+.search-arabic-list div {
+  height: 30px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.search-arabic-list {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Language visibility (optional) */
+
+[lang="en"] .search-arabic-list,
+[lang="en"] .search-arabic-holder {
+  display: none;
+}
+
+[lang="ar"] .search-english-list,
+[lang="ar"] .search-english-holder {
+  display: none;
+}
+
+/* search-bar-text-animated-end */
+
+
+ 
+ 
+  
+  .header-text-master {
+	background: linear-gradient(
+	  0deg,
+	  #000000d6,
+	  transparent,
+	  transparent,
+	  transparent
+	) !important;
+	transition: background 250ms ease-in !important;
+	backdrop-filter: none;
+  }
+  
+  .frontpage #block-gavias-tico-local-tasks {
+	display: none;
+  }
+  
+  .logged-in.frontpage .hia-page-wrapper {
+	margin-top: -120px;
+  }
+  
+  .hia-sticky-header .block {
+	margin-bottom: 0;
+  }
+  
+  .hm h2 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-family: "Effra Regular";
+	color: #1d1d1f;
+	text-align: center;
+  }
+  
+  [lang="ar"] .hm h2 {
+	font-family: "regularFontAR";
+  }
+  
+  .hia-banner .bt-video {
+	width: 100%;
+	height: 100vh;
+	object-fit: cover;
+  }
+  
+  .hm {
+	text-align: center;
+	/* margin: 5rem 0rem; */
+  }
+  
+  .hm .card-body p {
+	text-align: start !important;
+	color: #1d1d1f !important;
+	font-size: 1.2rem !important;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+  }
+  
+  .hm p {
+		color: #1d1d1f;
+		font-size: 1.3rem;
+		padding: 10px 0;
+		text-align: center;
+		line-height: normal;
+		letter-spacing: 0.7px;
+		width: 800px;
+		margin: 0 auto 2rem;
+		line-height: inherit;
+  }
+  
+  [lang="ar"]  .hm p {
+
+  }
+  
+  /* .node-type-page-full .toolbar-menu-administration {
+	  display: none;
+  }
+  
+  .node-type-page-full .toolbar-lining {
+	  display: none;
+  } */
+  
+  .exp-content p {
+	margin: 0px;
+  }
+  
+  .qt-sec-card p {
+	display: -webkit-box;
+	-webkit-line-clamp: 8;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	width: auto;
+  }
+  
+  .view-more {
+		width: 100%;
+		display: block;
+		text-align: center;
+		color: #ffff;
+		padding: 12px 5px;
+		border-radius: 6px;
+		margin: 16px 0px 0px;
+		letter-spacing: 0.5px;
+		transition: 0.5s ease;
+		background: #273170;
+  }
+  
+  .view-more:hover, .view-more:focus, .view-more:active{
+	color: #fff;
+	background-color:#ed155b;
+  }
+  
+  .years-hide {
+	display: none;
+  }
+  
+  .shop-logo {
+	border-radius: 8px;
+	vertical-align: top;
+	height: auto;
+	border: 1px solid #e0e0e0;
+	object-fit: cover;
+  }
+  
+  .shop-titile-blk {
+	flex-wrap: nowrap;
+	display: inline-flex;
+	overflow: hidden;
+	align-items: center;
+	column-gap: 10px;
+  }
+  
+  /* header-banner */
+  
+  .header-banner {
+	position: relative;
+  }
+  
+  .hia-banner .header-banner img {
+	height: 100vh;
+	object-fit: cover;
+	object-position: center;
+  }
+  
+  .hia-banner .header-banner img {
+	animation: scaleAnimation 10s ease-in-out forwards;
+	transition: transform 0.5s ease;
+    width: 100%;
+    height: 100%;	
+  }
+  
+  @keyframes scaleAnimation {
+	0% {
+	  transform: scale(1);
+	}
+  
+	100% {
+	  transform: scale(1.2);
+	}
+  }
+  
+  .header-text-master {
+	/* background: linear-gradient(0deg, #00000096, #00000030); */
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+  }
+  
+  .header-text-master p,
+  .header-text-master h2 {
+	display: none;
+  }
+  
+  .header-banner-text {
+	margin: auto;
+	text-align: center;
+	color: #fff;
+	max-width: 800px;
+	font-family: "Effra Regular";
+	padding-top: 0rem;
+	display: none;
+  }
+  
+  [lang="ar"] .header-banner-text {
+	font-family: "regularFontAR";
+  }
+  
+  .header-banner-text h2 {
+	font-size: 3.5rem;
+	text-align: center;
+	font-family: "Effra Medium";
+	color: #fff;
+	line-height: 1.2 !important;
+	margin: 0px auto 30px;
+  }
+  
+  [lang="ar"] .header-banner-text h2 {
+	font-family: "mediumFontAR";
+  }
+  
+  .header-banner-text p {
+	font-family: "Effra Light";
+	font-size: 1.2rem;
+	letter-spacing: 3px;
+	margin-bottom: 0px;
+	-webkit-text-stroke: 0.025rem;
+  }
+  
+  [lang="ar"] .header-banner-text p {
+	font-family: "lightFontAR";
+  }
+  
+  .custom-crl {
+	height: 100vh;
+  }
+  
+  /* header-banner */
+  
+  /* search-gate-view */
+  .search-gate-view {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 42px;
+	z-index: 111;
+  }
+  
+  .home-search {
+	width: 100%;
+	padding: 0.8rem 1rem;
+	background-color: #ffffff;
+	border-radius: 8px;
+	font-size: 1rem;
+	cursor: pointer;
+	position: relative;
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.285px;
+	direction: ltr;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+  }
+  
+  [lang="ar"] .home-search {
+	font-family: "lightFontAR";
+	direction: rtl;
+  }
+  
+  [lang="ar"] .big-search-icon {
+	float: left;
+	left: 12px;
+	right: auto;
+  }
+  
+  .home-search p {
+	margin: 0;
+	text-align: start;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+  }
+  
+  [lang="ar"] .home-search p {
+	padding-left: 24px;
+	padding-left: 4px;
+  }
+  
+  .big-search-icon {
+		position: absolute;
+		right: 1rem;
+		font-size: 1.2rem;
+		color: #ed155b;
+		margin-top: 6px;
+  }
+  
+  .dat-section p br {
+	display: none;
+  }
+  
+  .home-search img {
+	width: 100%;
+  }
+  
+  .home-quicks {
+	width: 100%;
+	border-radius: 8px;
+	margin-top: 8px;
+	font-family: "Effra Regular";
+	overflow: hidden;
+  }
+  
+  [lang="ar"] .home-quicks {
+	font-family: "regularFontAR";
+  }
+  
+  .quick-features .qf-col {
+	text-align: center;
+	color: #dbd6d6;
+	border-right: 1px solid;
+	padding: 0px;
+  }
+  
+  .quick-features .qf-col:nth-last-child(1) {
+	border-right: none;
+  }
+  
+  .quick-features .qf-col i {
+	font-size: 1.5rem;
+	margin-right: 0.6rem;
+  }
+  
+  .quick-features .qf-col a {
+	color: #1d1d1f;
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.025rem;
+	transition: 0.5s;
+	font-size: 1rem;
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	align-items: center;
+	transition: 0.5s all ease;
+	justify-content: center;
+	height: 70px;
+  }
+  
+  [lang="ar"] .home-quicks {
+	font-family: "lightFontAR";
+  }
+  
+  [lang="ar"] .quick-features .qf-col a {
+	font-family: "lightFontAR";
+  }
+  
+  .quick-features .qf-col a:hover {
+	background: #e3e7ff;
+	color: #1d1d1f;
+	text-decoration: none;
+	margin: auto;
+  }
+  
+  .quick-features .qf-col a img {
+	width: 36px;
+	/* margin-top: -3px; */
+  }
+  
+  .quick-features.row {
+		background-color: #fff;
+		border-radius: 10px;
+		overflow: hidden;
+  }
+  
+  .dat-section {
+	width: 100%;
+    background: #ecedf5;
+    padding: 10px 0px;
+    margin-top: 8px;
+    border-radius: 10px;
+  }
+  
+  .dat-section p {
+	margin: 0px;
+	color: #666666;
+	font-size: 0.9rem;
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.025rem;
+	text-align: start;
+  }
+  
+  [lang="ar"] .dat-section p {
+	font-family: "lightFontAR";
+  }
+  
+  .dat-section h4 {
+	margin: 0px;
+	font-family: "Effra Regular";
+	font-size: 1.3rem;
+  }
+  
+  [lang="ar"] .dat-section h4 {
+	font-family: "regularFontAR";
+  }
+  
+  /* search-gate-view-end */
+  
+  /* Experience HIA  */
+  
+  .home-sec-1 {
+	text-align: center;
+	font-family: "Effra Regular";
+	margin: 8rem 0;
+  }
+  
+  [lang="ar"] .home-sec-1 {
+	font-family: "regularFontAR";
+  }
+  
+  .hia-card {
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	width: 100%;
+	border-radius: 16px;
+	transition: all 0.5s ease;
+	position: relative;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	overflow: hidden;
+	flex-direction: row;
+	align-items: flex-end;
+  }
+  
+  .hia-card::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	background: linear-gradient(#ff000000, #0000001c, #000000ad);
+	color: white;
+	height: 60%;
+  }
+  
+  .service-img {
+	padding-left: 18px;
+  }
+  
+  .service-content {
+	padding: 20px 16px 0px;
+  }
+  
+  .hia-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: linear-gradient(#00000000, #00000087);
+	border-radius: 16px;
+  }
+  
+  .hia-card:hover {
+	transform: translate3D(0, -1px, 0) scale(1.03);
+	box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+	  2px 5px 19px rgb(53 58 62 / 28%);
+	transition: all 0.4s ease;
+  }
+  
+  .hia-card h4 {
+	text-align: left;
+	font-size: 1.5rem;
+	font-family: "Effra Regular";
+	color: #fff;
+	z-index: 1;
+	width: 100%;
+	padding: 24px;
+	margin: 0;
+  }
+  
+  [lang="ar"] .hia-card h4 {
+	font-family: "regularFontAR";
+  }
+  
+  .hia-card h4 i {
+	float: right;
+	margin-top: 5px;
+	color: var(--hia-cerise-color);
+  }
+  
+  /* Experience HIA-end  */
+  
+  /* Things to know before travelling */
+  
+  .home-simple-card {
+	font-family: "Effra Regular";
+  }
+  
+  [lang="ar"] .home-simple-card {
+	font-family: "regularFontAR";
+  }
+  
+  .col-md-3 a:hover {
+	direction: none;
+  }
+  
+  .home-simple-card .sub-travelling-card {
+	border-radius: 16px;
+	/* transition: 0.5s; */
+	cursor: pointer;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background: #eeeeee;
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	transition: 0.3s all ease 0.2s;
+  }
+  
+  .home-simple-card .sub-travelling-card:hover {
+	transform: translate3D(0, -1px, 0) scale(1.05);
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	transition: 0.1s all ease;
+	/* background: #252525; */
+	/* box-shadow: 8px 28px 50px rgba(39, 44, 49, .07), 2px 5px 19px rgb(243 90 139 / 17%); */
+  }
+  
+  .home-simple-card .sub-travelling-card::before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+	width: 200%;
+	height: 200%;
+	/* background-image: radial-gradient(at 93% 99%, #ed155b 0, transparent 52%),
+	  radial-gradient(at 33% 51%, hsl(231.67deg 48% 29.41%) 0, transparent 40%),
+	  radial-gradient(at 95% 79%, hsl(231.78deg 48.34% 29.61%) 0, #6dc08f82 49%),
+	  radial-gradient(at 38% 64%, hsl(232.5deg 48% 29.41%) 0, transparent 41%),
+	  radial-gradient(at 26% 2%, hsl(231.78deg 48.34% 29.61%) 0, transparent 56%),
+	  radial-gradient(at 94% 11%, hsl(231.67deg 48% 29.41%) 0, transparent 40%),
+	  radial-gradient(at 87% 16%, hsl(0deg 0% 100%) 0, transparent 53%); */
+	top: 200%;
+	background-color: #1e245e;
+	left: -200%;
+	transition: 0.4s all ease-out;
+  }
+  
+  .sub-travelling-card:hover::before {
+	top: -50%;
+	left: -50%;
+  }
+  
+  .home-simple-card .sub-travelling-card:hover .th-icons {
+	filter: brightness(0) invert(1);
+  }
+  
+  .home-simple-card .sub-travelling-card:hover p,
+  .home-simple-card .sub-travelling-card:hover h4 {
+	color: white;
+  }
+  
+  .glare-container {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	padding: 1rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+  }
+  
+  /* .home-simple-card .sub-travelling-card h4 {
+	  color: #fff;
+	  font-size: 1.4rem;
+	  font-weight: bold;
+  
+  } */
+  
+  .home-simple-card .sub-travelling-card p {
+	font-size: 1rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 0px 0px 14px 0px;
+	margin: 0;
+	color: #6b6b6b;
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.025rem;
+	letter-spacing: normal;
+	line-height: unset;
+	width: auto;
+	height: 80px;
+  }
+  
+  [lang="ar"] .home-simple-card {
+	font-family: "lightFontAR";
+  }
+  
+  [lang="ar"] .home-simple-card .sub-travelling-card p {
+	font-family: "lightFontAR";
+  }
+  
+  .sub-travelling-card h4 {
+	font-family: "Effra Regular";
+	font-size: 1.4rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	color: black;
+  }
+  
+  [lang="ar"] .sub-travelling-card h4 {
+	font-family: "regularFontAR";
+  }
+  
+  .th-icons {
+	width: 120px;
+	flex-grow: 1;
+	height: 120px;
+	margin: 2rem 0;
+   object-fit: contain;
+  }
+  
+  .block-featured-home-block .nav-tabs {
+	justify-content: center;
+	width: 100%;
+	margin-top: 0px;
+  }
+  
+  .featured-shop-list-titile {
+	color: #1d1d1f;
+	font-family: "Effra Regular";
+	font-size: 1.2rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin: 0px;
+  }
+  
+  [lang="ar"] .featured-shop-list-titile {
+	font-family: "regularFontAR";
+  }
+  
+  [lang="ar"] .home-simple-card {
+	font-family: "regularFontAR";
+  }
+  
+  .featured-shop-list-titile:hover {
+	text-decoration: none;
+  }
+  
+  .sec-4 {
+	font-family: "Effra Regular";
+	text-align: start;
+  }
+  
+  [lang="ar"] .sec-4 {
+	font-family: "regularFontAR";
+  }
+  
+  .shop-img {
+	border-radius: 16px;
+	margin-bottom: 1rem;
+	aspect-ratio: 4 / 2.6;
+	/* height: 180px; */
+	object-fit: cover;
+	background: #f5f5f5;
+  }
+  
+  .sec-4 .col-md-3 {
+	text-align: start;
+  }
+  
+  .featured-home-listing .row {
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 16px !important;
+  }
+  
+  .sec-4 .col-md-3 a:hover {
+	text-decoration: none;
+  }
+  
+  .sec-4 .nav-tabs {
+	margin-bottom: 1.5rem;
+	display: inline-flex;
+	text-align: center;
+	border: 0px;
+	font-size: 1.5rem;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .shop-logo {
+	/* float: right; */
+  }
+  
+  .shop-logo img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	border: 1px solid #e6e6e6;
+	border-radius: 6px;
+  }
+  
+  .sec-4 .nav-tabs .nav-item.show .nav-link,
+  .sec-4 .nav-tabs .nav-link.active {
+	color: #ed155b !important;
+	border: 0;
+	border-color: #dee2e6 #dee2e6 #fff;
+	border-bottom: 2px solid #ed155b !important;
+	background: transparent !important;
+	border-radius: 0px;
+  }
+  
+  /* hover */
+  .sec-4 .nav-tabs li .nav-link::after {
+	position: absolute;
+	content: "";
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #ed155b;
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 0.5s;
+	margin-top: -1px;
+  }
+  
+  .sec-4 .nav-tabs li .nav-link {
+	position: relative;
+  }
+  
+  .sec-4 .nav-tabs li {
+	margin: 0px 10px;
+  }
+  
+  .sec-4 .nav-tabs li .nav-link:hover::after {
+	transform: scaleX(1);
+	transform-origin: left;
+  }
+  
+  [lang="ar"] .sec-4 .nav-tabs li .nav-link:hover::after {
+	transform-origin: right;
+  }
+  
+  /* hover-end */
+  
+  .sec-4 .nav-tabs .nav-link {
+	color: #1e245e;
+	border: 0;
+	margin-bottom: 10px;
+	float: left;
+	padding: 5px 0px !important;
+	font-size: 1.3rem;
+	font-family: "Effra Light";
+	text-transform: capitalize;
+	font-weight: normal;
+	-webkit-text-stroke: 0.05rem;
+	letter-spacing: 1.5px;
+  }
+  
+  [lang="ar"] .sec-4 .nav-tabs .nav-link {
+	font-family: "lightFontAR";
+  }
+  
+  .sec-4 .nav-tabs .nav-link:hover {
+	border: none;
+	color: #1e245e  !important;
+  }
+  
+  /* services */
+  
+  .service-content p {
+	float: left;
+	text-align: start !important;
+	width: auto;
+  }
+  
+  .service-content a {
+	float: left;
+	min-width: 130px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 8px;
+	color: #ffffff;
+	font-size: 1rem;
+	transition: 0.5s;
+	padding: 0px 22px;
+	background: #273170;
+  }
+  
+  .service-content a:hover {
+	text-decoration: none;
+	color: #fff;
+    background-color: #ed155b;
+	transition: 0.5s;
+  }
+  
+  .services {
+	font-family: "Effra Regular";
+  }
+  
+  [lang="ar"] .services {
+	font-family: "regularFontAR";
+  }
+  
+  .services .tab-content {
+	/* margin-top: 1.5rem; */
+  }
+  
+  .service-row {
+	text-align: left;
+  }
+  
+  .service-img img {
+	border-radius: 16px;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+	aspect-ratio: 1 / 0.5;
+  }
+  
+  .service-content p {
+	font-size: 1.2rem;
+	color: #1d1d1f;
+	padding: 0;
+	margin-bottom: 1rem;
+  }
+  
+  .service-content h3 {
+	color: #000000;
+	font-size: 1.8rem;
+	font-family: "Effra Regular";
+	font-weight: bold;
+  }
+  
+  [lang="ar"] .service-content h3 {
+	font-family: "regularFontAR";
+  }
+  
+
+
+  .dots-container{
+	display: none;
+  }
+  /* services-end */
+  
+  /* qatar-tourism */
+  
+  .qt-sec {
+	min-height: 400px;
+	background-image: url(../images/services/Discover-Qatar.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 5rem;
+	border-radius: 1rem;
+	box-shadow: 8px 28px 50px rgba(39, 44, 49, 0.07),
+	  2px 5px 19px rgb(207 207 207 / 28%);
+  }
+  
+  .qt-sec-card {
+	width: 358px;
+	text-align: left;
+	background: #fff;
+	font-size: 1.1rem;
+	padding: 1rem;
+	border-radius: 0.8rem;
+	min-height: 100px;
+	padding-bottom: 16px;
+  }
+  
+  .qt-sec-card p {
+	font-size: 1.2rem;
+    color: #1d1d1f;
+    padding: 0;
+    line-height: 1.8rem;
+    text-align: start;
+  }
+  
+  [lang="ar"] .qt-sec-card p {
+	text-align: start !important;
+  }
+  
+  /* qatar-tourism-emd */
+  
+  /* Frequently Asked Questions */
+  
+  .Fa-section .nav-tabs {
+	float: left;
+	display: block;
+	text-align: left;
+  }
+  
+  .Fa-section .card {
+	text-align: left;
+	margin-bottom: 1rem;
+	border: none;
+  }
+  
+  .Fa-section .card-header {
+	margin-bottom: 0;
+	background-color: transparent;
+	border: 0.5px solid #cfd3e5;
+	box-shadow: none;
+	border-radius: 10px !important;
+  }
+  
+  .Fa-section .card-header a {
+	color: #1d1d1f;
+	font-size: 1.2rem;
+	float: left;
+	width: 100%;
+	text-decoration: none;
+	text-align: start;
+	line-height: normal;
+  }
+  
+  .card-header .collapsing {
+	width: 100%;
+	float: left;
+  }
+  
+  .Fa-section .card-body {
+	border-top: 1px solid #d5d5d5;
+	padding: 0rem 0 0.6rem;
+	margin-top: 10px;
+	float: left;
+	width: 100%;
+  }
+  
+  .Fa-section .nav-tabs li {
+	float: left;
+	width: 100%;
+  }
+  
+  .Fa-section .card-header i {
+	float: right;
+	cursor: pointer;
+	font-size: 1rem;
+	color: #273170;
+	margin-top: -18px;
+	transition: 0.5s;
+  }
+  
+  .section-faq .row {
+	padding-top: 0px !important;
+  }
+  
+  .block-common-field p {
+	margin: 0px 0;
+  }
+  
+  [lang="ar"] .Fa-section .card-header i {
+	float: left;
+  }
+  
+  .card-header i.collapsed {
+	rotate: 180deg;
+  }
+  
+  .user-flow-icons {
+	list-style: none;
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
+  }
+  
+  .user-flow-icons li {
+	display: inline-flex;
+	color: #a9a9a9;
+	margin: 20px -8px 0px;
+  }
+  
+  .user-flow-icons li img {
+  }
+  
+  .dat-section .col-md-4 {
+	border-right: 1px solid #dbd6d6;
+	padding: 0px 5px 0px 15px;
+  }
+  
+  .dat-section .col-md-4:nth-last-child(1) {
+	border-right: none;
+  }
+  
+  .dat-section img {
+	width: 68px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+  }
+  
+  .fa-bg {
+	min-height: 400px;
+	background-image: url(/themes/custom/gavias_tico/images/hia/fa-bg.png);
+	background-size: 100%;
+	background-repeat: repeat-x;
+	padding-bottom: 11rem;
+	background-position: bottom;
+  }
+  
+  /* Frequently Asked Questions-end*/
+  
+  /* new-bento grid */
+  
+  .be-grid-sm {
+	height: 250px;
+	background: #eff0ea;
+	border-radius: 16px;
+  }
+  
+  .be-grid-xl {
+	height: 516px;
+	background: #eff0ea;
+	border-radius: 16px;
+  }
+  
+  .attractions {
+	width: 100%;
+	text-align: center;
+	border-radius: 16px;
+	height: 100%;
+	align-items: center;
+	display: grid;
+	align-content: center;
+  }
+  
+  .attractions button {
+	border-radius: 50px;
+	padding: 11px 30px;
+	font-size: 1.2rem;
+	transition: 0.5s;
+	border: 2px solid grey;
+  }
+  
+  .attractions h2 {
+	font-family: "Effra Regular";
+	font-size: 2.5rem;
+  }
+  
+  [lang="ar"] .attractions h2 {
+	font-family: "regularFontAR";
+  }
+  
+  .attractions p {
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.025rem;
+	font-size: 20px;
+	padding: 10px 16px 0;
+	margin: 0;
+	width: auto;
+  }
+  
+  [lang="ar"] .attractions p {
+	font-family: "lightFontAR";
+  }
+  
+  .be-grid-xl {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	overflow: hidden;
+  }
+  
+  .be-grid-sm {
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	overflow: hidden;
+  }
+  
+  .be-grid-overlay h4 {
+	color: #fff;
+	text-align: start;
+	position: absolute;
+	left: 0;
+	right: 0;
+	font-size: 1.5rem;
+  }
+  
+  .bento-grid {
+	font-family: "Effra Regular";
+	padding: 0px 25px;
+  }
+  
+  [lang="ar"] .bento-grid {
+	font-family: "regularFontAR";
+  }
+  
+  /* new-bento grid-end */
+  
+  .custom-breadcrumb {
+	list-style: none;
+  }
+  
+  .custom-breadcrumb li {
+	display: inline-block;
+	margin-right: 0.2rem;
+  }
+  
+  .custom-breadcrumb li a {
+	color: #8e909b;
+  }
+  
+  .custom-breadcrumb li a {
+	color: #8e909b;
+  }
+  
+  /* .node-type-page-full .gsc-column {
+	padding: 0px;
+  }
+   */
+  a.link-edit-blockbuider {
+	display: none;
+  }
+  
+  /* div#block-gavias-tico-overlaysearchblock-2 {
+	  display: none;
+  } */
+  
+  /* 10-years-of-airport */
+  .active-year:after {
+	content: "";
+	font-weight: 900;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	margin: 0px 0px 0px 10px;
+	text-decoration: none;
+	position: absolute;
+	left: 30px;
+	right: 0;
+	top: -26px;
+	width: 16px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 31px;
+	color: #ed155b;
+	background-image: url(/themes/custom/gavias_tico/images/hia/icons/pointer-shape.svg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+  }
+  
+  .slider-controls {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;
+  }
+  
+  .slider-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 0px;
+	align-content: center;
+	flex-wrap: wrap;
+  }
+  
+  .content-container {
+	height: 100%;
+	width: 40%;
+	padding: 20px 20px 75px 0px;
+	text-align: start;
+	position: relative;
+  }
+  
+  #year-title {
+	font-size: 1.8rem;
+    position: relative;
+    opacity: 1;
+    font-family: "Effra Regular";
+    color: #1d1d1f;
+    font-weight: bold;
+  }
+
+
+  .history-video-section-main .carousel-item h3 {
+   color: #1d1d1f;
+    font-size: 1.8rem;
+    font-family: "Effra Medium";
+}
+
+  
+  [lang="ar"] #year-title {
+	font-family: "mediumFontAR";
+  }
+  
+  #year-description {
+	font-size: 2rem;
+	margin-top: 10px;
+	color: var(--hia-cerise-color);
+  }
+  
+  #year-text {
+	color: #1d1d1f;
+	font-size: 1.2rem;
+	margin-top: 10px;
+	opacity: 1;
+	text-align: start;
+	font-family: "Effra Light";
+	-webkit-text-stroke: 0.025rem;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+  }
+
+  .history-video-section-main .row .col-md-5{
+	display: inline-flex;
+    align-items: center;
+  }
+  
+  [lang="ar"] #year-text {
+	font-family: "lightFontAR" !important;
+  }
+  
+  .slider-container p {
+	color: #1d1d1f !important;
+	font-size: 1.2rem !important;
+	margin-top: 10px;
+	opacity: 1;
+	text-align: start;
+  }
+  
+  #year-text p {
+	font-size: 1.2rem !important;
+	color: #1d1d1f !important;
+	padding: 0 !important;
+	text-align: start !important;
+	width: auto;
+  }
+  
+  .image-slider-container {
+	width: 60%;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+  }
+  
+  .slide-slic {
+	aspect-ratio: 1 / 0.4;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 5rem;
+	color: white;
+	margin-right: 1rem;
+	border-radius: 1rem;
+	width: 600px;
+	margin-top: 60px;
+	background-color: #e7e7e7;
+	animation: fadeUp 0.5s forwards;
+	animation-timing-function: ease-in-out;
+	transition: 0.5s;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  }
+  
+  .slider-button {
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #bfbfbf;
+	margin-right: 10px;
+	transition: 0.5s;
+	background: #fff;
+	display: inline-flex;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	color: #bfbfbf;
+  }
+  
+  .slider-button:hover {
+	transition: 0.5s;
+	background-color: #ed155b;
+	border: 1px solid #ed155b;
+	color: #fff;
+  }
+  
+  .slick-current {
+	height: 100% !important;
+	margin-top: 0px;
+	animation: fadeUp 0.5s forwards;
+	animation-timing-function: ease-in-out;
+	transition: 0.5s;
+	aspect-ratio: 1 / 0.5;
+  }
+  
+  .year-meter-container {
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: grab;
+  }
+  
+  .year-meter {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 32px;
+	white-space: nowrap;
+	flex-shrink: 0;
+	scroll-behavior: smooth;
+  }
+  
+  .year {
+	display: inline-block;
+	cursor: pointer;
+	padding: 3px 10px;
+	color: #b0b0b0;
+	margin-top: 13px;
+	white-space: nowrap;
+	flex-shrink: 0;
+	position: relative;
+	animation: fadeUp 0.5s forwards;
+  }
+  
+  .dots {
+	font-size: 1.5rem;
+	color: #007bff;
+	margin: 0 5px;
+  }
+  
+  .active-year {
+	font-size: 2rem;
+	color: #1d1d1f;
+	font-weight: bold;
+	animation: fadeUp 0.5s forwards;
+  }
+  
+  @keyframes fadeUp {
+	from {
+	  opacity: 0;
+	  transform: translateY(20px);
+	}
+  
+	to {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+  }
+  
+  .fade-up {
+	animation: fadeUp 0.5s forwards;
+  }
+  
+  .download-apps-section {
+	width: 100%;
+	margin: 0;
+	padding: 0rem;
+	background-image: radial-gradient(at -71% -11%, #ffd65808 0, transparent 52%),
+	  radial-gradient(at 33% 51%, #ffc3d7a3 0, transparent 40%),
+	  radial-gradient(at 83% 39%, #ffd65800 0, #6dc08f00 49%),
+	  radial-gradient(at 38% 64%, #ffd6583d 0, transparent 41%),
+	  radial-gradient(at 26% 2%, hsl(31deg 54% 75% / 0%) 0, transparent 56%),
+	  radial-gradient(at 94% 11%, hsl(356deg 87% 63% / 0%) 0, transparent 40%),
+	  radial-gradient(at 87% 16%, #ffd65800 0, transparent 53%);
+	overflow: hidden;
+  }
+  
+  .download-apps-section h3 {
+	font-size: 2.7rem;
+	line-height: 64px;
+	font-family: "Effra Medium";
+	margin-top: 5rem;
+  }
+  
+  [lang="ar"] .download-apps-section h3 {
+	font-family: "mediumFontAR";
+  }
+  
+  .download-apps-section h3 span {
+	color: #ed155b;
+  }
+  
+  .download-apps-section ul {
+	list-style: none;
+	padding: 0px;
+  }
+  
+  [lang="ar"] .download-apps-section ul {
+	direction: ltr;
+  }
+  
+  .download-apps-section ul li {
+	display: inline-flex;
+  }
+  
+  .download-apps-section ul li img {
+	margin-right: 10px;
+	margin-top: 30px;
+	height: 63px;
+	width: 100%;
+	object-fit: contain;
+  }
+  
+  @keyframes float3D {
+	0%,
+	100% {
+	  transform: translateY(0) rotateX(0deg) rotateY(0deg);
+	}
+  
+	25% {
+	  transform: translateY(-10px) rotateX(3deg) rotateY(3deg);
+	}
+  
+	50% {
+	  transform: translateY(0) rotateX(0deg) rotateY(0deg);
+	}
+  
+	75% {
+	  transform: translateY(-10px) rotateX(-3deg) rotateY(-3deg);
+	}
+  }
+  
+  .mobile-app-img {
+	animation: float3D 4s ease-in-out infinite;
+	transform-origin: center;
+	will-change: transform;
+  }
+  
+  .mobile-app-img {
+	width: 65%;
+	margin: auto;
+  }
+  
+  :root {
+	--hia-card-aspect-ratio: 0.75;
+	--hia-cerise-color: #e00049;
+  }
+  
+  .attractions-web-hide {
+	display: none;
+  }
+  
+  .mobile-tourism-tabs {
+	display: none;
+  }
+  
+  .mbl-service-card {
+	background: #afafaf;
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	border-radius: 16px;
+	overflow: hidden;
+	position: relative;
+	margin-right: 16px;
+	float: left;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	-ms-flex: 0 0 40%;
+	flex: 0 0 40%;
+	max-width: 40%;
+  }
+  
+  .mbl-service-card-details {
+	text-align: start;
+	background: #683c31;
+	position: absolute;
+	bottom: 0;
+	padding: 15px 15px;
+  }
+  
+  .mbl-service-card-details p {
+	font-family: "Effra Light";
+	color: #fff;
+	font-size: 16px !important;
+	margin: 0;
+	padding: 0px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-align: start !important;
+	height: 62px;
+  }
+  
+  [lang="ar"] .mbl-service-card-details p {
+	font-family: "lightFontAR";
+  }
+  
+  .mbl-service-card-details h3 {
+	font-family: "Effra Regular";
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	font-size: 1.5rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+  }
+  
+  [lang="ar"] .mbl-service-card-details h3 {
+	font-family: "regularFontAR";
+  }
+  
+  .services-mbl-row {
+	float: left;
+	width: 100%;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	overflow-y: hidden;
+	padding: 12px 0px;
+	display: inline-flex;
+  }
+  
+  .services-mbl-view {
+	display: none;
+  }
+  
+  .bento-grid-mobile-view {
+	display: none !important;
+  }
+  
+  .bento-grid-mbl-cards {
+	display: flex;
+	float: left;
+	width: 100%;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	flex-direction: row;
+	flex-wrap: nowrap;
+  }
+  
+  .bento-grid-mbl-cards > .custom-attractions-card {
+	flex: 0 0 40%;
+	max-width: 40%;
+	padding: 0;
+	margin-right: 16px;
+  }
+  
+  .bento-grid-mbl-card {
+	width: 100%;
+	background: #afafaf;
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	border-radius: 16px;
+	overflow: hidden;
+	position: relative;
+	margin-right: 10px;
+	float: left;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+  
+  .bento-grid-mbl-card::before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	aspect-ratio: var(--hia-card-aspect-ratio);
+	background: linear-gradient(#00000000, #0000009e);
+	color: white;
+	height: 100%;
+	left: 0;
+	right: 0;
+  }
+  
+  /* arabic-styels */
+  
+  [lang="ar"] .mbl-service-card-details h3 {
+	text-align: right;
+  }
+  
+  [lang="ar"].mbl-service-card-details p {
+	text-align: right;
+  }
+  
+  [lang="ar"] .home-simple-card .row {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .hia-card h4 {
+	text-align: right;
+  }
+  
+  [lang="ar"] .hia-card h4 i {
+	float: left;
+	rotate: 180deg;
+  }
+  
+  [lang="ar"] .home-quicks {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .dat-section .col-md-4 {
+	padding: 0px 10px;
+  }
+  
+  [lang="ar"] .dat-section img {
+	float: left;
+  }
+  
+  [lang="ar"] .services .tab-content {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .service-content a {
+	float: right;
+	text-align: center;
+  }
+  
+  [lang="ar"] .slider-container {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .image-slider-container {
+	padding-right: 20px;
+  }
+  
+  [lang="ar"] .slick-slider {
+	direction: ltr;
+  }
+  
+  [lang="ar"] .active-year:after {
+	left: 0px;
+	right: 30px;
+  }
+  
+  [lang="ar"] .slider-controls {
+	display: flex;
+	flex-direction: row;
+  }
+  
+  [lang="ar"] .slider-controls .fa.fa-chevron-right {
+	rotate: 180deg;
+  }
+  
+  [lang="ar"] .slider-controls .fa.fa-chevron-left {
+	rotate: 180deg;
+  }
+  
+  [lang="ar"] .web-tourism-tabs .tab-content {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .section-faq.Fa-section {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .Fa-section .nav-tabs {
+	float: right;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  [lang="ar"] .Fa-section .nav-tabs li {
+	float: right;
+  }
+  
+  [lang="ar"] .download-apps-section {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .download-apps-section h3 {
+	text-align: left;
+  }
+  
+  [lang="ar"] .mobile-app-img {
+	float: right;
+  }
+  
+  [lang="ar"] .featured-home-listing .view-content-wrap {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .shop-logo {
+	margin-left: 10px;
+  }
+  
+  [lang="ar"] .dat-section .col-md-4 {
+	/* border-left: 1px solid #dbd6d6; */
+  }
+  
+  [lang="ar"] .quick-features .qf-col {
+	border-left: 1px solid;
+	border-right: none;
+  }
+  
+  [lang="ar"] .dat-section .col-md-4 .row .col-md-4 {
+	border-left: none;
+  }
+  
+  [lang="ar"] .mobile-tourism-tabs {
+	direction: rtl;
+  }
+  
+  [lang="ar"] .mbl-service-card-details h3 {
+	text-align: right;
+  }
+  
+  /* arabic-styels-end */
+
+
+/*history-video-section */
+.history-video-section {
+    /* background: #f5f5f5; */
+}
+
+.history-video-section-main .row {
+    margin-top: 3rem;
+}
+
+.history-video{
+	width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 16px;
+}
+
+.history-video-section .col-md-6 {
+	display: inline-flex;
+    align-items: center;
+}
+
+.history-controls{
+	position: absolute;
+    left:0rem;
+    display: inline-flex;
+    gap: 20px;
+}
+
+.history-controls .carousel-control-next {
+      background: #1e245e;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+
+.history-controls .carousel-control-next-icon, .history-controls .carousel-control-prev-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: initial!important;
+}
+
+.history-controls .carousel-control-next, .history-controls .carousel-control-prev {
+    position: static;
+}
+
+.history-controls .carousel-control-prev {
+    left: 0;
+    background: #1e245e;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
+/*history-video-section-end */
+
+
+
+
+  
+  /* media-query */
+  
+  @media only screen and (min-width: 1600px) {
+  }
+  
+  @media only screen and (max-width: 1400px) {
+	.search-gate-view {
+	  bottom: 14px;
+	}
+  
+	/* .quick-features .qf-col a {
+		  font-size: 1rem;
+	  } */
+  
+	.quick-features .qf-col a img {
+	  width: 30px;
+	}
+  
+	.header-banner-text h2 {
+	  margin: 0px auto 16px;
+	  font-size: 3rem;
+	}
+  
+	.header-banner-text p {
+	  font-size: 1.2rem;
+	}
+  
+	.hm h2 {
+	  font-size: 2rem;
+	}
+  
+	.hm p {
+	  font-size: 1.3rem;
+	}
+  
+	.site-branding-logo img {
+	  height: 60px;
+	}
+  
+	.sub-travelling-card h4 {
+	  font-size: 1.4rem;
+	}
+  
+	.home-simple-card .sub-travelling-card p {
+	  font-size: 1rem;
+	}
+  
+	.home-search p {
+	  font-size: 1rem;
+	}
+  
+	.dat-section h4 {
+	  /* font-size: 1.2rem; */
+	}
+  
+	.dat-section p {
+	  font-size: 0.88rem;
+	}
+  
+	.dat-section {
+	  padding: 10px 0px;
+	}
+  
+	.quick-features.row {
+	  /* padding-top: 1rem; */
+	}
+  
+	/* .header-banner-text {
+		  max-width: 100%;
+	  } */
+  
+	
+  
+	.home-quicks {
+	  margin-top: 0.5rem;
+	}
+  
+	.primary-nav {
+	  /* margin-top: 2.5rem; */
+	}
+  
+	.be-grid-overlay h4 {
+	  font-size: 1.3rem;
+	}
+  
+	.sec-4 .nav-tabs {
+	  font-size: 1.2rem;
+	}
+  
+	#year-description {
+	  font-size: 1.5rem;
+	}
+  
+	
+  
+	#year-text p {
+	  font-size: 18px;
+	}
+  
+	.download-apps-section h3 {
+	  font-size: 2rem;
+	}
+  
+	.bento-grid {
+	  overflow: hidden;
+	}
+  
+	.quick-features .qf-col a {
+	  height: 60px;
+	}
+  
+	.Fa-section .card-header i {
+	  font-size: 1rem;
+	}
+  }
+  
+  @media only screen and (max-width: 1281px) {
+
+
+	.dat-section h4 {
+	  font-size: 1.2rem;
+	}
+  
+	.dat-section img {
+	  width: 60px;
+	}
+  
+	.attractions p {
+	  font-size: 14px;
+	}
+  
+	.slider-button {
+	  width: 30px;
+	  height: 30px;
+	}
+  
+	.be-grid-xl {
+	  height: 315px;
+	}
+  
+	.be-grid-sm {
+	  height: 150px;
+	}
+  
+	.bento-grid {
+	  overflow: hidden;
+	}
+  
+	#year-text {
+	  font-size: 16px;
+	  padding-right: 2rem;
+	}
+  
+	[lang="ar"] #year-text {
+	  padding-right: 0rem;
+	}
+  
+	.featured-shop-list-titile {
+	  font-size: 1.2rem;
+	}
+  
+	.hm p {
+	  padding: 5px 0;
+	}
+  
+	.featured-home-listing .view-content-wrap {
+	  margin-top: 10px;
+	}
+  
+	.active-year {
+	  font-size: 1.5rem;
+	}
+  
+	.active-year:after {
+	  left: 8px;
+	}
+  
+
+	.quick-features .qf-col a {
+	  height: 45px;
+	}
+  
+	.user-flow-icons li {
+	  margin: 8px -8px 0px;
+	}
+  
+	.user-flow-icons li img {
+	  width: 20px;
+	}
+  
+	
+  }
+  
+  @media only screen and (max-width: 1024px) {
+	.slick-track {
+	  display: inline-flex;
+	  margin-left: auto;
+	  margin-right: auto;
+	  align-items: flex-end;
+	}
+  
+	.hm p {
+	  font-size: 1rem;
+	}
+  
+	.gbb-row .bb-inner {
+	  padding-top: 20px !important;
+	  padding-bottom: 20px !important;
+	}
+  
+	.custom-crl {
+	  height: 100%;
+	}
+  
+	.hia-banner .header-banner img {
+	  height: 100%;
+	}
+  
+	.header-text-master {
+	  height: 100%;
+	}
+  
+	.bento-grid {
+	  overflow: hidden;
+	}
+  
+	.hm p {
+	  /* padding: 12px 0; */
+	}
+  
+	.glare-container {
+	  padding: 1rem 0.8rem 1rem;
+	  /* min-height: 270px; */
+	}
+  
+	.th-icons {
+	  width: 96px;
+	  height: 96px;
+	}
+  
+	.sub-travelling-card h4 {
+	  font-size: 1.2rem;
+	  margin: 5px 0;
+	}
+  
+	.be-grid-sm {
+	  height: 190px;
+	}
+  
+	.be-grid-xl {
+	  height: 390px;
+	}
+  
+	.attractions {
+	  padding: 14% 0;
+	}
+  
+	.attractions p {
+	  margin: auto;
+	  font-size: 14px;
+	}
+  
+	.qt-sec {
+	  padding: 2rem;
+	  min-height: 300px;
+	}
+  
+	.header-banner-text p {
+	  font-size: 1rem;
+	}
+  
+	.service-content h3 {
+	  font-size: 1.6rem;
+	}
+  
+	.download-apps-section {
+	  width: 100%;
+	}
+  
+	.content-container {
+	  padding: 20px 20px 38px 0px;
+	}
+  
+	.Fa-section .card-header i {
+	  font-size: 1rem;
+	}
+  
+	.Fa-section .card-header a {
+	  font-size: 1.1rem;
+	}
+  
+	.download-apps-section h3 {
+	  margin-top: 0rem;
+	}
+  
+	.download-apps-section h3 {
+	  font-size: 1.8rem;
+	  line-height: inherit;
+	}
+  
+	.block-featured-home-block .nav-tabs {
+	  margin: 20px 0px;
+	}
+  
+	.download-apps-section ul li img {
+	  height: 55px;
+	}
+  
+	.featured-shop-list-titile {
+	  font-size: 1rem;
+	}
+  
+	footer h4,
+	footer h2 span {
+	  font-size: 1.3rem;
+	}
+  
+	.social-media-icons li img {
+	  width: 25px;
+	  height: 25px;
+	}
+  
+	footer a,
+	footer p {
+	  font-size: 16px;
+	}
+  
+	.active-year {
+	  font-size: 1.3rem;
+	}
+  
+	footer .sec-4 {
+	  max-width: 100% !important;
+	}
+  }
+  
+  @media only screen and (max-width: 992px) {
+	.dat-section img {
+	  width: 48px;
+	}
+  
+	.content-container {
+	  padding: 5px 0px;
+	}
+  
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm {
+	  max-width: 100% !important;
+	}
+  
+	.row {
+	  margin-right: 0px !important;
+	  margin-left: 0px !important;
+	}
+  
+	.frontpage #toto {
+	  background: #fff !important;
+	}
+  
+	.frontpage .primary-nav ul li a {
+	  color: #6b6b6b !important;
+        font-family: 'Effra Light';
+        font-size: 1rem;
+	}
+  
+	#year-text {
+	  font-size: 16px;
+	}
+  
+	.slider-button {
+	  width: 30px;
+	  height: 30px;
+	}
+  
+	.slider-button i {
+	  font-size: 14px;
+	}
+  
+	.slider-controls {
+	  bottom: -45px;
+	}
+  
+	.frontpage #toto .logo-2 {
+	  display: block;
+	}
+  
+	.frontpage .logo-1 {
+	  display: none;
+	}
+  }
+  
+  @media only screen and (max-width: 767px) {
+
+	.quick-features.row{
+	  padding: 12px 0px;
+	}
+
+
+	[lang="ar"] .language-switcher-language-url li a{
+		margin-left:18px;
+	}
+   
+   
+	.hm p{
+		width: 100%;
+	}
+
+	.footer-download-app {
+	  width: 100%;
+	  text-align: center;
+	  align-content: center;
+	  justify-content: center;
+	}
+  
+	[lang="ar"] footer .text-center {
+	  text-align: center !important;
+	}
+  
+	[lang="ar"] .sec-4 {
+	  text-align: center;
+	}
+  
+	.hia-card h4 {
+	  font-size: 1.3rem;
+	}
+  
+	.home-simple-card .sub-travelling-card p {
+	  display: -webkit-box;
+	  -webkit-line-clamp: 4;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	}
+  
+	.sec-nav .lang-switch ul li a {
+	  color: #111 !important;
+	}
+  
+	.lang-switch {
+	  top:30px;
+	  right: 50px;
+	  background: transparent;
+	}
+
+
+	.language-switcher-language-url li a {
+		color: #111;
+	}
+  
+	.sec-nav-flex .navbar-nav:nth-child(1) {
+	  display: none;
+	}
+  
+	.exp-content .view-more {
+	  width: 100px;
+	  padding: 10px 5px;
+	}
+  
+	#year-text {
+	  height: auto;
+	}
+  
+	.year-meter {
+	  margin-top: 10px;
+	}
+  
+	.hm .card-body p {
+	  font-size: 1rem !important;
+	  padding: 11px 0px;
+	  line-height: 22px;
+	  margin-bottom: 0;
+	}
+  
+	.dat-section p {
+	  text-align: center;
+	}
+  
+	[lang="ar"] .home-simple-card .row {
+	  direction: ltr;
+	}
+  
+	.slider-controls {
+	  display: none;
+	}
+  
+	footer a,
+	footer p {
+	  text-align: center;
+	}
+  
+	.social-media-icons {
+	  display: inline-flex;
+	  align-content: center;
+	  justify-content: center;
+	  align-items: center;
+	  width: 100%;
+	}
+  
+	[lang="ar"] .social-media-icons {
+	  float: none;
+	}
+  
+	[lang="ar"] .download-apps-section h3 {
+	  text-align: center;
+	}
+  
+	[lang="ar"] .Fa-section .nav-tabs {
+	  float: right;
+	  text-align: right;
+	  display: flex;
+	  flex-direction: row;
+	}
+  
+	[lang="ar"] .primary-nav .navbar-collapse {
+	  direction: rtl;
+	}
+  
+	[lang="ar"] .mobile-view-navlist h5 i {
+	  position: absolute;
+	  right: auto;
+	  left: 17px;
+	}
+  
+	[lang="ar"] .dat-section img {
+	  float: none;
+	}
+  
+	.home-simple-card .sub-travelling-card::before {
+	  background: transparent;
+	}
+  
+	.mobile-tourism-row {
+	  display: flex;
+	}
+  
+	.col-md-3 {
+	  padding: 0 8px !important;
+	}
+  
+	.featured-home-listing .item {
+	  ms-flex: 0 0 20%;
+	  flex: 0 0 20%;
+	  max-width: 20%;
+	}
+  
+	.bento-grid {
+	  padding: 0px;
+	}
+  
+	.featured-home-listing .view-content-wrap,
+	.similar-contents .view-content-wrap {
+	  margin-top: 0;
+	  display: inline-flex;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  overflow-y: scroll;
+	}
+  
+	.featured-shop-list-titile {
+	  font-size: 1.3rem;
+	}
+  
+	.shop-img {
+	  height: auto;
+	  aspect-ratio: var(--hia-card-aspect-ratio);
+	}
+  
+	.shop-logo {
+	  float: left;
+	}
+
+	.airline-cards img{
+		height: 55px;
+		width: 55px;
+	}
+  
+	.Fa-section .card-header i {
+	  font-size: 1.3rem;
+	  margin-top: -18px;
+	}
+  
+	.Fa-section .card-header a {
+	  font-size: 1rem;
+	}
+  
+	.hm .card-body p {
+	  font-size: 1rem;
+	}
+  
+	.custom-crl {
+	  height: 100vh;
+	}
+  
+	.hia-banner .header-banner img {
+	  height: 100vh;
+	}
+  
+	.header-text-master {
+	  height: 100vh;
+	}
+  
+	.dat-section .col-md-4 .row {
+	  display: inline-flex;
+	  flex-direction: column-reverse;
+	}
+  
+	.dat-section .col-md-4 .row .col-md-8 {
+	  display: inline-flex;
+	  flex-direction: column-reverse;
+	}
+  
+	.gbb-row .bb-inner .hia-banner {
+	  margin-top: 0px !important;
+	}
+  
+	.quick-features .qf-col a {
+	  justify-content: left;
+	  padding: 25px 1rem;
+	  text-align: left;
+	}
+  
+	[lang="ar"] .quick-features .qf-col a {
+	  justify-content: right;
+	}
+  
+	[lang="ar"] .quick-features .qf-col a {
+	  padding: 0px 0rem;
+	}
+  
+	.dat-section .col-md-4 {
+	  text-align: center;
+	}
+  
+	.dat-section img {
+	  float: unset;
+	  margin-right: 0;
+	}
+  
+	.dat-section h4 {
+	  text-align: center;
+	}
+  
+	.bento-grid-mobile-view {
+	  display: block !important;
+	}
+  
+	.bento-grid-web-view {
+	  display: none !important;
+	}
+  
+	.home-simple-card .row {
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  overflow-y: hidden;
+	  padding: 12px 0px;
+	}
+  
+	.hm p br {
+	  display: none;
+	}
+  
+	/* :root {
+		  --hia-card-aspect-ratio: 1 / 1;
+	  } */
+  
+	.sub-travelling-card h4 {
+	  font-size: 1.3rem;
+	}
+  
+	#carouselExampleFade {
+	  margin-bottom: 2rem;
+	}
+  
+	.glare-container {
+	  padding: 2rem 1rem;
+	  /* min-height: 270px; */
+	}
+  
+	.th-icons {
+	  width: 96px;
+	  height: 96px;
+	}
+  
+	.attractions-mbl-hide {
+	  display: none;
+	}
+  
+	.hia-card {
+	  background-position: center;
+	}
+  
+	.be-grid-xl {
+	  height: 190px;
+	}
+  
+	.attractions-web-hide {
+	  display: block;
+	}
+  
+	.attractions {
+	  padding: 0;
+	}
+  
+	.attractions-web-hide .be-grid-sm {
+	  background: transparent;
+	}
+  
+	.services-web-view {
+	  display: none;
+	}
+  
+	.services-mbl-view {
+	  display: block;
+	}
+  
+	.slider-container {
+	  flex-direction: column-reverse;
+	}
+  
+	.content-container {
+	  width: 100%;
+	}
+  
+	.image-slider-container {
+	  width: 100%;
+	}
+  
+
+  
+	#year-description {
+	  color: #1d1d1f;
+	}
+  
+	.active-year {
+	  font-size: 1.8rem;
+	  color: var(--hia-cerise-color);
+	  padding: 0;
+	  margin: 9px 0px 0;
+	}
+  
+	.active-year:after {
+	  display: none;
+	}
+  
+	#year-text p {
+	  font-size: 20px;
+	}
+  
+	.home-quicks {
+	  background-color: transparent;
+	}
+  
+	.quick-features {
+	  background-color: #fff;
+	  border-radius: 10px;
+	}
+  
+	.dat-section {
+	  margin: 6px 0 0;
+	  border-radius: 10px;
+	}
+  
+	.home-simple-card .sub-travelling-card:hover {
+	  transform: none;
+	  background: #eeeeee;
+	  box-shadow: unset;
+	}
+  
+	.home-simple-card .sub-travelling-card:hover p,
+	.home-simple-card .sub-travelling-card:hover h4 {
+	  color: #6b6b6b;
+	}
+  
+	.header-banner-text h2 {
+	  font-size: 2.5rem;
+	}
+  
+	.hia-card:hover {
+	  transform: none;
+	  box-shadow: none;
+	  transition: none;
+	}
+  
+	.hm p {
+	  font-size: 16px;
+	}
+  
+	.attractions p {
+	  font-size: 18px;
+	}
+  
+	.be-grid-sm {
+	  height: auto;
+	  margin-bottom: 20px;
+	}
+  
+	/* .slider-container {
+		  display: none;
+	  } */
+  
+	.Fa-section .nav-tabs li {
+	  float: none;
+	  width: auto;
+	}
+  
+	.Fa-section .nav-tabs {
+	  float: initial;
+	  display: flex;
+	  text-align: center;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  align-items: flex-start;
+	  overflow-y: scroll;
+	}
+  
+	.nav-link {
+	  width: max-content;
+	}
+  
+	.mobile-app-img {
+	  width: 100%;
+	  margin: auto;
+	  height: 300px;
+	  object-fit: contain;
+	}
+  
+	.download-apps-section h3 {
+	  font-size: 1.8rem;
+	  line-height: inherit;
+	  text-align: center;
+	  margin: 30px 0 0;
+	}
+  
+	.download-apps-section ul {
+	  text-align: center;
+	}
+  
+	.web-tourism-tabs {
+	  display: none;
+	}
+  
+	.mobile-tourism-tabs {
+	  display: block;
+	}
+  
+	.mobile-tourism-content h4 {
+	  font-family: "Effra Regular";
+	  color: #1d1d1f;
+	  font-size: 1.5rem;
+	  margin: 0px;
+	}
+  
+	.mobile-tourism-image img {
+	  width: 100px;
+	  object-fit: cover;
+	  border-radius: 8px;
+	  overflow: hidden;
+	}
+  
+	.mobile-tourism-content p {
+	  font-size: 1rem;
+	  padding-bottom: 0;
+	  text-align: start !important;
+	  padding: 0px;
+	}
+  
+	.mobile-tourism-content {
+	  border-bottom: 1px solid #cbcbcb;
+	  margin-bottom: 8px;
+	}
+  
+	.slide-slic {
+	  aspect-ratio: unset;
+	  height: 200px !important;
+	  display: block;
+	  height: 150px !important;
+	}
+  
+	.slick-current {
+	  height: 200px !important;
+	  aspect-ratio: unset;
+	}
+  
+	.slider-controls {
+	  bottom: 0;
+	  display: none;
+	}
+  
+	.slider-container {
+	  /* display: flex;
+		  justify-content: space-between;
+		  align-items: center;
+		  padding: 0px; */
+	}
+  
+	.navbar-toggler {
+	  margin-right: 12px !important;
+	  margin-top:8px !important;
+	}
+  
+	.th-icons {
+	  margin: 0px;
+	}
+
+	.history-controls {
+       position: initial;
+	   margin-top: 2rem;
+	}
+
+	.history-controls .carousel-control-prev{
+		width: 30px;
+		height: 30px;
+	}
+
+	.history-controls .carousel-control-next{
+		width: 30px;
+		height: 30px;
+	}
+
+	.history-controls .carousel-control-next-icon, .history-controls .carousel-control-prev-icon{
+		width: 10px;
+   		 height: 10px;
+	}
+
+	.quick-features .qf-col a img {
+        width: 44px;
+        padding: 0px 8px;
+    }
+
+	
+  }
+  
+  @media screen and (max-width: 1280px) {
+	html {
+	  font-size: 12px;
+	}
+  
+  }
+  
+  @media only screen and (max-width: 576px) {
+
+    .history-video-section-main .row {
+   		margin-top: 0;
+	}
+
+	.bento-grid-mbl-cards > .custom-attractions-card{
+		    margin-right: auto;
+	}
+
+
+	.history-video-section-main .carousel-item h3{
+		    text-align: center;
+			font-size: 1.3rem;
+			display: none;
+	}
+
+	#year-text p {
+        font-size: 16px !important;
+        text-align: center !important;
+    }
+
+	.history-video{
+		margin-top: 1rem;
+	}
+
+	.history-video-section .col-md-6{
+		    padding: 0;
+	}
+
+	.hm p{
+		    margin: 0px auto 1rem;
+	}
+
+	.history-video-section-main {
+    	padding: 0;
+	}
+
+
+	.history-video-section .carousel-item {
+    	margin-top: 1rem;
+	}
+
+    .history-video-section .row{
+		display: inline-flex;
+	}
+
+
+	[lang="ar"] .quick-features .qf-col a img {
+	  margin-right: 10px;
+	}
+
+	.home-search{
+		padding: 0.6rem 1rem;
+	}
+  
+	.slider-controls {
+	  bottom: -19px;
+	}
+  
+	.sub-travelling-card h4 {
+	  font-size: 1.2rem;
+	}
+  
+	.slider-container .content-container {
+	  padding: 20px 0px;
+	}
+  
+	#year-text {
+	  padding-right: 0;
+	  font-size: 14px;
+	  margin-top: 0px;
+	}
+  
+	.home-simple-card .sub-travelling-card p {
+	  padding: 0px;
+	  font-size: 14px;
+	}
+  
+	.quick-features .qf-col {
+	  border-right: none;
+	}
+  
+	.search-gate-view {
+	  bottom: 4vh;
+	}
+  
+	.mobile-tourism-content p {
+	  display: -webkit-box;
+	  -webkit-line-clamp: 3;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	  margin-top: 8px;
+      margin-bottom: 8px;
+	}
+  
+	#year-description {
+	  font-size: 1.3rem;
+	  margin-top: -10px;
+	}
+  
+	.mobile-tourism-content h4 {
+	  font-size: 1.2rem;
+	}
+  
+	.dat-section .col-md-4 .row .col-md-8 {
+	  padding: 0px;
+	}
+  
+	.slider-controls {
+	  display: none;
+	}
+  
+	[lang="ar"] .big-search-icon {
+	  float: left;
+	  left: 6px;
+	  right: auto;
+	}
+  
+	.featured-home-listing .list-border-card .col-md-3 {
+	  padding: 0px 5px 0px 0px !important;
+	  margin-top: -8px;
+	}
+  
+	.Fa-section .card-header i {
+	  font-size: 1rem;
+	}
+  
+	.Fa-section .card-header a {
+	  font-size: 1rem;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	  padding-right: 32px;
+	}
+  
+	.hm .card-body p {
+	  font-size: 1rem !important;
+	  margin-bottom: 0px;
+	}
+  
+	.featured-shop-list-titile {
+	  font-size: 1rem;
+	}
+  
+	.mbl-service-card-details h3 {
+	  font-size: 1.2rem;
+	}
+  
+	.mbl-service-card-details p {
+	  font-family: "Effra Light";
+	  text-align: left !important;
+	  -webkit-text-stroke: 0;
+	  font-size: 14px !important;
+	  padding: 0 !important;
+	  height: auto;
+	}
+  
+	[lang="ar"] .mbl-service-card-details p {
+	  text-align: right !important;
+	}
+  
+	.featured-shop-list-titile {
+	  font-size: 1rem;
+	}
+  
+	.hm h2 {
+	  font-size: 1.6rem;
+	}
+  
+	.hm p {
+	  font-size: 16px;
+	}
+  
+	
+  
+	.home-search p {
+	  font-size: 0.9rem;
+	  overflow: hidden;
+	  white-space: nowrap;
+	  text-overflow: ellipsis;
+	  padding-right: 34px;
+	}
+  
+	.header-banner-text h2 {
+	  font-size: 2rem;
+	  margin: 0px auto 25px;
+	}
+  
+	.dat-section p {
+	  font-size: 12px;
+	}
+  
+	.dat-section h4 {
+	  font-size: 14px;
+	}
+  
+	.dat-section p br {
+	  display: block;
+	}
+  
+	.quick-features .qf-col a img {
+	  margin-right: 2px;
+	  margin-left: 0px;
+	}
+  
+	[lang="ar"] .quick-features .qf-col a img {
+	  margin-left: 10px;
+	}
+  
+	[lang="ar"] .image-slider-container {
+	  padding-right: 0;
+	}
+  
+	.big-search-icon {
+	  right: 8px;
+	margin-top: 2px;
+	}
+  
+	.dat-section .col-md-4 {
+	  padding: 0px;
+	}
+  
+	.hia-card:hover {
+	  transform: unset;
+	  box-shadow: unset;
+	  transition: unset;
+	}
+  
+	.mbl-service-card {
+	  -ms-flex: 0 0 65%;
+	  flex: 0 0 65%;
+	  max-width: 65%;
+	}
+  
+	html {
+	  font-size: 16px;
+	}
+  }
+  
+  @media only screen and (max-width: 576px) and (min-height: 700px) {
+	html {
+	  font-size: 16px;
+	}
+  }
+  
+  @media only screen and (max-width: 576px) and (orientation: portrait) {
+	/* number of images*/
+	.bento-grid-mbl-cards {
+	  --s: 100%;
+	  /* control the size */
+	  display: grid;
+	  width: var(--s);
+	  overflow: hidden;
+	  padding: 0px 2px;
+	  border-radius: 24px;
+	  position: relative;
+	}
+  
+	.bento-grid-mbl-cards::after {
+	  content: "";
+	  position: absolute;
+	  inset: 0;
+	  padding: inherit;
+	  border-radius: inherit;
+	}
+  
+	.bento-grid-mbl-cards > .custom-attractions-card {
+	  grid-area: 1/1;
+	  width: 100%;
+	  height: 100%;
+	  -o-object-fit: cover;
+	  object-fit: cover;
+	  border-radius: inherit;
+	  max-width: 100%;
+	}
+  
+	.bento-grid-mbl-cards::after,
+	.bento-grid-mbl-cards > .custom-attractions-card {
+	  transition: all 0.5s cubic-bezier(0.5, -0.2, 0.5, 1.2);
+	}
+  }
+  
+  @media only screen and (max-width: 420px) {
+	.sec-nav ul li a {
+	  font-size: 11px;
+	}
+  
+	.hm p {
+	  font-size: 14px;
+	}
+  
+	.quick-features .qf-col a {
+	  padding: 0px 0.2rem;
+	}
+  }
+  
+  @media only screen and (max-width: 400px) {
+	.home-simple-card .sub-travelling-card p {
+	  font-size: 14px;
+	  display: -webkit-box;
+	  -webkit-line-clamp: 6;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	  padding: 0;
+	}
+  
+	
+	.quick-features .qf-col a {
+	  font-size: 14px;
+	}
+	.dat-section h4 {
+	  font-size: 14px;
+	}
+	.dat-section p {
+	  font-size: 11px;
+	}
+  }
+  
+  @media screen and (min-width: 768px) and (orientation: portrait) {
+	.hia-banner .bt-video,
+	.header-text-master,
+	.custom-crl {
+	  height: 100% !important;
+	  /* Full content height in portrait mode for larger screens */
+	}
+
+	[lang="ar"] .language-link {
+    	margin-left: 16px;
+	}
+  }
+
+  @media screen and (max-width: 576px) {
+	.dots-container{
+		display: block;
+	  }
+	  .animated-placeholder{
+		font-size: 14px;
+	  }
+
+	 [lang="ar"]   .animated-placeholder {
+        font-size: 14px;
+    	}
+
+	[lang="ar"] .home-search{
+		padding-right: 6px;
+	}
+
+	.scrolling-wrapper{
+		    margin-top: auto;
+	}
+
+
+  }
+
+  
+  /* media-query-end */
+  

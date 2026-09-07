@@ -1,0 +1,2167 @@
+@font-face {
+	font-family: 'Effra';
+	src: url('../../fonts/effra/effra_std_rg-webfont.eot');
+	src: url('../../fonts/effra/effra_std_rg-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/effra/effra_std_rg-webfont.woff2') format('woff2'),
+		url('../../fonts/effra/effra_std_rg-webfont.woff') format('woff'),
+		url('../../fonts/effra/effra_std_rg-webfont.ttf') format('truetype'),
+		url('../../fonts/effra/effra_std_rg-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'Effra Light';
+	src: url('../../fonts/effra/effra_std_lt-webfont.eot');
+	src: url('../../fonts/effra/effra_std_lt-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/effra/effra_std_lt-webfont.woff2') format('woff2'),
+		url('../../fonts/effra/effra_std_lt-webfont.woff') format('woff'),
+		url('../../fonts/effra/effra_std_lt-webfont.ttf') format('truetype'),
+		url('../../fonts/effra/effra_std_lt-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'Effra Regular';
+	src: url('../../fonts/effra/effra_std_rg-webfont.eot');
+	src: url('../../fonts/effra/effra_std_rg-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/effra/effra_std_rg-webfont.woff2') format('woff2'),
+		url('../../fonts/effra/effra_std_rg-webfont.woff') format('woff'),
+		url('../../fonts/effra/effra_std_rg-webfont.ttf') format('truetype'),
+		url('../../fonts/effra/effra_std_rg-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'Effra Medium';
+	src: url('../../fonts/effra/effra_std_md-webfont.eot');
+	src: url('../../fonts/effra/effra_std_md-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/effra/effra_std_md-webfont.woff2') format('woff2'),
+		url('../../fonts/effra/effra_std_md-webfont.woff') format('woff'),
+		url('../../fonts/effra/effra_std_md-webfont.ttf') format('truetype'),
+		url('../../fonts/effra/effra_std_md-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+@font-face {
+	font-family: 'regularFontAR';
+	src: url('../../fonts/hiafonts/NeoSansArabicRegular.woff'),
+		url('../../font/hiafonts/NeoSansArabicRegular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'lightFontAR';
+	src: url('../../fonts/hiafonts/NeoSansArabicLight.woff'),
+		url('../../font/hiafonts/NeoSansArabicLight.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'mediumFontAR';
+	src: url('../../fonts/hiafonts/NeoSansArabicMedium.woff'),
+		url('../../font/hiafonts/NeoSansArabicMedium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.scroll-up-image{
+	background-color: #ffff;
+    border-radius: 50px;
+}
+
+[lang="ar"] .scroll-up-image {
+    left: 13px;
+    right: initial;
+}
+
+input:focus {
+    outline: none;
+}
+
+.clear-btn {
+	display: none;
+}
+
+
+.page-404 {
+    text-align: center;
+    margin: 10px auto 50px;
+}
+
+.page-404{
+	text-align: center;
+}
+
+.page-404 img{
+	width: 30%;
+	margin: auto;
+}
+
+.page-404 p{
+	font-size: 1.1rem;
+    margin: -16px 0px 26px;
+}
+
+.page-404 a{
+	padding: 10px 15px;
+    margin: 40px auto;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #273170;
+    color: #273170;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.page-404 a:hover {
+    background: #273170;
+    color: #fff;
+    transition: 0.5s;
+}
+.dark-mode {
+    filter: grayscale(100%);
+}
+.form-item-global-search {
+	position: relative;
+}
+
+.form-item-global-search .clear-btn {
+    position: absolute;
+    right: 0px;
+    font-size: 16px;
+    display: block;
+    background: #ffffff;
+    color: #ed155b;
+    height: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px 24px;
+    transition: 0.5s;
+    top: 0px;
+    border: 1px solid #c0c0c0;
+    border-left: 1px solid #ffffff;;
+}
+
+.form-item-global-search .clear-btn:hover {
+    background: #e00049;
+    color: #fff;
+}
+
+
+[lang="ar"] .form-item-global-search .clear-btn {
+	right: auto;
+    left: 0;
+    bottom: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 5px;
+    border-right: 0;
+    border-left: 1px solid #c0c0c0;
+}
+
+
+.hia-search-listing .form-item-global-search .clear-btn {
+	bottom: 35px;
+	background: #fff;
+	height: 30px;
+	right: 6px;
+}
+
+
+.modal-open .modal::-webkit-scrollbar {
+	display: none;
+}
+
+.modal-open .modal {
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+/* Dots Navigation */
+
+.dots-container {
+	text-align: center;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.dot {
+	height: 8px;
+	width: 8px;
+	margin: 5px;
+	background-color: #27317052;
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.6;
+	transition:
+		background-color 0.4s ease,
+		transform 0.3s ease-out,
+		opacity 0.3s ease-in-out;
+}
+
+.dot.active {
+	background-color: #e00049;
+	opacity: 1;
+	transform: scale(1.4);
+	animation: bounce 0.4s ease-in-out;
+}
+
+
+/* Bounce Effect for Active Dot */
+@keyframes bounce {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.6);
+	}
+
+	100% {
+		transform: scale(1.4);
+	}
+}
+
+/* Subtle Pulse Effect */
+.dot:not(.active) {
+	animation: pulse 1.5s infinite ease-in-out;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* Dots Navigation-end*/
+
+
+.custom-override-padding .gbb-row .bb-inner {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.ajax-progress.ajax-progress-throbber {
+	background: #ffffffb5;
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    z-index: 11111111;
+    border-radius: 16px;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 5px 2px #ededed;
+    text-align: center;
+}
+
+.ajax-progress-throbber .throbber {
+    background: transparent url(/themes/custom/gavias_tico/images/hia/icons/loader-dot.gif) no-repeat 0 center !important;
+    width: 130px;
+    height: 130px;
+    background-size: cover !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: auto;
+    bottom: 50%;
+
+}
+
+/* .ajax-progress-fullscreen{
+	background: url(/themes/custom/gavias_tico/images/hia/icons/loader-dot.gif) no-repeat 0 center !important;
+	width: 100%;
+    height:100%;
+	margin: auto;
+	background-size: 200px !important;
+	position: absolute;
+	left: 0;
+    right: 0;
+    top:50%;
+	background-color: #fff!important;
+	background-blend-mode: multiply;
+	box-shadow: 0px 1px 5px 2px #ededed;
+} */
+
+
+
+.ajax-progress-throbber .message {
+	display: none !important;
+}
+
+
+.hide {
+	display: none !important;
+}
+
+body {
+	overflow-x: unset !important;
+	/* width: 100vw; */
+}
+
+a:hover {
+	text-decoration: none !important;
+}
+
+.gbb-row-wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+
+.home-simple-card .row::-webkit-scrollbar,
+.bento-grid-mbl-cards::-webkit-scrollbar,
+.services-mbl-row::-webkit-scrollbar,
+.parent-wrapper-people-listing::-webkit-scrollbar,
+.hia-custom-tabs .nav-tabs::-webkit-scrollbar,
+.parent-wrapper-awards-listing::-webkit-scrollbar,
+.Fa-section .nav-tabs::-webkit-scrollba,
+.featured-home-listing .view-content-wrap::-webkit-scrollba,
+.similar-contents .view-content-wrap::-webkit-scrollba,
+.Lounges-sec .row::-webkit-scrollba {
+	display: none;
+}
+
+
+.home-simple-card .row,
+.bento-grid-mbl-cards,
+.services-mbl-row,
+.parent-wrapper-people-listing,
+.hia-custom-tabs .nav-tabs,
+.parent-wrapper-awards-listing,
+.Fa-section .nav-tabs,
+.featured-home-listing .view-content-wrap,
+.similar-contents .view-content-wrap,
+.Lounges-sec .row {
+	-ms-overflow-style: none;
+	/* IE and Edge */
+	scrollbar-width: none;
+	/* Firefox */
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Effra Regular';
+	text-align: start;
+	letter-spacing: normal !important;
+}
+
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] h5,
+[lang="ar"] h6,
+[lang="ar"] h1,
+[lang="ar"] h2,
+[lang="ar"] h3,
+[lang="ar"] h4,
+[lang="ar"] h5,
+[lang="ar"] h6 {
+	font-family: 'regularFontAR' !important;
+}
+
+
+.title {
+	text-align: center;
+}
+
+.title-desc {
+	font-family: 'Effra Light' !important;
+	font-size: 1.4rem !important;
+	font-style: normal !important;
+}
+
+[lang="ar"] .title-desc {
+	font-family: 'lightFontAR' !important;
+}
+
+.cards-space {
+	display: flex;
+	padding: 0px 15px;
+}
+
+
+div#block-gavias-tico-pagetitle {
+	display: none;
+}
+
+.breadcrumb-style {
+	display: none;
+}
+
+a,
+p {
+
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+
+}
+
+[lang="ar"] a,
+[lang="ar"] p {
+	font-family: 'lightFontAR';
+}
+
+
+.frontpage .hia-page-wrapper {
+	margin-top: -120px;
+}
+
+.common-details-page {
+	padding-top: 2rem;
+}
+
+
+.logged-in {
+	padding: 0px !important;
+}
+
+#block-gavias-tico-local-tasks .drupal-tabs {
+	display: inline-flex;
+    width: 100%;
+    line-height: normal;
+    list-style: none;
+    margin-top: 3rem;
+    margin-bottom: 0;
+
+}
+
+
+#block-gavias-tico-local-tasks .drupal-tabs li {
+	margin-right: 20px;
+}
+
+label,
+select,
+p,
+a,
+i {
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+}
+
+[lang="ar"] label,
+[lang="ar"] select,
+[lang="ar"] p,
+[lang="ar"] a {
+	font-family: 'lightFontAR' !important;
+}
+
+[lang="ar"] label {
+	font-family: 'lightFontAR' !important;
+}
+
+.nav-tabs {
+	border-bottom: none !important;
+}
+
+
+.hia-theme-tabs {
+	padding: 4px 0px;
+	border: 1px solid #c0c0c0;
+	border-radius: 50px;
+	overflow: hidden;
+	font-family: 'Effra Regular';
+	-webkit-text-stroke: 0.025rem;
+	letter-spacing: 1px;
+	background: #f5f5f5;
+}
+
+[lang="ar"] .hia-theme-tabs {
+	font-family: 'regularFontAR';
+}
+
+
+.hia-theme-tabs .nav-item {
+	margin: auto;
+	border-radius: 50px;
+}
+
+
+.hia-theme-tabs .nav-link {
+	color: #000;
+	border: 0;
+	text-align: center;
+	width: 100%;
+	border-radius: 6px;
+	font-size: 1.1rem;
+}
+
+
+.hia-theme-tabs .nav-link.active,
+.hia-theme-tabs .show>.nav-link {
+	background-color: #1e245e !important;
+	transition: 0.5s;
+	animation-duration: 0.5ms;
+	font-weight: normal;
+}
+
+
+.breadcrumb-content-main ol {
+	list-style: none;
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+	padding-left: 18px;
+}
+
+[lang="ar"] .breadcrumb-content-main ol {
+	font-family: 'lightFontAR';
+}
+
+.breadcrumb-content-main ol li {
+	display: inline-block;
+	margin-right: 1rem;
+	color: #545b82;
+}
+
+
+.breadcrumb-content-main ol li:nth-last-child(1) {
+	color: #273170;
+	font-family: 'Effra Regular';
+}
+
+[lang="ar"] .breadcrumb-content-main ol li:nth-last-child(1) {
+	font-family: 'lightFontAR';
+}
+
+.breadcrumb-content-main ol li a {
+	color: #545b82;
+}
+
+
+nav.pager {
+	margin: 1.5rem auto 0;
+	float: left;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+nav.pager ul {
+	display: inline-flex;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+
+nav.pager ul li a {
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+nav.pager ul .is-active {
+	background-color: #1E245E;
+	color: white;
+	border-radius: 50px;
+
+}
+
+nav.pager ul .is-active a {
+	color: #fff !important;
+}
+
+
+nav.pager ul li {
+	margin: 0px 3px;
+}
+
+
+.content-left-section, .shop-left-section {
+	width: 100%;
+	position: sticky;
+	position: -webkit-sticky;
+	align-self: flex-start;
+	top: 140px;
+}
+
+.content-right-section {
+	width: 100%;
+	padding-left: 30px;
+}
+
+
+.language-switcher-language-url{
+	line-height: 0!important;
+    margin-bottom: 0!important;
+}
+
+
+
+.hia-sticky-header {
+	width: 100%;
+	height: auto;
+	position: sticky;
+	top: 0;
+	z-index: 501;
+}
+
+.rel-content {
+	display: flex;
+	column-gap:10px;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	align-items: center;
+}
+
+.rel-content-title {
+	font-size: 1.2rem;
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+	color: black;
+	text-decoration: none;
+}
+
+.rel-content-title a {
+	color: black;
+	font-size: 1.2rem;
+	font-family: 'Effra Light';
+}
+
+
+[lang="ar"] .rel-content-title,
+[lang="ar"] .rel-content-title a {
+	font-family: 'lightFontAR';
+}
+
+.logged-in.toolbar-horizontal.toolbar-tray-open .hia-sticky-header {
+	top: 80px;
+}
+
+.logged-in .hia-sticky-header {
+	top: 40px;
+}
+
+.airline-cards {
+	background: #f5f5f5;
+	padding: 10px 16px;
+	width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+	transform: translateY(0);
+	transition: 0.4s all ease;
+	overflow: hidden;
+}
+
+.airline-cards .featured-shop-list-titile {
+	width: 100%;
+}
+
+.airline-cards p {
+	color: #666;
+	margin: 0;
+	padding: 10px 0;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: start;
+	border-bottom: 1px solid #dbd8d8;
+}
+
+.airline-cards h4 {
+	float: left;
+	width: 100%;
+	margin: 10px 0px 0;
+}
+
+[lang="ar"] .airline-cards .shop-logo {
+	float: right;
+	margin: 10px 0px;
+}
+
+.airline-directory .views-exposed-form{
+  position: relative;
+  margin-bottom: 2rem;
+  float: left;
+  width: 100%;
+}
+
+
+.airline-directory .views-exposed-form input {
+	width:100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    margin-bottom: 0rem;
+    float: left;
+    margin-right: 1rem;
+    font-family: 'Effra Light';
+    font-size: 1rem;
+    -webkit-text-stroke: 0.025rem;
+    color: black;
+    height: 55px;
+    margin-left:0px;
+}
+
+
+.airline-directory .row .item{
+	padding-left: 0;
+}
+
+.airline-directory .views-exposed-form input[type=text] {
+    background: url(/themes/custom/gavias_tico/images/hia/animated/pink-search.gif) no-repeat top right;
+    background-position: 10px 10px;
+    background-position: right;
+    background-position-x: 99%;
+    background-size: 36px;
+}
+
+
+[lang="ar"]  .list-search-bar input[type=text]{
+	background-position-x: 1%;
+	background-position: left;
+}
+
+.airline-cards img {
+	border: 0;
+	width: 75px;
+    height: 75px;
+    object-fit: contain;
+}
+
+
+.airline-cards .shop-logo {
+    border: 0px;
+} 
+
+.airline-cards:hover p,
+.airline-cards:hover h4,
+.airline-cards:hover h3 {
+	color: white;
+}
+
+.list-border-card {
+	width: 100%;
+	height: 100%;
+	transform: translateY(0);
+    transition: 0.3s all ease;
+}
+
+.list-border-card:hover {
+  transform: translateY(-10px);
+}
+
+.row .item {
+	margin-bottom: 16px;
+}
+
+.airline-cards:hover {
+	background: #252525;
+	transform: translateY(-12px);
+}
+
+.airline-code {
+	border-bottom: 1px solid #6666;
+	text-align: start;
+}
+
+.airline-code span {
+	float: right;
+}
+
+[lang="ar"] .airline-code span {
+	float: left;
+}
+
+
+.language-switcher-language-url li {
+	list-style: none;
+}
+
+.language-switcher-language-url .is-active {
+	display: none;
+}
+
+.gbb-row .bb-inner .hia-banner {
+	margin-top: -60px;
+}
+
+
+.custom-md-card {
+	-ms-flex: 0 0 25%;
+	flex: 0 0 25%;
+	max-width: 25%;
+	margin: -1px;
+	position: relative;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+.no-results{
+	text-align: center;
+	order: 1;
+}
+
+.no-results img {
+	width: 180px;
+    object-fit: contain;
+    visibility: hidden;
+}
+
+.no-results p{
+	margin-top: -70px;
+    margin-bottom: 70px;
+    font-family: 'Effra Regular';
+    letter-spacing: 0.3px;
+	font-size: 1.6rem;
+}
+
+.no-results p span {
+    color: #ed155b;
+    font-size: 1.1rem;
+}
+
+.airline-cards p:nth-last-child(1) {
+    border: 0;
+}
+
+
+@media screen and (min-width: 1600px) {
+	.container {
+		max-width: 1320px !important;
+		margin: auto;
+	}
+
+}
+
+@media (min-width: 1400px) {
+
+	.container,
+	.container-lg,
+	.container-md,
+	.container-sm,
+	.container-xl {
+		max-width: 1140px;
+		margin: auto;
+	}
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+
+
+	[lang="ar"] .airline-cards .shop-logo {
+		margin: 5px 0px;
+	}
+
+	.airline-cards img{
+		width: 65px;
+		height: 65px;
+	}
+
+	.container {
+		max-width: 960px !important;
+		margin: auto;
+	}
+
+	.frontpage .hia-page-wrapper {
+		margin-top: -90px;
+	}
+
+
+
+}
+
+
+@media screen and (max-width: 992px) {
+	.content-right-section {
+		max-width: 60%;
+	}
+
+	.content-left-section {
+		max-width: 40%;
+	}
+
+	
+
+	.cards-space {
+		display: flex;
+		padding: 0px 0px;
+		float: left;
+		width: 100%;
+	}
+
+	.gsc-column.col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+   	   padding: 0px;
+	}
+
+	.list-border-card:hover {
+  		transform: translateY(0px);
+	}
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+	.no-results p{
+		margin-top: -50px;
+	}
+    
+
+
+
+	.custom-md-card {
+		-ms-flex: 0 0 40%;
+		flex: 0 0 40%;
+		max-width: 40%;
+		padding: 0;
+		margin-right: 16px;
+	}
+
+	.content-left-section,
+	.shop-left-section {
+		position: relative;
+		top: 0;
+		margin-bottom: 16px;
+	}
+
+	.content-right-section {
+		padding-left: 0;
+	}
+
+	.content.container.block-content {
+		padding: 0;
+	}
+
+	h2.block-title {
+		text-align: center;
+		font-size: 1.4rem;
+		font-family: 'Effra Regular';
+	}
+
+	.parent-wrapper- {
+		float: left;
+	}
+
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+	.airline-cards:hover{
+		transform: unset;
+	}
+
+
+
+	.no-results p{
+		font-size: 1.2rem;
+	}
+
+	.no-results img {
+		width: 30%;
+        object-fit: contain;
+        margin-top: 0px;
+	}
+
+	.custom-md-card {
+		-ms-flex: 0 0 65%;
+		flex: 0 0 65%;
+		max-width: 65%;
+	}
+
+	.bento-grid {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.hia-card:hover {
+		transform: unset;
+		box-shadow: unset;
+		transition: unset;
+	}
+
+
+}
+
+
+.map-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	/* z-index: 100; */
+}
+
+.bt-video {
+	width: 100%;
+	height: 100%;
+}
+
+
+.cancelled {
+	background: #EF4B55 !important;
+}
+
+.scheduled {
+	background:#5eda5b !important;
+}
+
+.estimated {
+	background: #55BE7F !important;
+}
+
+.landed {
+	background: #55BE7F !important;
+}
+
+.arrived {
+	background: #55BE7F !important;
+}
+
+.bags-on-belt {
+	background: #55BE7F !important;
+}
+
+.early {
+	background: #00a1ff !important;
+}
+
+.first-bag {
+	background: #19be78 !important;
+}
+
+.last-bag {
+	background: #EF4B55 !important;
+}
+
+.bags-en-route {
+	background: #55BE7F !important;
+}
+
+.on-time {
+	background: #55BE7F !important;
+}
+
+.diverted {
+	background: #55BE7F !important;
+}
+
+.next-information {
+	background: #55BE7F !important;
+}
+
+.boarding {
+	background: #19BE78 !important;
+}
+
+.check-in-closed {
+	background: #7D7D7D !important;
+}
+
+.check-in-closing {
+	background: #EF4B55 !important;
+}
+
+.check-in-open {
+	background: #5EDA5B !important;
+}
+
+.gate-closed {
+	background: #7D7D7D !important;
+}
+
+.go-to-gate {
+	background: #19be78 !important;
+}
+
+.last-call {
+	background: #EF4B55 !important;
+}
+
+.departed,
+.all-bags-delivered {
+	background: #55BE7F !important;
+}
+
+.delayed {
+	background: #F1C40F !important;
+}
+
+.ask-agent {background: #2a7fff!important;}
+
+.via-color{
+	background: #1e245e;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+	text-transform: uppercase;
+    margin-right: 5px;
+}
+
+
+.section-head h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: #1D1D1F;
+}
+
+.section-head p {
+	text-align: center;
+	padding: 16px 0 !important;
+	margin: auto !important;
+	font-style: normal !important;
+	color: #666 !important;
+	font-size: 1.2rem !important;
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+	width: 80%;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+
+	.section-head p {
+		width: 100%;
+		padding: 6px 0px !important;
+	}
+
+	.section-head h2{
+		font-size: 2rem;
+	}
+
+
+	.page-404 img {
+		width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 575px) {
+	.two-col-text-img .title {
+    text-align: center;
+}
+.two-col-text-img .title-desc {
+    float: none !important;
+}
+
+.title-desc .desc {
+    text-align-last: center !important;
+}
+
+.vote-now-btn {
+	   margin-top: 30px;
+}
+	
+}
+
+
+
+
+
+@media screen and (max-width: 567px) {
+
+
+	.via-color{ 
+		font-size: 10px;    
+		padding: 2px 4px;
+	}
+
+	.listing-count-number{
+		font-size: 13px;
+	}
+
+	.section-head h2 {
+        font-size: 1.6rem;
+    }
+
+	.listing-main-product{
+		margin: 8px auto;
+	}
+
+	.listing-main-product:hover {
+		transform: translateY(0px);
+	}
+
+
+	.section-head p{
+		font-size: 1rem !important;
+	}
+
+	
+	.listing-count-number{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+
+	.listing-product-img, .listing-product-img img{
+		height: 100px;
+	}
+
+	.row .item {
+		margin-bottom:0px;
+		margin-bottom: 16px;
+	}
+
+
+	.list-search-bar .js-form-item{
+		padding: 0;
+	}
+
+	.airline-directory .views-exposed-form{
+		margin-bottom: 1rem;
+	}
+
+	.car-rentals .row{
+		padding: 0;
+	}
+
+	/* .ajax-progress-throbber .throbber{
+		width: 65px;
+    	height: 65px;
+		top: 13%;
+	} */
+
+
+
+	.page-404 img {
+        width: 80%;
+        margin: auto;
+    }
+
+	.page-404 p {
+		font-size: 1rem;
+		margin: -16px auto 26px;
+		width: 90%;
+		text-align: center;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 420px) {
+
+	.form-item-global-search .clear-btn{
+		    height: 90%;
+	}
+	
+	.hia-search-listing .form-item-global-search .clear-btn{
+		bottom: 20px;
+		height: 30px;
+		right: 14px;
+		font-size: 2rem;
+		padding: 0px;
+	}
+
+	.form-item-global-search .clear-btn{
+		height: 90%;
+	}
+
+	[lang="ar"]  .form-item-global-search .clear-btn{
+		height: 100%;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+
+}
+
+
+
+
+
+/* css-injector-styles */
+
+.home-simple-card .sub-travelling-card p{
+	    height: 96px;
+}
+
+
+
+.sec-nav .list-border-card:hover {
+   transform: none!important;
+}
+
+
+
+.content-right-section p span {
+        float: left;
+    width: 100%;
+}
+
+[lang="ar"] .content-right-section p, [lang="ar"] .content-right-section li {
+    float: none !important;
+	
+}
+
+.th-icons{
+	  object-fit: contain;
+}
+
+.two-col-text-img .title {
+    text-align: start;
+}
+.two-col-text-img .title-desc {
+  width: 100%;
+}
+.two-col-text-row {
+    margin-bottom: 3rem;
+}
+
+
+.two-col-text-image img {
+    height: 100%;
+    border-radius: 16px;
+    max-height: 300px !important;
+    object-position: top;
+}
+
+.two-col-text-img .title-desc {
+    text-align: justify !important;
+    text-align-last: start !important;
+}
+
+
+.hia-primary-btn {
+    flex: 1;
+    text-align: center;
+    background: #1e245e;
+    color: #fff;
+    padding: 8px;
+    border-radius:8px;
+    font-size: 16px;
+}
+
+.hia-secondary-btn{
+    flex: 1;
+    text-align: center;
+    background: transparent;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1e245e;
+    border: 1px solid #1e245e;
+}
+
+.hia-secondary-btn:hover, .hia-primary-btn:hover{
+	    text-decoration: none;
+    color: #fff;
+    background-color: #ed155b;
+    transition: 0.5s;
+}
+
+.hia-secondary-btn:hover{
+	border: 1px solid #ed155b;
+}
+
+.skytrax-home-btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+}
+.how-to-vote-heading .gsc-icon-box img {
+    border-radius: 16px;
+}
+.how-to-vote-heading .gsc-icon-box {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.title-desc .desc{
+	  text-align-last: start !important;
+}
+
+.skytrax-discover-card {
+    aspect-ratio: 1.4 !important;
+}
+
+.vote-now-btn h2 {
+    text-align: center;
+}
+
+.vote-now-btn {
+    text-align: center !important;
+    margin-top: 60px;
+    background: #f5f5f5;
+    border-radius: 16px;
+    padding: 30px 0;
+}
+
+
+
+.th-icons {
+  object-fit: contain;
+}
+
+
+
+
+
+
+
+
+/* ramadan-page */
+
+
+.ramadan-eid-section .cards-space .item {
+    display: flex;
+}
+
+.ramadan-eid-section .cards-space {
+    flex-wrap: wrap;
+}
+
+.event-card {
+
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: rgb(176 176 176 / 24%) 0px 3px 8px;
+	aspect-ratio: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+}
+
+.event-card-subtext{color: #979797;}
+
+.event-card-img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+    position: relative;
+	margin-bottom: 0px;
+}
+
+.event-card-img img {
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 0.5;
+}
+
+.terminal-label {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    background: #ffffff;
+    padding: 6px 17px;
+    border-radius: 50px;
+    font-size: 12px;
+    color: #ED145B;
+    font-family: 'Effra Regular';
+    font-weight: 600;
+	display: none;
+}
+
+.event-card__info-list {
+	     list-style: none;
+    padding: 0;
+    font-family: 'Effra Regular';
+    margin: 0rem auto 0.5rem;
+    display: inline-flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.event-card__info-list li {
+    font-size:1rem;
+    margin-bottom: 8px;
+    text-align: start;
+    color: #364153;
+    font-family: 'Effra Regular';
+}
+
+.event-card__info-list i {
+    font-size: 14px;
+    color: #bcb9b9;
+    margin-right: 0.5rem;
+}
+
+.get-directions-btn {
+  background: #ED145B;
+    color: #fff;
+    padding: 8px 16px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 8px;
+    font-family: 'Effra Light';
+}
+
+.get-directions-btn:hover {
+    color: #fff;
+    background: #273170;
+}
+
+.add-calender-btn {
+    color: #7b7e83;
+    padding: 8px 16px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 8px auto;
+    border-radius: 4px;
+    font-family: 'Effra Light';
+}
+
+.event-card-details {
+    padding: 0px;
+}
+
+
+.event-card-titile {
+    font-family: 'Effra REgular';
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px !important;
+}
+
+.event-card-description {
+    font-family: 'Effra Light';
+    color: #4A5565;
+    font-size: 1rem;
+    margin-bottom: 1.5rem !important;
+}
+
+.event-heading-section .sec-4 {
+    text-align: center;
+}
+
+
+.ramadan-eid-section .block-title {
+    display: none;
+}
+
+.cards-space .col-md-4{
+	    padding: initial;
+}
+
+.ramadan-eid-section .cards-space .item {
+    padding: 16px;
+}
+
+
+.loaction-card {
+    aspect-ratio: 1 / 1.1;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: rgb(176 176 176 / 24%) 0px 3px 8px;
+    position: relative;
+}
+
+.loaction-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+	 border-radius: 14px;
+
+}
+
+.loaction-card-details {
+    position: absolute;
+    background: #fff;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.time-slot {
+    width: 100px;
+    display: block;
+    border: solid #F54A00 1px;
+    padding: 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #F54A00;
+    border-radius: 6px;
+    font-family: 'Effra REgular';
+    float: right;
+    margin-right: 14px;
+}
+
+.locate-direction {
+    color: #ffffff;
+    font-size: 12px;
+    background: #ed155b;
+    padding: 7px 17px;
+    margin: 6px 0px 0;
+    display: block;
+    width: auto;
+    float: left;
+    border-radius: 6px;
+}
+
+.locate-direction:hover{
+	color: #fff;
+}
+
+.ramadan-eid-section .bb-inner.default {
+    padding-bottom: 0;
+}
+
+
+
+.ramadan-eid-section .section-head p {
+    padding: 0 !important;
+    padding-bottom: 1rem !important;
+}
+
+.ramadan-eid-section .web-tourism-tabs{
+	margin-top: 2rem;
+}
+
+.event-card__info-list li img {
+    width: 18px;
+    margin: 2px auto;
+}
+
+.locate-direction i {
+    margin-left: 0.8rem;
+}
+
+.time-slot-2 {
+    color: #1C398E;
+    border: solid #1C398E 1px;
+}
+
+.terminal-point {
+    color: #ed155b;
+	display: none;
+}
+
+.prayer-facilities {
+    background: #f5f5f5;
+}
+
+.prayer-facilities a{
+	background: #ffffff;
+    width: 100%;
+    display: block;
+    padding: 16px 10px;
+    border-radius: 8px;
+    color: #111;
+    position: relative;
+    border: 1px solid #e8e8e8;
+}
+
+.prayer-facilities h4{
+	font-size: 1rem;
+    font-family: 'Effra REgular';
+    margin-top: 2rem;
+}
+
+.prayer-facilities a:hover {
+    background: #ed155b;
+    color: #fff;
+}
+
+.prayer-facilities a i {
+    position: absolute;
+    right: 12px;
+    top: 33%;
+    color: #fff;
+}
+
+.new-faq .btn-link{
+	width: 100%;
+    text-align: start;
+    background: transparent;
+    color: #111;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Effra REgular';
+    text-transform: math-auto;
+}
+
+.new-faq .btn-link:hover {
+    background: transparent;
+    border: 0px;
+    text-decoration: none;
+    padding: 0;
+}
+
+.new-faq button:focus:not(:focus-visible) {
+    outline: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+.new-faq .card{
+    margin-bottom: 1rem;
+}
+
+.new-faq .card-header {
+
+    background-color: #ffffff;
+    border-bottom: 0;
+}
+
+.new-faq .btn:after{
+	right: 0;
+    left: auto;
+	top: 0px;
+}
+
+.sub-heading {
+    padding-left: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Effra Regular';
+    color: #1D1D1F;
+	margin-bottom: 0.5rem;
+}
+
+
+/* prayer-time-card */
+
+.prayer-time-card{
+    width: 18.8%;
+    aspect-ratio: 1 / 1.3;
+    background-color: #4F5B6B;
+    margin-bottom: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'Effra-Regular';
+    position: relative;
+	transform: translateY(0);
+    transition: 0.3s all ease;
+}
+
+.loaction-card-2 .event-card-titile {
+    color: #fff;
+	margin: 0;
+}
+
+.time-slot-2:hover {
+    background: #e00049;
+    color: #fff;
+}
+
+.prayer-time-card:hover{
+    transform: translateY(-10px);
+}
+
+
+.prayer-time-section {
+    display: inline-flex;
+    width: 100%;
+    column-gap: 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.prayer-time-icon{
+    margin-bottom:2rem;
+    width:60px;
+}
+
+.time-stands{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.prayer-time-card .time {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.time-name {
+    font-size: 1.1rem;
+}
+
+.prayer-time-active-card {
+    background: #1E245E;
+     position: relative;
+   
+}
+
+.prayer-in-time{
+    position: absolute;
+    bottom: -42px;
+    color: #111;
+    font-size: 1.3rem;
+}
+
+.event-cards-sub-details {
+    padding: 16px;
+	padding-bottom: 0px;
+}
+
+.event-card__actions {
+    padding: 0px 16px;
+	    min-height: 100px;
+}
+
+.locate-direction img {
+    width: 16px;
+}
+
+.time-slot-2 {
+    color: #ffffff;
+    border: none;
+    background: #565f9b;
+    line-height: 30px;
+    width: auto !important;
+    padding: 6px 12px;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 16px;
+    font-family: 'Effra Regular';
+}
+
+.loaction-card-2 .loaction-card-details {
+    background: linear-gradient(90deg, rgb(27 27 48) 0%, rgb(56 67 144) 100%);
+    position: relative;
+    border-radius: 16px;
+    padding: 26px;
+    height: 120px;
+    align-content: center;
+}
+
+
+.loaction-card-2 img {
+    display: none;
+}
+
+
+.loaction-card-2 {
+    background: none;
+    padding: 0;
+    box-shadow: none;
+    aspect-ratio: auto;
+    margin: 0 -16px;
+}
+
+.et-action-blk {
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+}
+
+
+
+
+
+@media screen and (max-width: 1320px) {
+     .ramadan-eid-section .bb-inner.default {
+		padding-bottom: 0;
+		padding-top: 30px;
+	}
+
+	.section-head h2{
+		font-size: 2rem;
+	}
+
+	.event-card__info-list li img {
+		width: 16px;
+		margin: 2px auto;
+	}
+
+	.ramadan-eid-section .cards-space .item {
+    	padding: 0px 8px;
+	}
+
+	.sub-heading {
+		padding-left: 2.4rem;
+		font-size: 1.4rem;
+	}
+
+	.loaction-card-details{
+		padding: 16px 4px 16px 16px;
+	}
+
+	.locate-direction{
+		font-size: 10px;
+	}
+
+	.time-slot {
+    	width: 80px;
+		font-size: 12px;
+	}
+
+	.event-card{
+		    aspect-ratio: 1 / 1.4;
+	}
+     
+}
+
+@media screen and (max-width: 991px) {
+    .loaction-card-details {
+        padding: 16px 4px 16px 0px;
+    }
+
+	.locate-direction i {
+   		margin-left: 0.5rem;
+	}
+
+	.event-card {
+        aspect-ratio: 1 / 1.3;
+    }
+
+	.prayer-time-card{
+		width: 18%;
+		aspect-ratio: 1 / 1.6;
+	}
+
+	.prayer-time-icon {
+   		 margin-bottom: 1rem;
+	    width: 44px;
+	}
+	.time-name {
+ 	   font-size: 1rem;
+	}
+
+	.prayer-time-card .time {
+    	font-size: 1.5rem;
+	}
+
+	.prayer-in-time{
+		font-size: 1.2rem;
+		    bottom: -36px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+	.prayer-time-card {
+		width: 48%;
+		aspect-ratio: 1 / 1;
+	}
+
+       .sub-heading {
+        padding-left: 10px;
+	}
+
+	.ramadan-eid-section .item {
+  		  width: 50%;
+	}
+
+	.loaction-card {
+   	 	aspect-ratio: 1 / 0.7;
+	}
+
+	.prayer-facilities h4{
+		    padding-left: 18px;
+	}
+
+	.ramadan-eid-section .web-tourism-tabs {
+        display: block!important;
+    }
+
+}
+
+@media screen and (max-width: 567px) {
+
+	.prayer-time-card {
+		width: 100%;
+		aspect-ratio: auto;
+	}
+
+	.prayer-facilities .col-md-6 {
+		padding: 0;
+	}
+
+	.prayer-facilities h4 {
+        padding-left: 6px;
+    }
+
+
+    .event-card {
+        aspect-ratio: auto;
+        height: auto;
+        padding-bottom: 8px;
+        margin-bottom: 2rem;
+    }
+
+	.ramadan-eid-section .item {
+        width: 100% !important;
+		max-width: 100%;
+    }
+
+	.ramadan-eid-section .cards-space{
+		display: block;
+	}
+
+	.event-cards-sub-details {
+    	        padding: 0px 16px;
+	}
+
+	.loaction-card img{
+		display: none;
+	}
+
+	.loaction-card {
+        aspect-ratio: auto;
+        height: 110px;
+		border: 1px solid #ededed;
+		box-shadow: none;
+    }
+
+	.loaction-card-details {
+    	position: relative;
+	}
+	
+	.loaction-card-details .col-md-4 {
+		position: absolute;
+		right: 36px;
+		top: 36px;
+	}
+
+	.loaction-card-details .col-md-8{
+		    padding: 16px 0;
+	}
+
+	.locate-direction {
+	   color: #ed155b;
+        background: #fff;
+        padding: 0;
+        margin: 0px 0px 0;
+        border-radius: 6px;
+        position: absolute;
+        right: 36px;
+        font-size: 13px;
+	}
+
+	.event-card-titile{
+		font-size: 1rem;
+	}
+
+	.sub-heading{
+		font-size: 1.2rem;
+	}
+
+	.section-head h2 {
+        font-size: 1.5rem;
+    }
+
+	.event-card-img {
+		height: 85px;
+        border-radius: 8px;
+		width: 125px;
+	}
+
+	.event-card-img img {
+		height: 100%;
+		width: 100%;
+	}
+
+    .event-card-details-child {
+        display: inline-flex;
+        padding: 16px;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+    }
+
+	.event-card__info-list li{
+		font-size: 12px;
+	}
+
+	.event-card__info-list li img{
+		margin: 1px auto;
+	}
+	
+	.event-card-description{
+		font-size: 14px;
+		margin-bottom: 1rem !important;
+	}
+
+	.event-card__actions a {
+   		 font-size: 12px;
+	}
+
+	.time-slot{
+		margin-right: 0;
+	}
+
+	.et-action-blk {
+		display: inline-flex;
+		flex-direction: row-reverse;
+		width: 100%;
+	}
+	.ramadan-eid-section .cards-space .item {
+        padding: 0px 0px;
+    }
+
+	.prayer-facilities h4{
+		    margin-top: 1rem;
+	}
+
+	.prayer-facilities a{
+		padding: 12px 10px;
+	}
+
+	.event-card__actions hr {
+   		 margin: 0;
+	}
+	
+}

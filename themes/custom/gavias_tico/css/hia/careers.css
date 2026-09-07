@@ -1,0 +1,839 @@
+
+.form-item-search input {
+    font-family: 'Effra Regular';
+    width:100%;
+    padding: 12px 10px;
+    border-radius: 8px;
+    border: 1px solid #c8c8c8;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#custom-search-form {
+    text-align: start;
+    width:100%;
+    margin: auto;
+    margin-top: -50px;
+}
+
+.careers-search .bb-inner.default {
+    padding-bottom: 0;
+}
+
+
+#custom-search-form #edit-submit {
+    width: 200px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 0px;
+    background: #1e245e;
+    color: #fff;
+    float: right;
+}
+
+
+
+#edit-search[type=text] {
+    background: url(/themes/custom/gavias_tico/images/hia/animated/pink-search.gif) no-repeat top right;
+    background-position: 10px 10px;
+    background-position: right;
+    background-position-x: 99%;
+    background-size: 36px;
+}
+
+
+.carrers-list-card{
+    background: #f8f8f8;
+    padding: 25px 25px 50px;
+    border-radius: 16px;
+    transition: transform 0.5s ease;
+    height: 100%;
+    position: relative;
+}
+
+.carrers-list-card:hover {
+    transform: translateY(-6px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.carrers-list-card h4{
+    color: #000000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Effra Regular';
+    font-size: 1.5rem;
+    margin: 0px;
+}
+
+.carrers-list-card p{
+    color: #111;
+    margin: 20px 0px 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-family: 'Effra Light';
+    font-size: 1rem;
+}
+
+.carrers-list-card p br{
+    display: none;
+}
+
+.careers-col {
+    padding: 0px 8px;
+}
+
+.job-designation{
+    color:#a09999;
+}
+
+.job-date{
+    display: inline-flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 26px;
+}
+
+.job-date p{
+    font-size:1rem;
+    margin: 0;
+    height: auto;
+}
+
+.job-date i{
+    position: absolute;
+    right: 15px;
+    color: #111;
+}
+
+#views-exposed-form-careers-block-1 .bef-links ul {
+    list-style: none;
+    display: inline-flex;
+    font-family: 'Effra Light';
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#views-exposed-form-careers-block-1 .bef-links ul li{
+    margin:15px 0px;
+}
+
+
+#views-exposed-form-careers-block-1 .bef-links ul li a{
+    color: #111;
+    margin: 4px;
+    background: #f8f8f8;
+    padding: 11px 12px;
+    border-radius: 50px;
+}
+
+#views-exposed-form-careers-block-1 .bef-links ul li a:hover,
+.bef-links ul li a:focus{
+    color: #fff;
+    background: #1e245e;
+}
+
+#views-exposed-form-careers-block-1 {
+    margin: 50px 0px;
+    position: relative;
+    width: 100%;
+}
+
+#views-exposed-form-careers-block-1 .js-form-item-search {
+    position: absolute;
+    top: -90px;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+#views-exposed-form-careers-block-1 .js-form-item-search input{
+    border-radius: 8px;
+    width: 50%;
+    border: 1px solid #d0cfcf;
+    padding: 12px;
+}
+
+
+.job-families-text .title {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.job-families-card {
+    padding: 0 10px!important;
+    transition: transform 0.5s ease;
+}
+
+.job-families-card .list-border-card {
+    overflow: hidden;
+    border-radius: 16px;
+    aspect-ratio: 1 / 0.7;
+    background: #ffffff;
+    transition: transform 0.5s ease;
+    box-shadow: rgba(31, 14, 14, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.job-families-card:hover{
+    transform: translateY(-6px);
+}
+
+
+
+
+.job-families-card .list-border-card img {
+    aspect-ratio: 1 / 0.5;
+    object-fit: cover;
+}
+
+.job-families-card .list-border-card a span {
+    text-align: center;
+    color: #111;
+    width: 100%;
+    float: left;
+    font-family:'Effra Regular';
+    font-size: 1.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 28px 14px;
+}
+
+.join-btn {
+    width: 400px;
+    border: 1px solid #ED155B;
+    background: #fff;
+    padding: 13px 20px;
+    margin: 16px auto;
+    display: block;
+    text-align: center;
+    color: #ED155B;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: 'Effra Light';
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    color: #fff;
+    background: #ED155B;
+    transition: 0.5s;
+}
+
+.job-families-custom-card {
+    padding: 8px !important;
+    text-align: center;
+}
+
+.job-families-custom-card .column-inner {
+    aspect-ratio: 1 / 0.6;
+    background: #ffffff;
+    border-radius: 16px;
+    font-family:'Effra Regular';
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.5s ease;
+}
+
+.job-families-custom-card .column-inner:hover{
+    transform: translateY(-6px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.job-families-custom-card .column-inner img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.job-families-video-section  img{
+  border-radius: 16px;
+}
+
+.job-families-video-section .gsc-video-box {
+    border-radius: 16px;
+}
+
+.job-families-video-section .row{
+    margin-left: 0px!important;
+    margin-right: 0px !important;
+
+}
+
+.job-families-video-section .gsc-heading {
+    text-align: start;
+    padding: 10px 0px 0px 24px;
+}
+
+.job-families-video-section .widget.gsc-heading .title {
+    text-align: start;
+}
+
+.job-families-video-section .widget.gsc-heading .title-desc{
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+
+.job-families-video-section .widget.gsc-heading.align-center{
+    padding-left: 20px;
+}
+
+.job-families-2nd-row{
+    margin-bottom: 40px;
+}
+
+
+.awards-left-blk{
+    border: 1px solid #c7c7c7;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 16px;
+    padding: 20px 10px;
+    font-family: 'Effra Regular';
+}
+
+.awards-right-blk {
+    background: #ed155b;
+    border-radius: 16px;
+    padding: 20px 10px;
+    color: #fff;
+    font-family: 'Effra Regular';
+    margin-bottom: 16px;
+}
+
+.why-join-hia-row .column-inner {
+    padding: 10px;
+}
+
+.awards-left-blk h4{
+    color: #1E245E;
+    font-family: 'Effra Medium';
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.career-growth {
+    padding: 40px 0px;
+    margin: 40px auto;
+}
+
+.awards-right-blk h4{
+    font-family: 'Effra Medium';
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.job-families-custom-card a {
+    color: #111;
+    font-family: 'Effra Regular';
+}
+
+.awards-left-blk p{
+    font-family: 'Effra Light';
+    font-size: 1rem;
+    color: #111;
+}
+
+.awards-right-blk p{
+    font-family: 'Effra Light';
+    font-size: 1rem;
+}
+
+.awards-sec-2-card .column-inner {
+    border: 1px solid #c7c7c7;
+    border-radius: 16px;
+    padding: 10px 22px;
+    font-family: 'Effra Regular';
+    text-align: start;
+    height: 100%;
+}
+
+.awards-sec-2-card .column-inner .title {
+    color: #1E245E;
+    font-family: 'Effra Regular';
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: start;
+}
+
+.awards-sec-2-card .column-inner .title-desc {
+    text-align: start;
+    margin: 6px 0px !important;
+    padding: 0px !important;
+    line-height: unset !important;
+    font-size: 1rem !important;
+    color: #111 !important;
+}
+
+.awards-sec-2-card {
+    padding: 0px 10px !important;
+}
+
+
+.career-growth-left-sec .title {
+    text-align: start;
+    font-size: 2rem;
+}
+
+.career-growth-left-sec .title-desc {
+    text-align: start;
+    font-size: 1.2rem !important;
+    margin-left: 0px !important;
+    line-height: unset!important;
+    padding: 8px 0 !important;
+}
+
+.career-growth-right-sec img{
+    border-radius: 16px;
+    aspect-ratio: 1 / 0.4;
+    height: auto;
+    margin-top: 10px;
+}
+
+.life-at-hia-main-video .widget.gsc-video-box{
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.why-join-hia-row .title {
+    text-align: start;
+    font-size: 2rem;
+}
+
+
+.hia-recruitment-sec-2 .gsc-image img{
+    width: 70%;
+    height: auto;
+}
+
+.hia-recruitment-sec-2 .title{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0px 0px 25px;
+}
+
+.job-apply-header {
+    background: #f7f7f7;
+    line-height: 60px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    font-family: 'Effra Light';
+    display: inline-flex;
+    width: 100%;
+    position: relative;
+    float: left;
+    margin: 10px 0px 40px;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    color: #111;
+    -webkit-text-stroke: 0.025rem;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+
+.job-apply-header a{
+    float: right;
+    background: #1e245e;
+    color: #fff;
+    padding: 0px 30px;
+    line-height: 45px;
+    border-radius: 5px;
+    right: 10px;
+    position: absolute;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.job-apply-header a:hover{
+    color: #fff;
+}
+
+.job-description ul{
+    padding-left: 1.3rem;
+}
+
+.job-apply-footer {
+    text-align: center;
+    font-family: "Effra Regular";
+    color: #111;
+    font-size: 1.5rem;
+    border-top: 1px solid #dfdfdf;
+    padding: 20px 0px;
+    display: grid;
+    float: left;
+    width: 100%;
+}
+
+.job-apply-footer a{
+    background: #1e245e;
+    color: #fff;
+    padding: 0px 30px;
+    line-height: 45px;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    width: 140px;
+    margin: 17px auto;
+}
+.job-apply-footer a:hover{
+    color: #fff;
+}
+
+.job-info-list{
+    display: inline-flex;
+    font-family: 'Effra Regular';
+    background: #f7f7f7;
+    width: 100%;
+    padding: 16px;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.job-info-list li {
+    width: 34%;
+    border-right: 1px solid #d7d7d7;
+    padding: 0px 12px;
+}
+
+.job-info-list li h5{ 
+    margin-bottom: 0px;
+    -webkit-text-stroke: 0.025rem;
+    font-size: 1.2rem;
+}
+
+.job-info-list li:nth-last-child(2), .job-info-list li:nth-last-child(2)  h5{
+  text-align: center;
+}
+
+.job-info-list li:nth-last-child(1), .job-info-list li:nth-last-child(1) h5{
+    text-align: right;
+    border-right: 0px;
+  }
+
+  .job-title {
+    text-align: center;
+    padding: 60px 0px 6px;
+  }
+
+  .job-title h1{
+    text-align: center;
+    font-family: 'Effra Medium';
+    font-size: 2.5rem;
+  }
+
+  .job-title p{
+    font-size: 1.2rem;
+  }
+ 
+  .job-description {
+    font-family: 'Effra Light';
+    position: relative;
+    font-size: 1.3rem;
+    -webkit-text-stroke: 0.025rem;
+    line-height: 24px;
+    float: left;
+    width: 100%;
+}
+
+.job-description p {
+    -webkit-text-stroke: 0;
+    font-family: 'Effra Regular';
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .awards-sec-2-card .column-inner .title, .awards-left-blk h4{
+        font-size: 1.4rem; 
+    }
+
+    .job-families-custom-card .column-inner img {
+        width: 80px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .carrers-list-card p{
+        margin: 20px 0px 10px;
+    }
+
+    #views-exposed-form-careers-block-1{
+        margin: 50px 0px 20px;
+    }
+
+    #views-exposed-form-careers-block-1 .js-form-item-search{
+        top: -67px;
+    }
+
+    .job-apply-header{
+        padding: 0px 20px;
+    }
+
+    .job-title h1{
+        font-family: 'Effra Regular';
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    #views-exposed-form-careers-block-1 .js-form-item-search input{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .job-families-custom-card{
+        padding: 0px 8px !important;
+    }
+
+    .job-families-custom-card .column-inner img {
+        width: 60px;
+    }
+
+    .job-families-custom-card .column-inner{
+        font-size: 16px;
+    }
+
+
+    .job-families-custom-card .column-inner:hover{
+        transform: translateY(0px);
+    }
+
+    .job-description{
+        width: 95%;
+        padding: 0px 16px;
+    }
+
+    .job-info {
+        width: 95%;
+        margin: auto;
+    }
+
+    .job-apply-header{
+        margin: 10px 15px 6px;
+        width: 96%;
+    }
+
+    .job-families-card .list-border-card a span{
+        padding: 10px 10px !important;
+    }
+
+    .job-description p{
+        font-size: 1.2rem;
+    }
+
+    .job-apply-header a{
+        padding: 0px 30px;
+    }
+
+    .job-apply-header{
+        font-size: 14px;
+    }
+
+    .widget.gsc-heading .title-desc{
+        max-width: 90% !important;
+        margin-left: auto !important;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .job-title h1{ font-size: 1.5rem;}
+    .job-title p {font-size: 1rem;}
+    .job-info-list li h5{    font-size: 1rem;}
+    .job-apply-header { font-size: 1rem;}
+    .job-apply-header a{
+        font-size: 13px;
+        line-height: 38px;
+    }
+
+    .job-apply-header{ width: 95%; }
+    .job-apply-footer{ font-size: 1.2rem;}
+    .job-info-list li{ padding: 0px 2px;}
+    .job-info-list li h5 {font-size: 14px;}
+    .job-title h1{margin-bottom: 0;}
+
+    .job-title {
+        text-align: center;
+        padding: 30px 0px 6px;
+    } 
+    
+    #custom-search-form #edit-submit{
+        width: 100%;
+    }
+
+    .job-families-card .list-border-card img{
+        aspect-ratio: 1 / 0.7;
+    }
+
+    .job-families-card .list-border-card a span{
+        font-size: 14px;
+    }
+
+    .list-border-card a{
+        height: 100%;
+    }
+
+    .job-families-card:hover {
+        transform: translateY(0px);
+    }
+
+    .join-btn{
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    .cards-space{
+        padding: 0px 0px;
+    }
+
+    .job-families-custom-card .column-inner {
+        aspect-ratio: 1 / 0.2;
+        border-radius: 8px;
+    }
+
+    .job-families-custom-card .column-inner img{
+        margin: 0px;
+    }
+
+    .job-families-video-section .widget.gsc-heading .title-desc{
+        padding: 8px 0px !important;
+        margin-left: -1px !important; 
+    }
+
+    .job-families-video-section .widget.gsc-video-box{
+        margin-bottom: 16px;
+    }
+
+    #views-exposed-form-careers-block-1 .bef-links ul li a{
+        min-width: max-content;
+    }
+
+    #views-exposed-form-careers-block-1 .bef-links ul li{
+        width: max-content;
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #views-exposed-form-careers-block-1 .bef-links ul{
+        display: inline-flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        justify-content: flex-start;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .cards-space .col-md-4{
+        margin-bottom: 10px;
+    }
+
+    .carrers-list-card{
+        padding: 16px 16px 20px;
+    }
+
+    .job-date{
+        position: static;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .carrers-list-card h4{
+        font-size: 1rem; 
+    }
+
+    .job-date p{
+        font-size: 14px;
+    }
+
+    .job-date i{
+        font-size: 13px;
+    }
+
+    .carrers-list-card p{
+        font-size: 14px;
+        margin: 12px 0px;
+        float: left;
+        width: 100%;
+    }
+
+    .job-designation{
+        font-size: 14px;
+    }
+
+    #views-exposed-form-careers-block-1 .bef-links ul li a{
+        padding: 6px 12px;
+        margin: 4px;
+        font-size: 13px;
+    }
+
+    #views-exposed-form-careers-block-1 .bef-links ul li{
+        margin:0px 0px;
+    }
+
+    .job-listing-header h2 {
+        font-size: 1.4rem;
+        margin-bottom: -10px;
+    }
+
+    #edit-search[type=text]{
+        background-size: 26px;
+    }
+
+    #views-exposed-form-careers-block-1 .js-form-item-search input{
+        padding: 6px;
+    }
+
+    #views-exposed-form-careers-block-1 .js-form-item-search{
+        top: -48px; 
+    }
+
+    .job-apply-header{
+        margin: 10px 0px 16px;
+        font-size: 0.9rem;
+    }
+
+    .job-info-list li:nth-last-child(2), .job-info-list li:nth-last-child(2) h5,.job-info-list li:nth-last-child(1), .job-info-list li:nth-last-child(1) h5{
+        text-align: start;
+    }
+
+    .job-info-list li{
+        border-bottom: 1px solid #e8e8e8;
+        padding: 10px 0px 10px 0px;
+        border-right: 0;
+    }
+
+    .job-description p {
+        font-size: 0.9rem;
+        text-align: start;
+    }
+
+    .job-apply-footer a{
+        line-height: 40px;
+        font-size: 0.9rem;
+        line-height: 40px;
+    }
+
+
+
+}

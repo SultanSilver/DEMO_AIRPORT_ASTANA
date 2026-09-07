@@ -1,0 +1,461 @@
+.shop-deails-row {
+	margin-top:50px;
+}
+
+
+.shop-left-section {
+	padding-right: 26px !important;
+}
+
+
+
+
+.views-field-field-image img {
+	width: 100%;
+	object-fit: cover;
+	height: 180px;
+	margin-bottom: 1rem;
+	border-radius: 10px
+}
+
+
+.similar-contents {
+	margin-top:4rem;
+}
+
+.similar-contents header h4{
+	color: #111;
+    font-size: 2rem;
+    font-family: 'Effra Regular';
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+	padding-left: 15px;
+}
+
+[lang="ar"] .similar-contents header h4{
+	padding-right: 15px;
+}
+
+
+.flight-details-exp-tabs .field-content a{
+	font-family: 'Effra Regular';
+    font-size: 1.3rem;
+    color: #111;
+}
+
+
+.shop-deails-screen .carousel-item {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin-right: -100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transition: -webkit-transform .6s ease-in-out;
+	transition: transform .6s ease-in-out;
+	transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+}
+
+
+.cr-shop-img {
+	width: 100%;
+	/* height: 500px; */
+	background-size: cover;
+	border-radius: 10px;
+	/* margin-top: 10px; */
+	overflow: hidden;
+}
+
+
+.cr-shop-img img{
+	width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+.shop-loaction-btn {
+	background: #1e245e;
+	color: #fff;
+	border-radius: 8px;
+	font-size: 1rem;
+	font-family: 'Effra Regular';
+	transition: 0.5s;
+	margin-top: 21px;
+	letter-spacing: 1px;
+	width: 100%;
+	position: relative;
+	border: 0;
+	padding: 0;
+}
+
+.shop-loaction-btn:hover {
+    background: #ed155b;
+}
+
+
+.shop-loaction-btn a {
+    color: #ffff;
+	padding: 12px;
+    float: left;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+.shop-loaction-btn a:hover, .shop-loaction-btn a:focus {
+	text-decoration: none;
+	color: #fff;
+    background: #ed155b;
+}
+
+
+.shop-loaction-btn i {
+	margin-right: 8px;
+}
+
+
+.common-details-img .shop-loaction-btn{
+	width: 100%;
+    position: relative;
+}
+
+
+
+[lang="ar"] .shop-loaction-btn{
+	float: right;
+}
+
+
+[lang="ar"] .shop-loaction-btn i{
+	margin-right: 0px;
+	margin-left: 8px;
+}
+
+.shop-right-section p {
+
+	font-size: 18px;
+	color: #1C1C1C;
+	font-family: 'Effra Light';
+	margin-bottom: 10px;
+	text-align: start;
+}
+
+.shop-right-section p a {
+    color: #1e245e;
+    text-decoration: underline;
+}
+
+
+.shop-right-section p a:hover {
+    color: var(--hia-cerise-color);
+    text-decoration: underline !important;
+}
+
+
+.shop-right-section h3 a {
+    color: #1e245e;
+    text-decoration: underline;
+}
+
+
+.shop-right-section h3 a:hover {
+    color: var(--hia-cerise-color);
+    text-decoration: underline !important;
+}
+
+/* .shop-right-section ul{
+    padding-left: 1rem;
+} */
+
+.shop-category-ul {
+	padding: 0px;
+	list-style: none;
+	margin: 1rem 0;
+	padding-left: 0px !important;
+}
+
+
+.passenger-area-ul {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	font-family: 'Effra Light';
+}
+
+.passenger-area-ul li {
+    display: inline-flex;
+    border-radius:4px;
+    margin-right: 10px;
+    font-family: 'Effra Light';
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    background: rgb(237 236 232);
+    padding: 6px 12px;
+    color: black;
+    -webkit-text-stroke: 0.02rem;
+    margin-bottom: 10px;
+}
+
+[lang="ar"] .passenger-area-ul li{
+       margin-right: 0;
+}
+
+[lang="ar"] .section-header div{
+	    padding-right: 0px !important;
+}
+
+
+.shop-category-ul li {
+	display: inline-flex;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-family: 'Effra Light';
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    background: rgb(30 36 94 / 10%);
+    padding: 6px 12px;
+	-webkit-text-stroke: 0.025rem;
+    margin-bottom: 10px;
+}
+
+.shop-category-ul li a,
+.shop-category-ul li a:hover {
+	color: #1E245E;
+	text-decoration: none;
+}
+
+[lang="ar"] .shop-category-ul li{
+	margin-left: 10px;
+	margin-right:0px;
+}
+
+
+.shop-deails-screen h1 {
+	color: #111;
+    font-size: 2rem;
+    font-family: 'Effra Regular';
+    font-weight: 600;
+    margin-bottom: 9px;
+    margin-top: -7px;
+}
+
+.shop-right-section img {
+    width:80px;
+    height:80px;
+    border-radius: 8px;
+    border: 1px solid rgb(237 236 232);
+    align-self: flex-start;
+	display: none;
+}
+
+.section-header div {
+    padding-left: 0px !important;
+}
+
+.section-header div {
+    padding-left: 0px !important;
+}
+
+.row.shop-deails-row {
+    font-family: 'Effra Regular';
+}
+
+
+
+.section-header {
+	display: flex;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 24px;
+}
+
+
+.section-header ul{
+	padding-left: 0px!important;
+}
+
+
+.shop-deails-screen ul {
+    padding-left: 16px;
+}
+
+.shop-deails-screen {
+    text-align: start;
+	padding-top:  1rem;
+}
+.shop-deails-screen h5 {
+    font-weight: bold;
+}
+
+.shop-deails-screen h4 {
+	margin-bottom: 1rem;
+	color: #111;
+	font-size: 1.8rem;
+	font-family: 'Effra Regular';
+	font-weight: 700;
+}
+
+.shop-deails-screen label {
+	border: 1px solid #D4D4D4;
+	padding: 3px 8px;
+	border-radius: 3px;
+	font-family: 'Effra Light';
+	font-size: 15px;
+	color: #111;
+	margin-top: 0.6rem;
+}
+
+@media screen and (max-width: 1280px) {
+
+	.shop-loaction-btn{
+		font-size: 1.1rem!important; 
+	}
+
+}
+
+@media screen and (max-width: 991px) {
+	.shop-deails-screen h1, .similar-contents header h4{
+		font-size: 1.8rem;
+	}
+
+	.shop-right-section p {
+		font-size: 16px;
+	}
+
+	.shop-loaction-btn{
+		font-size: 12px;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+	.shop-loaction-btn a {
+		color: #fff !important;
+		background: #1E245E;
+	}
+
+
+	.cr-shop-img img{
+		aspect-ratio: 4 / 2;
+	}
+
+	.cr-shop-img{
+		z-index: 11111;
+		position: inherit;
+	}
+
+	.shop-deails-screen h1{
+		margin-top: 0rem;
+	}
+	.shop-right-section img {
+		width: 64px;
+		height: 64px;
+		object-fit: cover;
+	}
+
+	.section-header{
+		margin-bottom: 16px;
+	}
+	.shop-loaction-btn {
+        width: 100%;
+    }
+
+	.shop-left-section ,.shop-right-section {
+		padding: 0 !important;
+		margin-bottom: 16px;
+	}
+
+	.shop-deails-row {
+		margin-top: 0px;
+	}
+
+	.shop-logo{
+		border-radius: 2px;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.shop-deails-screen h1, .similar-contents header h4 {
+        font-size: 1.5rem;
+		margin-bottom: 0.3rem;
+    }
+
+	[lang="ar"] .shop-deails-screen h1, .similar-contents header h4{
+        padding-right: 1rem;
+	}
+
+	.shop-loaction-btn{
+		margin-top: 12px;
+	}
+
+	.shop-img {
+		border-radius: 12px;
+	}
+
+	.rel-content-title a {
+		font-size: 1rem!important;
+		font-family: 'Effra Regular'!important;
+	}
+
+	.shop-deails-screen h1 {
+		margin-top: -0.2rem;
+    }
+
+	
+	.similar-contents {
+		margin-top: 2rem;
+	}
+
+	.shop-category-ul{
+		margin: 0.5rem 0;
+	}
+
+	.shop-logo img{
+		border: 0px;
+	}
+
+	.rel-content-title {
+		overflow: hidden;
+		white-space: nowrap;
+		font-size: 1rem;
+		margin-top: 8px;
+	}
+
+	
+}
+
+@media screen and (max-width: 390px) {
+	.shop-category-ul li {
+		font-size: 0.5rem;
+		border-radius: 4px;
+	}
+}
+
+
+/* Lounges logo */
+.lounge .cart-bag-icon {
+    display: block;
+    bottom: 0;
+    margin-bottom: 12px;
+}
+.detail-right-logo {
+    display: none;
+}
+.node--type-lounge .detail-right-logo {
+    display: block;
+}
+.detail-right-logo img {
+    width: 100px !important;
+}

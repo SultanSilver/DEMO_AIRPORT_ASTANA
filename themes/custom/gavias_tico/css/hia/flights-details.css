@@ -1,0 +1,1633 @@
+
+
+
+[lang="ar"] .flight-dds-row-inner .row .text-right p {
+  text-align: left;
+}
+
+
+[lang="ar"] .flight-dds-row-inner .row .text-left p {
+  text-align: right;
+}
+
+.depature-card-gray .col p{
+  text-align: center;
+}
+
+
+.flight-details-screen {
+  margin-top: 2.5rem;
+}
+
+.tab-content .col-md-12:nth-last-child(3) hr {
+  margin-top: 10px;
+}
+
+.flight-details-card .brd-details .col-md-4{
+  padding: 0px;
+}
+
+.disable-dropdown {
+    margin-top: -30px;
+    cursor: not-allowed;
+    opacity: 0.4;
+}
+
+
+.disable-dropdown .select2{
+   pointer-events: none;
+   opacity: 0.6;
+   cursor: not-allowed;
+}
+
+
+.text-center h4 {
+  text-align: center;
+}
+
+.text-right h4 {
+  text-align: end;
+}
+
+.tab-content .col-md-12:nth-last-child(1) hr {
+  display: none;
+}
+
+.tab-content .col-md-12:nth-last-child(1) h4 {
+  border-bottom: none;
+}
+
+.arrival-padding{
+  padding-left: 16px;
+}
+
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+      color: #000000!important;
+}
+
+
+.list-border-card .shop-logo {
+  width: 40px;
+  border: 0;
+}
+
+.airline-info h3 a {
+    color: #1e245e;
+}
+
+
+.airline-info h3 a:hover {
+    color: #e00049;
+}
+
+
+
+.list-border-card  .rel-content-title{
+margin-bottom: 0px;
+}
+
+
+.brd-details {
+  padding: 16px;
+  margin: 0px;
+  display: flex;
+  align-items: flex-end;
+  background: #f5f5f5;
+  border-radius: 0px 0px 16px 16px;
+  margin-bottom: 1rem;
+}
+
+.exp-subtext{
+  padding: 0 !important;
+  margin-top: 1rem;
+}
+
+
+[lang="ar"] .brd-details{
+  padding: 16px;
+}
+
+.get-updates-text {
+  padding: 0px;
+}
+
+.scheduled-time {
+  text-align: right;
+  padding-right: 18px;
+  font-size: 18px;
+  float: right;
+  margin: -16px 0px;
+}
+
+.gate-label {
+  padding: 1px 13px;
+  font-size: 18px;
+  float: right;
+  margin: -20px 16px;
+  border: 0;
+  text-align: center;
+  border-radius: 5px;
+  background: #0c0c0c;
+  color: #fff;
+}
+
+[lang="ar"] .gate-label{
+   float: left;
+}
+
+[lang="ar"] .scheduled-time{
+  float: left;
+  padding-left:18px;
+  padding-right:0px;
+}
+
+
+
+
+.flight-details-tabexp-img img{
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1 / 0.6;
+  background: #d3d3d3;
+  border: 0;
+  margin-bottom: 10px;
+}
+
+
+
+
+.hia-departure-zones-selecter {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+[lang="ar"]  .hia-departure-zones-selecter{
+  padding-left: 0;
+}
+
+
+.hia-departure-zones-selecter .select2-selection--single{
+  width: 70%;
+  position: absolute;
+  right: 0;
+  top: 16px;
+  border: 1px solid #a79bb2;
+  height: 40px;
+  border-radius: 8px;
+  padding: 5px 0px;
+  color: #0d1349;
+}
+
+[lang="ar"] .hia-departure-zones-selecter .select2-selection--single {
+  right: auto;
+  left: 0;
+}
+
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b{
+  margin-top: 3px;
+}
+
+.flight-details-tabexp-img{
+  float: left;
+  width: 100%;
+}
+
+.depature-card-gray .col {
+  text-align: center;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.depature-card-gray .col p:nth-child(3) {
+     margin: 0px 0px 6px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Effra Light';
+}
+
+.list-border-card p {
+  margin-bottom: 0;
+}
+
+.depature-card-gray .col p {
+  font-size: 13px;
+  color: #767272;
+  margin-bottom: 5px;
+}
+
+
+.depature-card-gray .col ul {
+  text-align: center;
+}
+
+.depature-card-gray .col img {
+  width: 65px;
+  object-fit: contain;
+  margin: auto;
+}
+
+.depature-card-gray .col ul {
+  text-align: center;
+  margin: 0;
+}
+
+
+.flight-details-tabexp-img p {
+  color: #111!important;
+  font-size: 1.2rem;
+  font-family: 'Effra Regular';
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+}
+
+.flight-details-exp-tabs .view-content-wrap {
+    float: left;
+    width: 100%;
+    overflow: auto;
+    padding: 0px;
+    padding-left: 10px;
+}
+
+[lang="ar"] .flight-details-exp-tabs .view-content-wrap{
+  padding-right: 0px;
+}
+
+.cards-space .col-md-4{
+  padding: 0 5px;
+}
+
+
+.custom-collapse{
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.custom-collapse nav{
+  width: 100%;
+  text-align: center;
+  float: left;
+  margin-bottom: 1.5rem;
+}
+
+
+.custom-collapse .nav-tabs{
+  float: left;
+}
+
+[lang="ar"] .custom-collapse .nav-tabs{
+  float: right;
+}
+
+.flight-details-screen{
+    font-family:'Effra Regular';
+}
+
+.flight-details-card{
+  min-height: 400px;
+  border-radius: 16px;
+  padding: 0;
+  margin-top: 22px;
+  position: sticky;
+  top: 140px;
+  padding-bottom: 4px;
+}
+
+.flight-dds-row{
+    background-image: url(/themes/custom/gavias_tico/images/dubai.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px 0px 0px;
+    position: relative;
+    overflow: hidden;
+    /* aspect-ratio: 1 / 0.4; */
+    width: 100%;
+    height: auto;
+}
+
+
+
+.flight-dds-row-inner{
+  background: linear-gradient(0deg, black, #0000006b, #0000002b);
+  height: 100%;
+  width: 100%;
+  float: left;
+  padding: 30px 16px;
+  /* position: absolute; */
+}
+
+
+.flight-dds-row img{
+    width:80px;
+    margin-bottom: 12px;
+        height: 80px;
+
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #d7d7d7;
+  border-radius: 6px;
+}
+
+.select2-container--default .select2-results>.select2-results__options{
+  font-family: 'Effra Light';
+  padding: 5px;
+  font-size: 14px;
+}
+
+
+.select2-container--open .select2-dropdown--below {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d9d9d9;
+}
+
+.select2-container--default .select2-results__option--selected {
+  background-color: #1e245e;
+  color: #fff;
+}
+
+.select2-results__option--selectable{
+  border-radius: 6px;
+}
+
+
+.flight-dds-row h4{
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Effra Regular';
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.brd-details .col-md-6 {
+    margin-bottom: 1.7rem;
+}
+
+.lm-btns  .col-md-6{
+  margin-bottom: 0px;
+  padding-right: 0;
+}
+
+[lang="ar"] .brd-details .col-md-6{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+[lang="ar"] .td-card-sec .brd-details .col-md-6{
+  padding-left: 10px;
+}
+
+[lang="ar"]  .td-card-sec .pls-note-text{
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+.boarding-open-v{
+    color: #0780F0;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.flight-number {
+
+  font-size: 2rem;
+    font-family: 'Effra Regular';
+    font-weight: normal;
+    margin-bottom: 16px;
+    color: white;
+}
+
+
+.flight-dds-row p{
+  color: white;
+  margin-bottom: 0;
+  font-family: 'Effra Light';
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0;
+}
+
+
+
+
+.flight-dds-row p a{
+  color: #1E245E;
+  text-decoration: underline;
+}
+
+
+.check-in-details-status{
+  background: #46be43;
+  position: absolute;
+  font-size: 1rem;
+  color: #ffffff;
+  padding: 5px 12px;
+  border-radius: 4px;
+  top: 20px;
+  right: 20px;
+  font-family: 'Effra Light';
+  letter-spacing: 0.2px;
+}
+
+[lang="ar"] .check-in-details-status{
+  left: 20px;
+  right: auto;
+}
+
+
+.flight-dds-row-inner .col-md-12{
+  /* position: absolute;
+  top: 47%;
+  left: 47%;
+  transform: translate(-47%, -43%); */
+  text-align: start;
+}
+
+
+.boarding-open-v i{
+    font-size: 11px;
+    margin-right: 3px;
+}
+
+
+/* toggle-button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  float:right;
+  top:-9px;
+
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.get-updates-text p{
+  color: #1e245e;
+  font-size: 14px;
+  margin: 10px 0;
+  letter-spacing: 0.3px;
+}
+
+.gate-wawy-text{
+  padding: 0px;
+  margin-top: 10px;
+}
+
+.brd-details span {
+  margin-bottom: 2px;
+  float: left;
+  width: 100%;
+}
+
+
+.gate-wawy-text a{
+  width: 100%;
+  text-align: center;
+  float: left;
+  padding: 14px;
+  border-radius: 6px;
+  color: #ffff;
+  margin-bottom: 12px;
+  transition: 0.5s ease-in;
+  display: inline-flex;
+  gap: 7px;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #1e245e;
+}
+
+.gate-wawy-text a:hover {
+    background: #ed155b;
+    color: #fff;
+}
+
+.gate-wawy-text p{
+    text-align: right;
+    float: left;
+    width: 100%;
+    color: #111;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 16px;
+}
+
+
+.flight-dtls-lft-section .nav-tabs{
+  border-bottom: 0;
+  justify-content: normal;
+}
+
+.flight-dtls-lft-section .nav-tabs li a{
+  font-size: 1.3rem;
+  font-weight: 100;
+  color: #5F6C9B;
+}
+
+.gate-selection {
+  word-wrap: normal;
+  width:90%;
+  float: right;
+  line-height: 40px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cecece;
+  outline: none;
+}
+
+
+.flight-details-lftrow{
+  margin-top:12px;
+  padding: 0px 0px 0px 12px;
+}
+
+
+.depature-sec ul{
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin: 8px 0px 0px;
+  width: 100%;
+  float: left;
+  text-align: start;
+}
+
+.depature-sec h2{
+  font-size: 22px;
+  color: #1C1C1C;
+  font-weight: 600;
+  font-family: 'Effra Light';
+}
+
+
+
+.depature-sec p {
+  font-size: 18px;
+  color: #000000;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  text-align: start;
+  margin: 0 0 24px 0;
+  -webkit-text-stroke: 0;
+  font-family: 'Effra Light';
+}
+
+.depature-sec p img{
+  margin: -3px -7px -7px -11px;
+  max-width: 38px;
+  filter: invert(59%);
+  rotate: 7deg;
+}
+
+[lang="ar"] .depature-sec p img{
+  margin-right: -14px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  margin-left: 0px;
+  rotate: -5deg;
+}
+
+.depature-card-details li a:first-letter, .depature-sec li a:first-letter {
+    text-transform: capitalize;
+}
+
+
+.depature-card-details li a, .depature-sec li a{
+  text-transform: lowercase;
+}
+
+
+
+[lang="ar"] .nav-tabs .nav-link{
+  font-family:'lightFontAR'!important;
+}
+
+.depature-sec .fa-angle-down{
+  float: right;
+  position: absolute;
+  right: 0;
+  top: 43%;
+  transform: rotate(180deg);
+  transition: 0.5s;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+[lang="ar"] .depature-sec .fa-angle-down{
+  left: 0;
+  right: auto;
+
+}
+
+
+.depature-sec .collapsed{
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+
+
+
+.depature-sec{
+  margin: 0px 0 0px;
+  padding: 8px 0px 0px 14px;
+  border-left: 3px dotted #dfe2ed;
+}
+
+
+
+
+.flight-details-screen .dot-active {
+  background: #ed155b !important;
+  border: 3px solid #ff80aa !important;
+}
+
+
+.flight-details-screen .border-active {
+  border-left: 2px solid #ed155b!important;
+}
+
+[lang="ar"] .flight-details-screen .border-active{
+  border-right: 2px solid #ed155b!important;
+  border-left: none!important;
+}
+
+
+[lang="ar"] .depature-sec {
+  margin: 0px 0 0px;
+  padding: 8px 014px 0px 0px;
+  border-right: 3px dotted #dfe2ed;
+  text-align: start;
+  border-left: 0px;
+}
+
+
+
+.depature-sec .collapse {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.collapsing{
+  width: 100%;
+}
+
+.depature-card-gray{
+  background: #f5f5f5;
+  width:98%;
+  float: right;
+  border-radius:8px;
+  min-height: 100px;
+  margin: 8px 0px;
+}
+
+[lang="ar"] .depature-card-gray {
+  width:100%;
+}
+
+/* .row-border{
+  border-bottom: 1px solid #d5d5d5;
+} */
+
+.depature-card-gray .row-border:nth-child(3){
+  border-bottom: none;
+}
+
+.depature-card-body h3{
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Effra Light';
+  -webkit-text-stroke: 0.025rem;
+}
+
+.depature-card-body h4{
+  font-size: 1rem;
+  color: #6B6B6B;
+  font-family: 'Effra Light';
+  -webkit-text-stroke: 0.025rem;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 8px 10px;
+  line-height: normal !important;
+  letter-spacing: 0.5px !important;
+}
+
+.row-border .col-md-2 p{text-align: center;}
+
+.depature-card-details {
+  width: 100%;
+  float: left;
+  padding:0px 15px 0px;
+}
+
+.depature-card-details li, .depature-sec li{
+  display: inline-flex;
+  border: 1px solid #eee;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: normal;
+  color: #1E245E;
+  font-size: 17px;
+  margin-bottom: 10px;
+  width: 31%;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+[lang="ar"] .depature-sec .collapse{
+  padding-left: 0;
+}
+
+[lang="ar"] .depature-card-details li{
+  float: right;
+}
+
+.depature-card-details li a , .depature-sec li a{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-family: 'Effra Light';
+  padding: 6px;
+  font-size: 1rem;
+  text-align: left;
+  color: #0d1349;
+  letter-spacing: 0.6px;
+  -webkit-text-stroke: 0.025rem;
+  padding-right: 28px;
+}
+
+[lang="ar"] .depature-card-details li a{
+  text-align: right;
+}
+
+[lang="ar"] .depature-card-details li{
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+  height: 26px;
+  position: absolute;
+  top: 1px;
+  right: 6px;
+  width: 20px;
+}
+
+
+.gate-10-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  float: left;
+  margin-right: 10px;
+}
+
+[lang="ar"] .gate-10-card img{
+  float: right;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.travel-gudie-links a i{
+  position: absolute;
+  right: 8px;
+  top: 12px;
+}
+
+[lang="ar"] .travel-gudie-links a i {
+  right: auto;
+  left: 8px;
+}
+
+
+
+.gate-10-card a{
+  color: #6b6b6b;
+}
+
+.custom-collapse .nav-tabs .nav-item.show .nav-link, .custom-collapse .nav-tabs .nav-link.active {
+  color: #ffffff;
+  background-color: #ed155b;
+  border-color: #ffffff #dee2e6 #fff;
+  border-radius: 6px;
+  padding: 0 8px;
+}
+
+
+.depature-card-details li i, .depature-sec li i {
+  float: right;
+  position: absolute;
+  right: 3px;
+  top: 10px;
+  font-size: 15px;
+  z-index: -1;
+}
+
+[lang="ar"] .depature-card-details li i, [lang="ar"] .depature-sec li i{
+  left: 3px;
+  right: auto;
+  top: 12px;
+}
+
+.section-pointer{
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  float: left;
+  border-radius: 50px;
+  border: 2px solid grey;
+  left: -23px;
+  position: absolute;
+  top: 0px;
+}
+
+[lang="ar"] .section-pointer{
+  left: auto;
+  right: -23px;
+}
+
+.exp-qatar img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.exp-qatar p{
+  font-weight: 600;
+  color: #111;
+  font-size: 1.1rem;
+  margin: 10px auto;
+}
+
+
+.gate-10-sec{
+  margin: 60px 0px;
+}
+
+
+.gate-10-card{
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.gate-10-card h3{
+  font-size: 1.3rem;
+  padding-left: 5px;
+  color: #000;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -webkit-text-stroke: 0;
+  font-family: 'Effra Regular';
+  margin-bottom: 0px;
+}
+
+.gate-10-card p{
+  text-align: start;
+  margin-bottom: 0px;
+  color: #666;
+  padding-left: 5px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height:auto;
+  line-height:20px;
+  -webkit-text-stroke: 0;
+}
+
+.gate-10-card p a {
+  color: #666;
+}
+
+.travel-gudie-links a{
+  font-family: 'Effra Light'!important;
+    font-size: 1rem!important;
+    display: inline-flex;
+    border: 1px solid #A0A9C6;
+    float: left;
+    margin-right: 10px!important;
+    border-radius: 5px;
+    font-weight: normal;
+    margin-bottom: 10px!important;
+    width: 100%;
+    position: relative;
+    transition: 0.5s;
+    padding: 8px;
+    color: #0d1349!important;
+    letter-spacing: 0.6px;
+}
+
+
+
+.gate-10-card  i{
+  position: absolute;
+    left: 15px;
+    font-size: 1.3rem;
+    top: 19px;
+    color: #111;
+}
+
+.flight-details-screen h2{
+  font-weight: bold;
+  font-size: 24px;
+  margin: 7px 0px 17px;
+}
+
+
+.depature-sec h3 {
+  margin: 32px 0px 0;
+  color: #000000;
+  font-family: 'Effra Regular';
+  font-size: 1.3rem;
+}
+
+.flight-details-lftrow .depature-sec:first-of-type h3 {
+  margin-top: 0;
+}
+
+.depature-sec:nth-child(2) h3 {
+  margin-top: 0;
+}
+
+
+[lang="ar"] .depature-sec h3{
+  font-family:'regularFontAR';
+  text-align: right;
+}
+
+
+.flight-details-screen hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.Lounges-sec {
+  margin: 0 -14px;
+}
+
+.Lounges-sec img{
+  width: 100%;
+  border-radius: 16px;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #f1f1f1;
+}
+
+.travel-gudie-links a {
+    font-weight: bold;
+} 
+
+.gate-10-sec .row {
+  margin: 0px !important;
+}
+
+
+.Lounges-sec p, .Lounges-sec a{
+  font-size: 18px;
+    margin: 14px auto;
+    color: #1C1C1C;
+    font-family: 'Effra Light';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 95%;
+    -webkit-text-stroke: unset;
+    text-align: start;
+ }
+
+ [lang="ar"] .Lounges-sec p,  [lang="ar"] .Lounges-sec a{
+  font-family:'mediumFontAR'!important;
+ }
+
+ .Lounges-sec {
+  padding:30px 0px;
+  margin: 0px -16px;
+}
+
+[lang="ar"] .Lounges-sec {
+  margin: 0px 0px;
+}
+
+
+
+.primary-nav .custom-megamenu-list{
+  top: 89px!important;
+}
+
+.overlay-body{
+  top: 88px !important;
+}
+
+.block-common-field{
+  float: left;
+  width: 100%;
+}
+
+[lang="ar"] .travel-gudie-links a{
+  font-family:'lightFontAR'!important;
+}
+
+
+.airline-info, .airport-info {
+  background: #f5f5f5;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 22px auto 10px;
+}
+
+.last-updated {
+  padding: 0px 7px;
+  text-align: right;
+}
+
+.airline-info p , .airport-info p {
+  margin: 0;
+  padding: 6px 0;
+  font-weight: normal;
+  font-family: "Effra Light";
+  font-size: 1rem;
+  text-align: start;
+}
+
+
+.airline-info p {
+  text-transform: uppercase;
+  font-family: "Effra Regular";
+  color:#6B6B6B;
+  font-size: 0.8rem;
+  letter-spacing:1px;
+}
+
+
+
+.airline-info h3 {
+  padding-top: 0;
+  font-size: 1.2rem;
+  margin: 0;
+  font-family: "Effra Regular";
+}
+
+
+.airline-info p a {
+  color: #5F6C9B;
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
+  text-transform: lowercase;
+}
+
+.refresh-btn {
+  margin-left: 1rem;
+}
+
+
+.refresh-btn::before {
+  top: 0px;
+  position: relative;
+  margin-left: 0.6em;
+  font-family: "Font Awesome 6 free";
+  font-weight: bold;
+  content: "\f2f9";
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.flight-details-screen .border-active:nth-last-child(2) {
+  border-left: none !important;
+  padding-top: 0;
+  padding-left: 16px;
+}
+
+
+
+@media screen and (min-width: 1671px) {
+
+  .flight-details-screen .row .col-md-7 {
+    flex: 0 0 65%;
+    max-width: 65%;
+}
+
+.flight-details-screen .row .col-md-5 {
+  flex: 0 0 35%;
+  max-width: 35%;
+}
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .depature-card-gray .col p:nth-child(3){
+      font-size: 13px;
+  }
+
+  .depature-sec p {
+    font-size: 16px;
+  }
+
+
+  .depature-sec p{
+        margin: 0 0 10px 0;
+  }
+
+  .depature-sec h3{
+    font-size: 20px;
+  }
+
+
+  .scheduled-time{
+    font-size: 14px;
+  }
+
+  .gate-label {
+    padding: 2px 10px;
+    font-size: 13px;
+  }
+
+  .block-card-awards-listing{
+      aspect-ratio: 1 / 1.2;
+  }
+
+  .block-card-icon-title img {
+    width: 90px;
+    object-fit: contain;
+    height: 50px;
+}
+
+.Lounges-sec {
+  padding:25px 0px;
+  float: left;
+  width: 100%;
+
+}
+
+.content-container {
+  padding: 20px 20px 45px 0px;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+
+  .depature-sec h3{
+    font-size: 18px;
+  }
+
+  .depature-card-gray{
+      width: 100%;
+  }
+
+  .depature-card-gray .col img {
+    width: 60px;
+  }
+
+  .block-card-icon-title{
+    margin-right: 9px;
+  }
+
+  .block-card-people-listing img {
+    width: 150px;
+  }
+
+  .gate-10-card img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .custom-collapse .nav-tabs{
+    padding-left: 16px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .disable-dropdown{
+    margin-top: 0px;
+  }
+
+  .depature-card-gray .col{
+    min-width: 38%;
+    padding: 0px 0px 10px;
+  }
+
+  .flight-details-screen .xovis-departure {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+    flex-direction: row;
+  }
+
+    [lang="ar"] .flight-details-screen .xovis-departure{
+        flex-direction: row-reverse;
+    }
+
+
+  .gate-wawy-text a{
+    background: #1e245e;
+        color: #fff !important;
+  }
+
+  .arrival-padding {
+    padding-left: 0px;
+  }
+
+  .Lounges-sec {
+    padding: 16px 10px;
+  }
+
+  .depature-card-gray .col p {
+    text-align: center;
+}
+
+  .custom-collapse{
+    padding-left: 0px;
+    padding-bottom: 0;
+  }
+
+  .depature-sec .col-md-5 {
+    padding-left: 0px;
+  }
+
+  .depature-sec .col-md-12 {
+    padding-left: 0px;
+  }
+
+  [lang="ar"] .depature-sec .col-md-12{
+        padding-right: 0;
+  }
+
+  [lang="ar"] .gate-label{
+    margin-left: 30px;
+  }
+
+  [lang="ar"] .depature-card-details li a{
+        padding-right: 0;
+  }
+
+  .depature-sec .collapse{
+    padding-left: 0px;
+  }
+
+  .flight-details-lftrow .sec-4{
+    padding: 0px;
+  }
+
+  [lang="ar"] .flight-details-lftrow .sec-4 {
+    padding: 0px 15px;
+  }
+
+
+    [lang="ar"]  .flight-details-screen .border-active:nth-last-child(2){
+        padding-left: 0;
+  }
+
+  [lang="ar"]  .gate-10-card{
+        padding-right: 0;
+  }
+
+ 
+
+  .flight-dds-row-inner .col-md-12{
+    padding: 0px;
+  }
+
+  .flight-dds-row h4 {
+    font-size: 1.2rem;
+  }
+
+  .brd-details h4 {
+    font-size: 1.2rem;
+  }
+
+  .gate-10-sec {
+     margin: 16px 10px;
+  }
+
+  .depature-card-details li, .depature-sec li{
+    width: 48%;
+  }
+
+  .Lounges-sec .row{
+    display: flex;
+    float: left;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 16px;
+    justify-content: flex-start;
+  }
+
+ 
+  .flight-dds-row {
+    aspect-ratio: auto;
+    height:100%;
+  }
+
+  .flight-details-card{
+    position: relative;
+    margin-top:0px;
+    top: 0;
+  }
+
+  .depature-sec .fa-angle-down{
+    font-size: 1rem;
+  }
+
+  .flight-details-lftrow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+  .flight-details-screen h2 {
+    font-size: 1.6rem;
+    margin: 7px 0px 17px;
+  }
+
+  .check-in-details-status{
+    right: 18px;
+  }
+
+  [lang="ar"] .check-in-details-status{
+        left: 18px;
+  }
+
+  .flight-details-screen {
+    margin-top: 1rem;
+    padding: 0;
+  }
+
+  .gate-10-card {
+    aspect-ratio: auto;
+    padding: 10px;
+    display: inline-flex;
+  }
+
+  .gate-10-card p{
+    display: none;
+  }
+
+  .gate-10-card h3 {
+    margin: 10px 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+
+  .hia-departure-zones-selecter .select2-selection--single{
+    width: 100%;
+  }
+
+  .hia-departure-zones-selecter{
+    min-height: 56px;
+  }
+
+
+  .Lounges-sec .row .col-md-3 {
+    min-width: 250px;
+    max-width: 250px;
+  }
+
+  .travel-gudie-links {
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+
+
+  .flight-details-lftrow .custom-collapse .nav-link{
+    font-size: 13px;
+  }
+
+  .depature-card-details li a, .depature-sec li a{
+    font-size: 16px;
+  }
+
+  .depature-sec p {
+    font-size: 16px;
+    margin: 10px 0px;
+  }
+
+
+  .depature-sec h3{
+    font-size: 18px;
+  }
+
+  .flight-details-lftrow {
+    margin-top: 10px;
+  }
+
+  .airline-info p{
+    font-size: 12px;
+  }
+
+  .airline-info p a{
+    font-size: 18px;
+  }
+
+  .airline-info h3{
+    font-size: 18px;
+  }
+
+  .last-updated{
+    font-size: 13px;
+  }
+
+  .get-updates-text p{
+    margin: 4px 0;
+    font-size: 13px;
+  }
+
+  .gate-wawy-text a{
+    font-size: 14px;
+
+  }
+
+  .brd-details h4 {
+    font-size: 1rem;
+}
+
+  .flight-details-screen h2{
+    font-size: 1.3rem;
+    padding-left: 12px;
+  }
+
+  [lang="ar"]  .flight-details-screen h2{
+    padding-left: 0px;
+     padding-right: 12px;
+  }
+
+  .depature-card-gray .col img{
+    width: 50px;
+  }
+
+  .gate-10-card h3{
+    font-size: 16px;
+    margin: 8px 0px;
+    font-weight: normal;
+    font-family: 'Effra Regular';
+  }
+
+  .Lounges-sec p, .Lounges-sec a{
+    font-family: 'Effra Regular';
+    font-size: 16px;
+  }
+
+  .travel-gudie-links a i{
+    top: 18px;
+    right: 0;
+    background: #fff;
+    padding: 0px 0px 0px 12px;
+  }
+
+  .travel-gudie-links a{
+    font-size: 16px!important;
+    color: #1E245E!important;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .gate-10-card {
+    border: 0px;
+    border-bottom: 1px solid #eee;
+    border-radius: 0px;
+    padding: 5px 16px;
+    margin: 0px;
+}
+
+  .flight-details-screen .Lounges-sec:nth-last-child(1) .row {
+    display: inline;
+  }
+
+  .travel-gudie-links a {
+    border: 0px;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    padding: 15px 5px;
+    margin: 0px;
+    line-height: normal;
+    margin-bottom: 0px !important;
+    float: left;
+    width: 100%;
+}
+  
+
+  .Lounges-sec {
+    padding-right: 0px;
+    padding-left: 20px;
+  }
+
+  
+
+  .flight-dds-row-inner .row .col-md-4 {
+    padding: 0px;
+}
+
+  .depature-card-details li, .depature-sec li{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #e6e6e6;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 6px 0;
+  }
+
+  .depature-card-details li i, .depature-sec li i{
+    top: 15px;
+  }
+
+  .gate-selection{
+    width: 100%;
+  }
+
+  .cards-space .col-md-4 {
+    padding: 0 5px;
+    width: 50%;
+  }
+
+}
+

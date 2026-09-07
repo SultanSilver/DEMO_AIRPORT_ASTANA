@@ -1,0 +1,1960 @@
+/* .primary-nav ul li a {
+    color: #111 !important;
+}
+
+
+#toto {
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgb(255 255 255) !important;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+}  */
+
+
+.list-search-bar input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #D4D4D4;
+    border-radius: 14px;
+    margin-bottom: 1rem;
+    float: left;
+    margin-right: 1rem;
+    font-family: 'Effra Light' , sans-serif;
+    font-size: 1rem;
+    -webkit-text-stroke: 0.025rem;
+    color: black;
+    height: 55px;
+    margin-left: 5px;
+}
+
+
+.list-search-bar input[type=text] {
+    background: url(/themes/custom/gavias_tico/images/hia/animated/pink-search.gif) no-repeat top right;
+    background-position: 10px 10px;
+    background-position: right;
+    background-position-x: 99%;
+    background-size: 36px;
+}
+
+
+.about-us-env-left p {
+    margin-top: 0;
+}
+
+
+.list-search-bar .js-form-item{
+	float: left;
+    width: 100%;
+	padding: 0px 4px 0px 0px;
+	position: relative;
+}
+
+  /* exp-shops-banner*/
+	.slotholder{
+		height: 40vh!important;
+	}
+
+	.slotholder .defaultimg{
+		height: 40vh!important;
+	}
+
+	.tp-revslider-slidesli{
+		height: 40vh!important;
+	}
+
+	.tp-revslider-mainul{
+		height: 40vh!important;
+	}
+
+	.gavias_sliderlayer{
+		height: 40vh!important;
+	}
+/* exp-shops-banner-end */
+
+
+.content-right-section h5 {
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+}
+
+[lang="ar"] .content-right-section h5{
+	float:right;
+}
+
+.shops-listing-page .form-item-combine input[type=text] {
+	background: url(/themes/custom/gavias_tico/images/hia/animated/pink-search.gif) no-repeat top right;
+	background-position: 10px 10px;
+	background-position: right;
+	background-position-x: 99%;
+	background-size: 36px;
+}
+
+[lang="ar"] .shops-listing-page .form-item-combine input[type=text] {
+	background-position-x: 2%;
+}
+
+.listing-pages-header-links {
+	text-align: center;
+}
+
+.listing-pages-header {
+	min-height: 450px;
+	background-image: url(/themes/custom/gavias_tico/images/hia/shop-screen/shop-bg.png);
+	background-size: cover;
+	background-position: center;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-header div {
+    /* padding-left: 10px !important; */
+}
+
+
+.shops-header h2 {
+	font-family: 'Effra Regular', sans-serif;
+	font-size: 2.7rem;
+}
+
+
+.shop-list-card {
+
+	aspect-ratio: 1;
+	background-color: #ececec;
+	width: 100%;
+	border-radius: 16px;
+	position: relative;
+	background-image: url(../images/shop-2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	transition: transform 0.5s ease;
+
+}
+
+
+.shop-list-card-text-inner {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0px;
+	width: 100%;
+	padding: 16px;
+	backdrop-filter: blur(1px);
+	text-align: start;
+}
+
+
+.shop-list-card:hover {
+	transform: translateY(-16px);
+	transition: transform 0.5s ease;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.shop-list-tab {
+	margin: 30px auto;
+}
+
+.shop-list-container {
+	margin: 50px auto 36px;
+}
+
+.shop-list-card-text {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 1rem;
+	min-height: 100%;
+	background: linear-gradient(transparent, transparent, #000000);
+}
+
+
+.shop-list-card-text h4 {
+    font-family: 'Effra Light' , sans-serif;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0;
+    overflow: hidden;
+    text-align: start;
+    width: 100%;
+    padding-left: 0;
+    line-height: normal !important;
+    margin-top: 0;
+    letter-spacing: 0.5px !important;
+}
+
+[lang="ar"] .shop-list-card-text h4 {
+	font-family: 'regularFontAR', sans-serif;
+	padding-right: 10px;
+}
+
+.shop-list-card-text p {
+	color: #ffffff;
+	font-size: 1rem;
+	margin-bottom: 4px;
+}
+
+.shop-list-titile-row {
+	float: left;
+	width: 100%;
+	display: inline-flex;
+}
+
+
+.cart-bag-icon {
+	position: relative;
+	width: 45px;
+	height: 45px;
+	background: #fff;
+	bottom: 16px;
+	border-radius: 9%;
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+	border: 1px solid #e4e4e4;
+	float: left;
+	display: none;
+}
+
+
+.cart-bag-icon img {
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+
+[lang="ar"] .box-title {
+    font-family: 'regularFontAR', sans-serif !important;
+}
+
+[lang="ar"] .universal-block-text .link{
+padding-right: 0;
+}
+
+.shop-list-card-text button {
+	border: 1px solid #b4b4b4;
+	font-size: 0.6rem;
+	padding: 4px 8px;
+	transition: 0.5s;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	background: transparent;
+	color: #fff;
+	font-family: 'Effra Light', sans-serif;
+	min-width: 100px;
+	margin-right: 4px;
+	text-transform: uppercase;
+}
+
+[lang="ar"] .shop-list-card-text button {
+	font-family: 'lightFontAR', sans-serif;
+}
+
+
+.contact-us-list .views-field a {
+    color: #273170;
+}
+
+.contact-us-list .views-field a:hover {
+    color: #e00049;
+}
+
+ul.shops-list-tabs {
+	display: block;
+	text-align: center;
+	border-bottom: 0px;
+	margin-top: 1rem;
+}
+
+ul.shops-list-tabs li {
+	display: inline-block;
+}
+
+ul.shops-list-tabs li a {
+	font-size: 1.3rem;
+	color: #A0A9C6;
+}
+
+#block-gavias-tico-shopsotherlistingpageheaderlinks .nav-tabs .nav-item.show .nav-link,
+#block-gavias-tico-shopsotherlistingpageheaderlinks .nav-tabs .nav-link.active {
+	color: #ED155B !important;
+	background-color: transparent !important;
+	border: 0;
+	border-bottom: 1px solid;
+	border-color: #dee2e6 #dee2e6 #fff;
+	border-bottom: 2px solid #ED155B !important;
+	border-radius: 0;
+}
+
+
+ul.shops-list-tabs li a:hover {
+	border: 0px !important;
+}
+
+
+.shop-list-filters select {
+	width: 100%;
+	height: 53px;
+	padding: 9px 7px;
+	border: 1px solid #D4D4D4;
+	border-radius: 14px;
+	outline: none;
+}
+
+
+.shop-list-filters .big-search-box {
+	width: 100%;
+	height: 53px;
+	padding: 5px 7px;
+	border: 1px solid #D4D4D4;
+	border-radius: 14px;
+	outline: none;
+	margin-top: 31px;
+}
+
+
+.shop-list-filters .big-search-box input {
+	height: 100%;
+	width: 96%;
+	border: 0px;
+	outline: none;
+}
+
+.shop-list-filters .big-search-box i {
+	color: #ed155b;
+	font-size: 1.4rem;
+	margin: 7px 0px;
+}
+
+.clear-filter {
+	color: #A0A9C6;
+}
+
+
+.shops-listing-page {
+	margin-top: 0rem;
+}
+
+.pagination a {
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+.shops-listing-page .form-item-combine input {
+    width:100%;
+    padding: 0.8rem;
+    border: 1px solid #D4D4D4;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 0rem;
+    float: left;
+    font-family: 'Effra Light' , sans-serif;
+    font-size: 1rem;
+    -webkit-text-stroke: 0.025rem;
+    color: black;
+	margin-top: 0;
+}
+
+.bef-exposed-form .form-item-combine {
+	display: block;
+    flex: 0 0 66%;
+	position: relative;
+}
+
+.shops-listing-page .js-form-type-select{
+	 flex: 0 0 30%;
+	 display: block;
+}
+
+
+/* If only section-1 exists, let it take full width */
+.bef-exposed-form:not(:has(.js-form-type-select)) .form-item-combine {
+ flex: 0 0 97%;
+}
+/* Optional: Responsive tweaks */
+@media (max-width: 768px) {
+ .bef-exposed-form .form-item-combine, .shops-listing-page .js-form-type-select {
+   flex: 0 0 97%;
+ }
+}
+
+
+
+.bef-exposed-form .clear-btn {
+	position: absolute;
+    right:6px;
+    bottom: 0;
+    border: 0pc;
+    background: #ffffff;
+    font-size: 2rem;
+    color: #ed155b;
+    display: block;
+    border-radius:50px;
+    width: 50px;
+    top: 5px;
+    height: 50px;
+}
+
+.bef-exposed-form{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+	gap: 10px;
+}
+
+[lang="ar"] .bef-exposed-form{
+justify-content: flex-end;
+}
+
+
+[lang="ar"] .shops-listing-page .form-item-combine input {
+	font-family: 'lightFontAR', sans-serif;
+}
+
+
+.shops-listing-page .js-form-type-select select {
+	padding: 0.8rem;
+	border: 1px solid #D4D4D4;
+	border-radius: 10px;
+	outline: none;
+	font-family: 'Effra Light', sans-serif;
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 100%;
+}
+
+
+[lang="ar"] .shops-listing-page .js-form-type-select select {
+	font-family: 'lightFontAR', sans-serif;
+}
+
+
+
+
+.shops-listing-page .js-form-type-select label {
+	width: 30%;
+	float: left;
+	margin-top: -30px;
+	display: none;
+}
+
+
+.shops-listing-page .view-content-wrap {
+	margin-top: 2rem;
+	width: 100%;
+	float: left;
+}
+
+
+.shops-listing-page #edit-captcha--2 {
+	display: none !important;
+}
+
+
+.shops-listing-page .js-form-item-combine label {
+	display: none;
+}
+
+.shops-listing-page #edit-actions--2 {
+	display: none;
+}
+
+
+/* all-listing-scresns */
+
+
+.listing-main-product {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin: 14px auto;
+	transition: 0.5s;
+}
+
+
+.listing-main-product:hover {
+	transform: translateY(-16px);
+	transition: transform 0.5s ease;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.gsc-image img {
+	height: 420px;
+	width: 100%;
+	object-fit: cover;
+	margin-top: -10px;
+}
+
+.gsc-heading {
+	text-align: center;
+	padding: 4rem 0 1rem;
+}
+
+.listing-product-img,
+.listing-product-img img {
+	width: 100%;
+	height: 150px;
+	object-fit: cover;
+}
+
+
+.listing-product-info {
+	padding: 1rem;
+}
+
+
+[lang="ar"] .listing-product-info {
+	direction: rtl;
+}
+
+.car-rentals .row {
+	align-items: flex-end;
+}
+
+
+.listing-card-titile {
+    font-family: 'Effra Regular', sans-serif;
+    color: #111;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    min-height: 70px;
+}
+
+[lang="ar"] .listing-card-titile {
+	font-family: 'regularFontAR' , sans-serif;
+	text-align: right;
+}
+
+.listing-card-disc {
+	color: #6b6b6b;
+	font-family: 'Effra Light' , sans-serif;
+	margin-top: 8px;
+	-webkit-text-stroke: 0.025rem;
+	font-size: 1rem;
+	max-height: 50px;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+[lang="ar"] .listing-card-disc {
+	font-family: 'lightFontAR';
+	text-align: right;
+}
+
+.listing-card-disc p {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.listing-card-date {
+	font-family: 'Effra Light' , sans-serif;
+	-webkit-text-stroke: 0.025rem;
+	font-size: 14px;
+	width: 142px;
+	text-align: left;
+	color: var(--hia-cerise-color);
+	border-radius: 77px;
+	margin-top: 8px;
+}
+
+[lang="ar"] .listing-card-date {
+	text-align: right;
+	width: 100%;
+}
+
+.listing-count-number {
+	color: #111;
+	font-family: 'Effra Light' , sans-serif;
+	-webkit-text-stroke: 0.025rem;
+	text-align: start;
+}
+
+
+.listing-main-product a:hover {
+	text-decoration: none;
+}
+
+
+.gsc-heading .title {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 0px;
+font-family: 'Effra Regular' , sans-serif;
+	color: #111;
+}
+
+
+.custom-page-titile .title {
+font-family: 'Effra Regular' , sans-serif;
+	font-size: 2rem;
+}
+
+
+.page-title {
+font-family: 'Effra Regular' , sans-serif;
+	font-size: 2rem;
+	margin-left: -15px;
+}
+
+
+.gsc-heading .title-desc {
+	padding: 16px 0 !important;
+	margin: auto !important;
+	font-style: normal !important;
+	color: #666 !important;
+	font-size: 1.2rem !important;
+	font-family: 'Effra Light' , sans-serif;
+	-webkit-text-stroke: 0.025rem;
+}
+
+
+.contact-us-list .views-field-field-image {
+	text-align: center;
+}
+
+
+.contact-us-list .views-field-field-image img {
+	width: 38px;
+    height: 60px;
+    margin: auto;
+}
+
+.contact-us-list .list-border-card {
+	border: 1px solid #D8E0FF;
+	padding: 16px;
+font-family: 'Effra Regular' , sans-serif;
+	/* aspect-ratio: 1 / 1.2; */
+	border-radius: 16px;
+	margin-bottom:5px;
+	text-align: start;
+	overflow: hidden;
+	height: 100%;
+
+}
+
+.contact-us-list .list-border-card:hover {}
+
+
+.contact-us-list .views-field {
+	font-size: 1.1rem;
+	margin-bottom: 5px;
+	color: #6b6b6b;
+	font-family: 'Effra Light' , sans-serif;
+	-webkit-text-stroke: 0.025rem;
+	text-align: start;
+}
+
+
+.contact-us-list .views-field-title {
+	font-size: 1.3rem;
+	text-align: start;
+font-family: 'Effra Regular' , sans-serif;
+	color: #000000;
+	line-height: normal;
+	margin: 1.3rem 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	/* -webkit-line-clamp: 2; */
+	-webkit-box-orient: vertical;
+}
+
+.contact-us-list .views-field-title::first-letter {
+	text-transform: uppercase;
+}
+
+
+.common-details-img img {
+	width: 100%;
+	aspect-ratio: 4/3;
+	object-fit: cover;
+	border-radius: 16px;
+}
+
+[lang="ar"] .common-details-img img {
+	width: 100%;
+	float: right;
+}
+
+
+.logged-in #block-gavias-tico-local-tasks {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	top: 210px;
+}
+
+
+.press-release .cards-space .col-md-4 {
+    padding: inherit;
+}
+
+
+
+
+.content-right-section img {
+	width: 100%;
+    object-fit: contain;
+    border-radius: 8px;
+    
+}
+
+[lang="ar"]  .content-right-section img {
+	float: right;
+}
+
+#block-gavias-tico-joinus .block-content {
+    padding: 0;
+}
+
+.content-right-section h1 {
+	font-size: 2rem;
+	font-weight: bold;
+font-family: 'Effra Regular' , sans-serif;
+	color: #111;
+	margin-bottom: 0px;
+	text-align: start;
+	margin-bottom: 1rem;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-content: center;
+	align-items: center;
+	column-gap: 16px;
+}
+
+
+.content-right-section p br {
+    display: none;
+}
+
+
+[lang="ar"] .content-right-section h1 {
+	float: right;
+}
+
+.content-right-section h2 {
+	font-family: 'Effra Regular', sans-serif;
+	color: #1d1d1f;
+	float: left;
+	width: 100%;
+	margin: 1rem 0px 0rem;
+	font-size: 1.5rem;
+}
+
+.content-right-section h2 br {
+	display: none;
+}
+
+.content-right-section h4,
+.content-right-section h3 {
+	font-size: 1.2rem;
+font-family: 'Effra Regular' , sans-serif;
+	color: #000;
+	margin: 20px 0px 7px;
+	text-align: start;
+	-webkit-text-stroke: 0.025rem;
+	float: left;
+	width: 100%;
+}
+
+[lang="ar"] .content-right-section h4,
+[lang="ar"] .content-right-section h3 {
+	float: right;
+}
+
+[lang="ar"] .content-right-section ul li a {}
+
+.content-right-section p,
+.content-right-section li {
+	font-size: 1.1rem;
+	color: #1C1C1C;
+	font-family: 'Effra Light' , sans-serif;
+	-webkit-text-stroke: 0rem;
+	margin-bottom: 6px;
+	text-align: start;
+	float: left;
+	width: 100%;
+	line-height:25px;
+}
+
+
+.content-right-section p br {
+    display: none;
+}
+
+
+[lang="ar"] .content-right-section p,
+[lang="ar"] .content-right-section li {
+	float: right;
+	margin-bottom: 10px;
+}
+
+.content-right-section ul li a {
+	font-family: 'Effra Light',sans-serif !important;
+	font-size: 1rem !important;
+	border-radius: 5px;
+	position: relative;
+	transition: 0.5s;
+	padding: 8px;
+	color: #27306f !important;
+	margin: 0px;
+	text-decoration: underline;
+}
+
+.content-right-section p a {
+	color: #27306f !important;
+	padding: 0px 3px;
+	text-decoration: underline;
+}
+
+[lang="ar"] .content-right-section p,
+[lang="ar"] .content-right-section li {
+	font-family: 'lightFontAR', sans-serif;
+	font-weight: 100;
+}
+
+.content-right-section ul,
+.content-right-section ol {
+	padding: 0px 0px 0px 18px;
+	margin: 0px 0px 8px;
+	float: left;
+	width: 100%;
+}
+
+[lang="ar"] .content-right-section ul,
+.content-right-section ol {
+	float: right;
+}
+
+.listing-pages-header-links .sec-4 .nav-tabs {
+	margin-bottom: 0px;
+}
+
+
+.shops-listing-page .js-form-type-select::after {
+	font-size: 22px;
+	position: absolute;
+	right: 5%;
+	margin-top:8px;
+	font-family: "Font Awesome 6 free";
+	font-weight: bold;
+	content: "\f107";
+	color: #ed155b;
+}
+
+[lang="ar"] .shops-listing-page .js-form-type-select::after {
+	right: auto;
+    left: 3%;
+    width: 20px;
+}
+
+
+.no-results-lisitng {
+	text-align: center;
+    width: 100%;
+    float: left;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    min-height: 200px;
+}
+
+
+.shops-listing-page .bef-exposed-form .clear-btn {
+    right: 7px;
+    top: 2px;
+    width: 45px;
+    height: 45px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+[lang="ar"] .shops-listing-page .bef-exposed-form .clear-btn {
+    right: auto;
+    left: 7px;
+}
+
+
+.no-results-lisitng img {
+	display: none;
+}
+
+
+.no-results-lisitng p {
+	margin-top: -70px;
+	margin-bottom: 70px;
+font-family: 'Effra Regular' , sans-serif;
+	letter-spacing: 0.3px;
+	font-size: 1.4rem;
+}
+
+
+.about-us-env-left img {
+    aspect-ratio: 1 / 0.5;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+.about-us-env-left p span {
+    color: #111 !important;
+}
+
+
+/* airport-advertisement-styles-start */
+
+ 
+
+.clients-row .bb-inner.default {
+    padding-bottom: 0px!important;
+}
+
+ .ims-logo-container .title {
+    font-size: 28px !important;
+}
+
+.ims-logo-container .row-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+ 
+ 
+ .media-kit {
+    text-align: center;
+}
+ 
+ .media-kit .bb-inner{
+ background:#454751;
+    color: #fff;
+ 
+ }
+ 
+ 
+ .advertisement-box .field-content {
+    font-weight: bold;
+}
+ 
+ .media-kit .gsc-button:hover {
+       background: #E91E63;
+    color: #ffff !important;
+}
+ 
+  .media-kit .column-content {
+ 	font-family: 'Effra Regular';
+    font-size: 1.6rem;
+ }
+ 
+ .media-kit .gsc-button{
+ 	   background: #fff;
+    border: 0px;
+    padding: 14px 18px;
+    margin: 24px auto 0;
+    font-family: 'Effra Light';
+    font-size: 12px;
+    border-radius: 4px;
+ }
+ 
+ .advertisement-box .gva-portfolio-items .row {
+    display: block;
+}
+
+ .advertisement-box .post-masonry-style > div, .isotope-items > div{
+	margin-bottom: 1rem;
+}
+
+
+.ims-dowload-button {
+    background: #1e245e;
+    color: #fff;
+    border-color: #1e245e;
+    margin: auto;
+    width: 200px;
+    display: block;
+    text-align: center;
+    padding: 14px 12px !important;
+    border-radius: 4px;
+    
+}
+
+
+ .advertisement-box .portfolio-filter ul.nav-tabs > li > a {
+    border: 0;
+    color: #555;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    list-style: inherit;
+    font-family: 'Effra Light';
+}
+
+
+ .advertisement-box .portfolio-filter ul.nav-tabs > li > a.active {
+    background: #ffffff;
+    color: #e00049;
+    border-bottom: 1px solid #e00049 !important;
+    border-radius: 0;
+    padding: 5px 6px !important;
+}
+ 
+ 
+ .advertisement-box  .portfolio-filter ul.nav-tabs {
+   display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+}
+ 
+ 
+ .ad-carousel .shop-img{
+    background: transparent;
+     margin-bottom: 0;
+}
+
+ .ad-carousel .views-view-grid .views-col{
+	    margin-bottom: 1.5rem;
+}
+ 
+  .ad-carousel .views-field-field-ims-location {
+    font-size: 14px;
+    font-family: 'Effra Light';
+    font-weight: bold;
+    color: #757575;
+}
+ 
+ .clients-row .gsc-image img {
+    height: auto;
+    width: 100%;
+    border: 1px solid #d5d5d5;
+    border-radius: 8px;
+        margin-bottom: 2rem;
+}
+ 
+ 
+ .ad-carousel .ims-carousel-item .title {
+    text-align: left !important;
+    padding: 12px 0px 0px;
+    color: #212529;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+ .advertisement-box .gsc-icon-box{
+	 width:100%;
+}
+
+ 
+ .advertisement-main-section .widget.gsc-heading .title-desc{
+ 	    max-width: 100%!important;
+ }
+ 
+ 
+ .advertisement-box .nav-tabs{
+     background: none !important;
+    box-shadow: unset !important;
+    justify-content: flex-start;
+    display: inline-flex;
+    row-gap: 12px;
+}
+
+
+.advertisement-box .ims-types-content .nav-tabs > li {
+    background: #ffffff99;
+    border-radius: 50px;
+    margin-right: 12px;
+    border: 1px solid #9da0b1;
+    overflow: hidden;
+    float: left;
+}
+
+
+.advertisement-box .ims-types-content .nav-tabs > li a {
+        background: #fff;
+    width: 100%;
+    float: left;
+    color: #273170;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 10px 16px !important;
+}
+
+
+.advertisement-box .widget.gsc-call-to-action.button-bottom .button-action{
+	    text-align: start;
+      padding: 0px 8px;
+}
+
+
+.advertisement-box .widget.gsc-icon-box {
+    padding: 0px 16px;
+}
+
+
+.advertisement-box .widget.gsc-icon-box.top-center .highlight_content .desc{
+	font-size: 16px;
+	  text-align: start;
+	  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+    text-align: start;
+}
+
+
+
+.advertisement-box .button-action a {
+    background: #002575 !important;
+    color: #fff !important;
+}
+
+.highlight-image img {
+    width: 90px;
+}
+
+
+
+.widget.gsc-call-to-action.button-right .content .title{
+	    text-align: start!important;
+}
+
+
+.business-logo img {
+	   height: auto!important;
+}
+
+
+.advertisement-box .tab-content {
+    display: none;
+}
+
+
+.advertisement-box .widget.gsc-call-to-action.text-light .button-action a:hover {
+    background: #e00049 !important;
+}
+
+
+.advertisement-box .gsc-image img{
+	    border-radius: 16px;
+	   aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+
+.advertisement-box .widget.gsc-icon-box.top-center .highlight_content h4{
+	text-align: start;
+}
+
+
+.ad-carousel .ims-carousel-item {
+       text-align: left;
+    display: inline-grid;
+    width: 100%;
+        margin-bottom: 2rem;
+}
+
+
+.ad-carousel .ims-carousel-item img{
+	  width: 100%;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 767px) {  
+	.ad-carousel .shop-img{
+		   aspect-ratio: auto!important;
+	}
+	
+	.widget.gsc-call-to-action.button-right .content .title {
+    text-align: center !important;
+}
+
+.ims-logo-container .row-wrapper {
+    align-items: center;
+    justify-content: center;
+}
+
+.ims-contact-us .button-action{
+	    text-align: center!important;
+}
+
+.advertisement-box .nav-tabs{
+	margin-bottom: 1rem !important;
+	justify-content: center;
+}
+
+.advertisement-box .portfolio-filter ul.nav-tabs > li > a{
+	    font-size: 1rem;
+}
+
+.gsc-tabs .tabs_wrapper.tabs_horizontal .nav-tabs{
+	    width: 100%;
+}
+	
+}
+
+@media screen and (max-width: 567px) { 
+	
+	.advertisement-box .portfolio-filter ul.nav-tabs{
+	    justify-content: flex-start;
+    overflow-x: scroll;
+    -ms-overflow-style:none;
+	}
+	
+	.advertisement-box .portfolio-filter ul.nav-tabs::-webkit-scrollbar{
+		display:none;
+	}
+	
+	.advertisement-box .widget.gsc-icon-box.top-center .highlight_content h4 {
+    text-align: center;
+}
+
+.advertisement-box .widget.gsc-icon-box.top-center .highlight_content .desc{
+	text-align: center;
+}
+
+.advertisement-box .gsc-image img {
+    border-radius: 8px;
+}
+
+.business-logo img {
+    height: auto !important;
+    width: 180px;
+    margin: auto;
+}
+
+.business-logo {
+    text-align: center;
+}
+
+.ims-logo-container .title {
+    font-size: 20px !important;
+}
+
+.clients-row .col-md-2 {
+    width: 50%;
+    padding: 4px;
+    padding-bottom: 5px;
+}
+
+.clients-row .col-md-2 img {
+    margin-bottom: 0;
+}
+
+.ad-box-1 .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ad-box-3 .row {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.advertisement-box .widget.gsc-icon-box.top-center .highlight_content h4{
+	        font-size: 1.3rem;
+    color: #111;
+}
+
+.advertisement-box .widget.gsc-icon-box.top-center .highlight_content .desc{
+	    color: #000000 !important;
+}
+
+.advertisement-box .ims-types-content .nav-tabs > li{
+	    width: 100%;
+}
+
+	
+}
+
+
+
+
+
+/* airport-advertisement-styles-end */
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+	.cart-bag-icon {
+		width: 36px;
+		height: 36px;
+	}
+
+}
+
+
+@media screen and (max-width: 1400px) {
+
+	.shop-list-card-text button {
+		min-width: 60px;
+		font-size: 9px;
+	}
+
+	
+
+	.shops-header h2 {
+		font-size: 2.5rem;
+	}
+
+	.listing-pages-header {
+		min-height: 350px;
+	}
+}
+
+
+@media screen and (max-width: 1280px) {
+
+
+  .shops-listing-page .bef-exposed-form .clear-btn{
+		right: 1px;
+		top: 2px;
+		width: 45px;
+		height: 32px;
+  }
+
+
+	.shop-loaction-btn{
+		padding: 25px;
+		font-size: 1.1rem;
+		margin-top: 16px;
+	}
+
+	.gsc-heading .title-desc {
+		width: 70%;
+		max-width: initial;
+		line-height: 20px;
+		padding: 6px 0px !important;
+	}
+
+	.widget.gsc-heading {
+		padding: 5px 0px
+	}
+
+
+	.shops-listing-page .js-form-type-select::after {
+		margin-top: 6px;
+		font-size: 18px;
+	}
+
+	
+
+	.contact-us-list .list-border-card {
+		/* aspect-ratio: 1 / 1.2; */
+	}
+
+	.contact-us-list .item {
+		padding: 6px;
+	}
+
+	.listing-header-row p {
+		width: 100%;
+	}
+
+	ul.shops-list-tabs {
+		margin-top: 1rem;
+	}
+
+	.shops-listing-page .form-item-combine input {
+		height: 40px;
+		border-radius: 10px;
+	}
+
+	.shops-listing-page .js-form-type-select select {
+		height: 40px;
+		border-radius: 10px;
+	}
+
+	.shop-list-card-text-inner {
+		padding: 16px;
+	}
+
+	.shop-list-card-text button {
+		font-size: 8px;
+		padding: 4px 4px;
+	}
+
+	
+
+	.shops-listing-page .form-item-combine input[type=text] {
+		    background-size: 28px;
+	}
+
+}
+
+
+@media screen and (max-width: 991px) {
+	.listing-pages-header {
+		min-height: 260px;
+	}
+
+	.shops-header h2 {
+		font-size: 2rem;
+	}
+
+	ul.shops-list-tabs {
+		margin-top: 1rem;
+	}
+
+	.shop-list-card:hover {
+		transform: translateY(0px);
+	}
+
+	.shop-list-card {
+		margin-bottom: 0px;
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+
+	.bef-exposed-form:not(:has(.js-form-type-select)) .form-item-combine {
+    	flex: 0 0 100%;
+	}
+
+	.bef-exposed-form .clear-btn {
+		right: 12px;
+		bottom: 4px;
+		width: 50px;
+		text-align: right;
+		font-size: 27px;
+	}
+
+	.listing-pages-header {
+		min-height: 250px;
+	}
+
+	.shops-header h2 {
+		font-size: 1.6rem;
+	}
+
+	ul.shops-list-tabs li a {
+		font-size: 1.2rem;
+	}
+
+	.shops-listing-page .form-item-combine input {
+		height: 50px;
+		border-radius: 8px;
+	}
+
+	.shops-listing-page .js-form-type-select select {
+		height: 50px;
+		border-radius: 8px;
+	}
+
+}
+
+[lang="ar"] .home-search p {
+	padding-left: 25px;
+	padding-right: 0px;
+}
+
+.block-common-field p{
+	margin: 10px 0;
+}
+
+
+@media screen and (max-width: 768x)  {
+
+	.contact-us-list .item {
+        -ms-flex: 0 0 33%;
+        flex: 0 0 33%;
+        max-width: 33%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+	.press-release .cards-space .col-md-4 {
+    padding: 0 5px;
+}
+
+
+
+.shops-listing-page .bef-exposed-form .clear-btn{
+	right: 1px;
+	top: 18px;
+	width: 36px;
+	height: 30px;
+}
+
+
+   .bef-exposed-form{
+		display: block;
+	}
+
+	.shops-listing-page .js-form-type-select select{
+		margin-top: 10px;
+	}
+
+
+
+	.gsc-heading .title{
+		font-size: 2rem;
+	}
+
+	.widget.gsc-heading .title-desc{
+		font-size: 1.3rem !important;
+	}
+
+	.gbb-row-wrapper{
+		overflow: visible;
+	}
+
+	.gsc-heading .title-desc {
+        width: 90%;
+	}
+
+	#block-gavias-tico-careerssearch{
+		width: 90%;
+		margin: auto;
+	}
+
+	.job-families-card .list-border-card a span{
+		text-align: start;
+		padding: 10px 10px;
+	}
+
+	.gsc-heading .title{
+		font-size: 2rem;
+	}
+
+	.join-btn{
+		padding: 10px 20px;
+		font-size: 16px;
+	}
+
+	.row-wrapper .job-families-custom-card {
+		max-width: 33.2%;
+	}
+
+	.job-families-custom-card .column-inner:hover{
+		transform: translateY(0px);
+	}
+
+	.job-families-video-section .widget.gsc-video-box{
+		height: 300px !important;
+	}
+
+	.job-families-video-section .widget.gsc-heading.align-center{
+		padding-left: 0;
+		padding-top: 2rem;
+	}
+
+
+	[lang="ar"] .lang-switch {
+		background: transparent;
+		left: 18px;
+	}
+
+	#custom-search-form #edit-submit{
+		font-size: 16px;
+	}
+
+	.sec-nav .nav-right .nav-item:nth-child(2) {
+		position: absolute;
+        left: 0;
+        top: 0px;
+        width: auto;
+        height: 100%;
+        padding: 7px 0px 0px 4px;
+	}
+
+	.nav-right .nav-item:nth-child(1) {
+		padding: 6px 0px;
+	}
+
+	.no-results-lisitng p {
+		margin-top: -50px;
+		font-size: 1.2rem;
+	}
+
+	.navbar-light .container {
+		padding: 0px;
+	}
+
+
+	.no-results-lisitng img {
+		width: 300px;
+	}
+
+	.shops-listing-page .form-item-combine input {
+		margin-left: 0;
+	}
+
+	.shops-listing-page .js-form-type-select::after {
+	   margin-top: 3%;
+        top: auto;
+        right: 21px;
+	}
+
+	[lang="ar"] .shops-listing-page .js-form-type-select::after {
+		left: 30px;
+	}
+
+
+	.bef-exposed-form .clear-btn {
+		right: 6px;
+	}
+
+	
+
+	ul.shops-list-tabs {
+		margin-top: 1rem;
+	}
+
+	.site-branding-logo img {
+		height:60px;
+		padding: 5px;
+	}
+
+	.shop-list-card-text button {
+		margin-bottom: 2px;
+		display: none;
+	}
+
+	.shops-listing-page .view-content-wrap {
+		padding: 0px 5px;
+	}
+
+	.shop-list-card {
+		margin-bottom: 0px;
+	}
+
+	.views-exposed-form {
+		padding: 0 10px;
+	}
+
+	.shops-listing-page .js-form-type-select select {
+		width: 100%;
+	}
+
+	.shops-listing-page .form-item-combine input {
+		margin-top: 12px;
+	}
+
+	.shops-listing-page .js-form-type-select label {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.row {
+		margin-right: 0px !important;
+	}
+
+	.gsc-heading .title-desc {
+		color: #000000 !important;
+		font-size: 1.5rem !important;
+		padding: 6px 0 !important;
+		width: 100%;
+	}
+
+	.forcefullwidth_wrapper_tp_banner{
+		height: 30vh !important;
+	}
+
+	  /* exp-shops-banner*/
+	  .slotholder{
+		height: 30vh!important;
+	}
+	
+	.slotholder .defaultimg{
+		height: 30vh!important;
+	}
+	
+	.tp-revslider-slidesli{
+		height: 30vh!important;
+	}
+	
+	.tp-revslider-mainul{
+		height: 30vh!important;
+	}
+	
+	.gavias_sliderlayer{
+		height: 30vh!important;
+	}
+	/* exp-shops-banner-end */
+
+	.listing-pages-header-links{
+		margin-bottom: 0px !important;
+	}
+
+
+}
+
+@media screen and (max-width: 575px) {
+     
+
+	.shops-listing-page .js-form-type-select::after {
+        margin-top: 5%;
+	}
+
+
+	.shops-listing-page .js-form-type-select select {
+    	padding: 0.5rem;
+	}
+
+	.gsc-column {
+    	padding: 0;
+	}
+
+	
+	.contact-us-list .item {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+
+	.listing-card-titile{
+		font-size: 16px;
+	}
+
+	.job-families-card .list-border-card img{
+		aspect-ratio: 1 / 0.7;
+	}
+
+	.job-families-custom-card .column-inner img {
+        width: 60px;
+    }
+
+	.job-families-video-section .widget.gsc-video-box {
+		height: 240px !important;
+	}
+
+	.job-families-custom-card .column-inner{
+		aspect-ratio: 1 / 0.4;
+	}
+
+	.list-border-card .cards-space{
+		padding: 0px 4px;
+	}
+
+	.job-families-card .list-border-card{
+		aspect-ratio: 1 / 1;
+	}
+
+
+	.row-wrapper .job-families-custom-card {
+		max-width: 100%;
+	}
+
+	#custom-search-form #edit-submit{
+		width: 100%;
+	}
+    
+
+	.job-families-card .list-border-card a span{
+		font-size: 1rem;
+	}
+
+	.section-header div{
+		padding: 0px 0px 0px 10px !important;
+	}
+
+	.job-families-card {
+		margin-bottom: 16px !important;
+	}
+
+	.job-families-card .list-border-card{
+		aspect-ratio: 1 / 0.8;
+	}
+
+	.section-header div{
+		padding-left:0px !important;
+	}
+
+	.content-right-section h1{
+		font-size:24px;
+		margin-bottom: 6px;
+		column-gap: 8px;
+	}
+	.detail-right-logo img {
+		height: 72px;
+		width: 72px !important;
+	}
+	.contact-us-list .item {
+		margin: 10px auto;
+	}
+
+
+	.contact-us-list .views-field-title {
+		font-size: 1.3rem;
+	}
+
+
+	.contact-us-list .list-border-card {
+		aspect-ratio: auto;
+		margin-bottom:5px;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	.bef-exposed-form .clear-btn {
+		right: 6px;
+		bottom: 2px;
+	}
+
+	.sec-4 .nav-tabs {
+		margin: 0px;
+	}
+
+	.gsc-heading .title {
+		font-size: 1.3rem !important;
+	}
+
+	.widget.gsc-heading .title-desc{
+		font-size: 1rem !important;
+	}
+
+	.gsc-heading .title-desc {
+		font-size: 1.2rem !important;
+		width: 90% !important;
+        margin: auto !important;
+	}
+
+	.sec-4 .nav-tabs .nav-link {
+		font-size: 1rem;
+	}
+
+
+	.shop-list-card {
+		border-radius: 10px;
+	}
+
+	.cart-bag-icon {
+		display: none;
+	}
+
+	.shop-list-card-text-inner {
+		padding: 10px;
+	}
+
+	.lounge .cart-bag-icon {
+		margin-bottom: 4px;
+	}
+
+	.shop-list-card-text h4 {
+		padding: 0.25rem;
+		margin: 0;
+		font-size: 14px;
+	}
+
+	.cards-space .p-2 {
+		padding: .2rem !important;
+	}
+
+	.widget.gsc-heading .title-desc {
+		line-height: 22px!important;
+	}
+
+	.widget.gsc-heading {
+		padding: 5px 0 5px!important;
+	}
+
+	.listing-card-disc{
+		max-height: none;
+		margin-bottom: 0;
+	}
+
+	.listing-card-date{
+		margin-top: 6px;
+		margin-bottom: 0;
+	}
+
+	.cards-space .row .item {
+		margin-bottom: 0px!important;
+	}
+
+}
+
+
+@media screen and (max-width: 460px) {
+
+
+	.contact-us-list .item {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+     
+
+	.bef-exposed-form .clear-btn {
+		right: 6px;
+		bottom: 2px;
+	}
+
+    
+
+	.shops-header h2 {
+		font-size: 1.4rem;
+	}
+
+
+	.shops-listing-page .form-item-combine input {
+		height: 45px;
+	}
+
+	.shops-listing-page .js-form-type-select select {
+		height: 45px;
+	}
+
+}
+
+
+@media screen and (max-width: 420px){
+    .content-right-section p, .content-right-section li{
+		font-size: 14px;
+	}
+
+	.shop-loaction-btn a, .external-link a{
+		font-size: 14px;
+	}
+
+	
+
+
+}
+
+/* all-listing-scresns-end*/
+
+
+
+

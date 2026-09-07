@@ -1,0 +1,943 @@
+
+.search-right-section .brd-details {
+	background: transparent;
+}
+
+[lang="ar"] .flight-details-anchor a,
+[lang="ar"] .content-item a {
+	padding-left: 16px;
+	padding-right: 0px;
+}
+
+.dt-arrow a {
+	color: #1e245e;
+}
+
+.dt-arrow:hover a {
+	color: #fff;
+}
+
+.flights-info-table .table td b {
+	font-size: 15px;
+	letter-spacing: 0.5px;
+}
+
+
+
+
+tr.single-row td:first-child {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: nowrap;
+	border: none;
+	column-gap: 10px;
+}
+
+.flight-list-mbl {
+	display: none;
+}
+
+.flights-info-table {
+	width: 100%;
+    order: 2;
+	padding-right: 4px;
+}
+
+.flight-list-mega-row {
+	margin: 0rem;
+	display: inline-flex;
+	gap: 24px;
+	flex-direction: row;
+	align-items: center;
+	z-index: 499;
+	}
+
+
+.flights-info-list .form-item-global-search label {
+	font-family: 'Effra Medium';
+	font-size: 2.5rem;
+	letter-spacing: 1px;
+}
+
+
+.flights-info-list #edit-global-search {
+	width: 100%;
+}
+
+
+.hia-search-listing .form-composite {
+	position: absolute;
+	right: 0;
+}
+
+
+[lang="ar"] .hia-search-listing .form-composite {
+	position: absolute;
+	right: auto;
+	left: 0px;
+}
+
+.hia-search-listing .form-composite .option {
+	opacity: 0;
+}
+
+.form-composite .form-radio {
+	opacity: 0;
+}
+
+
+.flights-info-table table {
+	margin-top:0rem;
+	border-collapse: separate;
+	border-spacing: 0 12px;
+	border: 0px;
+}
+
+.flight-list-mbl a,
+.flight-list-mbl a:hover {
+	color: #090909;
+	font-family: 'Effra Regular';
+	-webkit-text-stroke: 0;
+}
+
+.flight-list-mbl a {
+    border-bottom: 1px solid #eee;
+    float: left;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+
+
+.flights-info-table thead tr {
+	background: transparent;
+	border: 0px;
+	line-height: 1.5rem;
+}
+
+.flights-info-table thead tr th {
+	border: 0px;
+	letter-spacing: 1px;
+	font-size: 1rem;
+	padding: 8px 0;
+}
+
+.flights-info-table thead tr th:nth-child(1) {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+
+}
+
+
+.flights-info-table thead tr th:nth-last-child(1) {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background: #1e245e;
+}
+
+
+[lang="ar"] .flights-info-table thead tr th:nth-last-child(1) {
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+
+}
+
+[lang="ar"] .flights-info-table thead tr th:nth-child(1) {
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+}
+
+
+.flights-info-table .table-hover tbody tr:hover {
+	scale: 1.03;
+	background-color: #ECEDF5;
+	cursor: pointer;
+
+}
+
+
+.flights-info-table .table td {
+	font-size: 1.2rem;
+	color: #000000;
+    padding-left: 0px;
+}
+
+
+.scheduled-btn{
+	position: relative;
+ 	overflow: hidden;
+}
+
+
+.flights-info-table tbody tr button {
+	color: white;
+	border: 0;
+	outline: none;
+	padding: 0.4rem 0.8rem;
+	border-radius: 4px;
+	letter-spacing: 0.2px;
+	font-size: 1rem;
+	width: 100%;
+	position: relative;
+ 	overflow: hidden;
+}
+
+
+
+
+.flights-info-table table thead {
+	position: sticky;
+	top: 130px;
+	background: #1e245e;
+	color: white;
+	border-radius: 16px;
+	z-index: 100;
+}
+
+.flights-info-table tbody tr h4 {
+	font-size: 1.2rem;
+	color: #111;
+}
+
+.flights-info-table tbody tr p {
+	margin-bottom: 0px;
+	font-size: 1rem;
+	text-align: start;
+}
+
+.flights-info-table tbody tr p a {
+	color: #273170;
+	z-index: 111;
+	position: relative;
+}
+
+.flights-info-table .table td,
+.table th {
+	border-top: none !important;
+	border-width: 0;
+}
+
+
+.flights-info-table .table td,
+.flights-info-table .table th {
+	vertical-align: middle;
+	font-family: 'Effra Light';
+	-webkit-text-stroke: 0.025rem;
+	font-weight: 100;
+	text-align: start;
+
+}
+
+[lang="ar"] .flights-info-table .table td,
+[lang="ar"] .flights-info-table .table th {
+	font-family: 'lightFontAR';
+}
+
+
+.flights-info-table thead tr {
+	font-size: 18px;
+	background-color: transparent;
+}
+
+
+.flights-info-table tbody tr {
+	background: #fafafa;
+	border-radius: 16px;
+	overflow: hidden;
+	height: 85px;
+	transition: 0.5s;
+	position: relative;
+}
+
+
+.flights-info-table tbody tr td i {
+	color: #ED155B;
+	font-size: 1rem;
+	transition: 0.5s;
+}
+
+[lang="ar"] .flights-info-table tbody tr td i {
+	rotate: 180deg;
+}
+
+.flights-info-table tbody tr td:nth-child(1) {
+	width: 60px;
+	text-align: right;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+
+.flights-info-table tbody tr td:nth-last-child(1) {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.flight-list-icon {
+	width: 50px;
+}
+
+
+.flights-info-list .hia-theme-tabs {
+	width: 300px;
+	float: left;
+	margin-top: 4px;
+}
+
+
+.flights-info-list .hia-theme-tabs .nav-item {
+	width: 47%;
+	overflow: hidden;
+}
+
+
+.today-tommorow {
+	list-style: none;
+    display: inline-flex;
+    float: right;
+    margin: 0px auto;
+    top: 0px;
+    bottom: 0px;
+    right: 15px;
+    align-items: center;
+    background: transparent;
+    border-radius: 8px;
+    padding: 8px 6px;
+    position: relative;
+    width: 200px;
+}
+
+
+[lang="ar"]  .today-tommorow{
+	    right: 6px;
+}
+
+[lang="ar"] .flight-list-mega-row{
+	gap: 8px;
+    margin-left: 40px !important;
+}
+
+
+.date-change {
+	margin: 0 15px;
+	float: left;
+	text-align: center;
+	text-transform: capitalize;
+	font-size:1rem;
+	font-family: 'Effra Light';
+}
+
+
+.today-tommorow .active {
+	font-weight: bold;
+	color: #273170;
+}
+
+.today-tommorow #left-arrow,
+#right-arrow {
+	cursor: pointer;
+}
+
+
+.dt-arrow {
+	width: 48px;
+	height: 48px;
+	border: 1px solid #c0c0c0;
+	position: relative;
+	display: flex;
+	text-align: center;
+	border-radius: 50%;
+	background: white;
+	margin: 0;
+	color: #1e245e;
+	transition: 0.4s all ease;
+	align-items: center;
+	justify-content: center;
+}
+
+[lang="ar"] #right-arrow i {
+	rotate: 180deg;
+}
+
+[lang="ar"] #left-arrow i {
+	rotate: 180deg;
+}
+
+
+.dt-arrow:hover {
+
+	background-color: #273170;
+	color: #fff;
+}
+
+.strike-time {
+	text-decoration: line-through;
+	margin-right: 10px;
+	font-size: small;
+}
+
+.time-change {
+	color: #ed155b;
+}
+
+
+.flight-list-title {
+	float: left;
+	width: 100%;
+	margin: 30px 0;
+	font-family: 'Effra Light';
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.flight-list-title span {
+	color: var(--hia-cerise-color);
+}
+
+[lang="ar"] .flights-info-list .form-item-global-search {
+	display: inline-block;
+}
+
+
+[lang="ar"] .flight-list-mega-row {
+	margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+[lang="ar"] .flights-info-table tbody tr td:nth-last-child(1) {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+[lang="ar"] .flights-info-table tbody tr td:nth-child(1) {
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+
+@media screen and (max-width: 1400px) {}
+
+@media only screen and (max-width:1280px) {
+
+	.today-tommorow{
+		padding: 5px 6px;
+	}
+
+	
+
+	#edit-global-search {
+		font-size: 13px;
+		min-height: 45px;
+	}
+
+	.flights-info-list .hia-theme-tabs {
+		width: 240px;
+	}
+
+	.flights-info-table table thead {
+		top: 93px;
+	}
+
+	.flight-list-title {
+		font-size: 1.5rem;
+	}
+
+
+	.dt-arrow {
+		width: 30px;
+		height: 30px;
+		padding: 6px 5px;
+	}
+
+	.dt-arrow i {
+		font-size: 12px;
+	}
+
+	.flights-info-table tbody tr {
+		height: 60px;
+	}
+
+	[lang="ar"] .flight-list-mega-row {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+	.flight-list-title {
+		font-size: 1.4rem;
+	}
+
+	.flights-info-table tbody tr h4 {
+		font-size: 1rem;
+		font-weight: bold;
+	}
+
+	.flights-info-table tbody tr p {
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+}
+
+
+@media only screen and (max-width:768px) {
+
+	
+	#edit-global-search {
+		font-size: 16px
+	}
+
+
+   .flight-list-mbl a:hover {
+		background: #f2f2f2;
+		transition: 0.5s;
+    }
+
+
+
+	.flights-info-table {
+		padding-right: 0;
+	}
+
+	
+	[lang="ar"] .today-tommorow{
+		left: 0;
+		float: left;
+		right: auto;
+	}
+
+	[lang="ar"] .flights-list-v2 .big-search-box {
+		width: 100%;
+	}
+
+	.big-search-box input {
+		width: 90%;
+	}
+
+	.big-search-box i{
+		margin: -1px;
+        font-size: 18px;
+	}
+
+
+	.flights-info-list .form-item-global-search label {
+		font-family: 'Effra Regular';
+		font-size: 1.8rem;
+		letter-spacing: 1px;
+		margin: 50px auto 10px;
+		font-weight: bold;
+	}
+
+
+	.flights-banner {
+		display: none;
+	}
+
+
+	.form-item-global-search {
+		width: 100%;
+	}
+
+	.hia-theme-tabs .nav-link {
+		padding: 12px 20px;
+	}
+
+	.today-tommorow {
+        padding: 4px 4px;
+        position: absolute;
+        top: 0;
+        right: 8px;
+        bottom: 0;
+	}
+
+	.flight-list-mega-row {
+        margin: 0;
+		margin-bottom: 16px;
+        width: 100%;
+        float: left;
+        position: relative;
+	}
+
+	.flights-info-list .hia-theme-tabs {
+
+		width: auto;
+	}
+
+	.flight-list-mbl {
+		display: block;
+		min-height: 200px;
+		width: 100%;
+		float: left;
+	}
+
+	.flight-list-web {
+		display: none;
+	}
+
+	.navbar-dark .navbar-toggler {
+		padding: 0;
+	}
+
+
+	.flight-list-mbl .scheduled-btn {
+		background-color: #459d43;
+		color: #ffffff;
+		border: 0;
+		outline: none;
+		padding: 0.3rem 0.8rem;
+		border-radius: 4px;
+		letter-spacing: 0.2px;
+		font-size: 1rem;
+		width: 97%;
+	}
+
+	.flight-list-mbl-row {
+		border-bottom: 1px solid #e1e1e1;
+	}
+
+	.hia-theme-tabs {
+		padding: 0;
+		border: 0;
+	}
+
+	.flights-info-list .hia-theme-tabs .nav-item {
+		width: auto;
+		margin: 0 6px 0 0;
+	}
+
+	.dt-arrow {
+		width: 30px;
+		height: 30px;
+		padding: 3px 5px;
+		margin: -8px 0;
+		font-size: 14px;
+	}
+
+
+	.flight-list-title {
+		font-size: 1.1rem;
+		margin: 15px 0px;
+		border-bottom: 1px solid #dfdfdf;
+		padding: 10px 0px 15px 0px;
+	}
+
+	.flight-list-mbl-3 span {
+		margin: 8px 0 0;
+		width: 100%;
+		float: right;
+		color: #6B6B6B;
+		font-family: 'Effra Regular';
+		font-size: 1.1rem;
+	}
+
+	.flight-list-mbl-3 span b {
+		color: #000000;
+	}
+
+	.flight-list-icon {
+		margin: 0 0 10px;
+		width: 70px;
+	}
+
+	.flight-list-mbl h4 {
+		font-size: 1.2rem;
+		font-weight: bold;
+	}
+
+	.flight-list-mbl-2 p {
+		margin: 10px 0 0;
+		text-align: start;
+	}
+
+	.flight-list-mbl .time-change {
+		color: var(--hia-cerise-color);
+	}
+
+	.flight-row-border {
+		padding: 0 0 5px;
+	}
+
+	.flight-list-mbl hr {
+		margin: 5px 0px;
+	}
+
+	.flights-info-table {
+		width: 100%;
+		overflow-x: initial;
+	}
+
+	.flights-info-list {
+		margin-top: -2rem;
+		overflow: auto;
+	}
+
+	.flight-list-mbl .row {
+		padding: 4px 0 0;
+	}
+
+	.flight-list-mbl .col-md-12 {
+		padding: 8px 0px 0;
+	}
+
+    .today-tommorow{
+        background: transparent;
+    }
+
+}
+
+
+@media only screen and (max-width:576px) {
+
+	.flight-list-mega-row {
+		margin-left: 0px !important;
+	}
+
+	.flight-day {
+		font-size: 11px;
+	}
+
+	.dt-arrow a{
+		margin-top: -2px;
+		margin-left: 3px;
+	}
+
+	.hia-theme-tabs .nav-item{
+		border-radius: 8px!important;
+	}
+
+	.hia-theme-tabs{
+		border-radius: 8px;
+		padding: 5px !important;
+	}
+
+	.hia-theme-tabs .nav-link{
+		border-radius: 8px;
+	}
+
+	.flights-info-list .hia-theme-tabs .nav-item {
+        margin: 0px 0px 0px 0px;
+    }
+
+	.flight-list-mbl .row .col-3{
+		ms-flex: 0 0 16%!important;
+    	flex: 0 0 16%!important;
+    	max-width: 16%!important;
+	}
+
+	.flight-list-mbl .row  .col-9 {
+		-ms-flex: 0 0 84%!important;
+		flex: 0 0 84%!important;
+		max-width: 84%!important;
+	}
+
+	.flight-list-mbl-3 span{
+		margin: 6px 0px 0px;
+	}
+
+	.flight-list-mbl .col-md-12{
+		padding: 6px 0px 0;
+	}
+
+	.flight-list-mbl .row .col-md-3 {
+		padding: 0px !important;
+        -ms-flex: 0 0 18%;
+        flex: 0 0 18%;
+        max-width: 18%;
+    }
+
+	.flight-list-mbl .row  .col-9 {
+		-ms-flex: 0 0 82%;
+		flex: 0 0 82%;
+		max-width: 82%;
+	}
+
+	.flight-list-mbl-3 span {
+		font-size: 12px;
+	}
+
+	.flight-list-mbl-2 p{
+        margin: 2px 0 0;
+		font-size: 12px;
+	}
+
+	.mbl-flight-name-blk {
+		padding: 0;
+	}
+
+	.flight-list-mbl-2 {
+		padding: 0;
+	}
+
+    .hia-theme-tabs .nav-link{
+        font-size: 16px;
+    }
+
+    .date-change{
+        font-size: 16px;
+    }
+
+	.flights-info-list .form-item-global-search label {
+		font-size: 1.5rem;
+		font-family: 'Effra Regular';
+	}
+
+
+	.dt-arrow i {
+		font-size: 10px;
+	}
+
+	.dt-arrow {
+		width: 25px;
+		height: 25px;
+		padding: 0px 3px;
+	}
+
+
+
+	.flight-list-mbl .text-right {
+		padding-left: 0;
+	}
+
+	.flight-list-mbl h4 {
+		font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        padding-right: 5px;
+        line-height: normal !important;
+        margin: 0px;
+	}
+
+	.container {
+		max-width: 100% !important;
+	}
+
+	.flight-row-border {
+		margin-bottom: 0rem;
+		padding: 0;
+	}
+
+	.flight-list-mbl .scheduled-btn {
+		width: 100%;
+        font-size: 11px;
+        font-weight: 600;
+        font-family: 'Effra Light';
+        letter-spacing: 1px;
+        padding: 5px 3px;
+        border-radius: 4px;
+	}
+
+
+	.flight-list-icon {
+		width: 45px;
+        margin: 0 auto 8px;
+		height: auto;
+	}
+
+	.flight-list-title {
+		font-size: 1rem;
+	}
+
+	.date-change {
+		margin: -7px 15px;
+	}
+
+	.flights-info-list .hia-theme-tabs {
+		margin-top: 11px;
+	}
+
+
+}
+
+@media only screen and (max-width: 460px) {
+
+    .hia-theme-tabs .nav-link {
+        font-size: 12px;
+        padding: 10px 16px;
+    }
+
+    .date-change {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+}
+
+
+@media only screen and (max-width: 420px) {
+
+    .hia-theme-tabs .nav-link{
+        padding: 8px 10px;
+    }
+   
+    #edit-global-search{
+        margin-bottom: 6px;
+    }
+
+	.flights-list-v2 .hia-theme-tabs .nav-link {
+		font-size: 14px;
+	}
+
+	.flights-list-v2 .hia-theme-tabs {
+        width: 58%;
+    }
+
+	.today-tommorow{
+		right: 7px;
+		padding: 4px 4px;
+		width: auto;
+	}
+
+	.flights-list-v2 .dt-arrow i {
+        font-size: 7px;
+		margin: 0;
+    }
+
+	.flights-list-v2 .dt-arrow {
+        width: 24px;
+        height: 24px;
+    }
+	
+
+	.date-change {
+		margin: 0 8px;
+        width: 75px;
+	}
+
+	.flight-list-mbl .scheduled-btn{
+		font-size: 10px;
+	}
+
+	
+}
+
+@media only screen and (max-width: 380px) {
+	
+	.today-tommorow {
+		right: 4px;
+	}
+
+	.flights-list-v2 .dt-arrow {
+        width: 22px;
+        height: 22px;
+    }
+
+	.flights-list-v2 .hia-theme-tabs .nav-link {
+		font-size: 14px;
+	}
+}

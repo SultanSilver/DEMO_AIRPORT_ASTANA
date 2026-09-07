@@ -1,0 +1,1330 @@
+/*body {
+  filter: grayscale(100%);
+}*/
+
+
+.art-exhibit.portfolio-v1 .portfolio-content {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.art-qoute .content {
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    background: #f5f5f5;
+    padding: 16px;
+    border-radius: 24px;
+}
+
+h3.visible-title {
+    position: absolute;
+    color: white;
+    z-index: 90;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000a6;
+    margin: 0;
+    padding: 12px;
+    text-align: left;
+    opacity:1;
+}
+
+.art-exhibits-hia .title-sub {
+    color: #e00049;
+    font-size: 20px;
+}
+
+
+.portfolio-v1:hover h3.visible-title {
+    opacity: 0;
+   
+}
+
+.art-exhibits-hia .title-desc {
+    max-width: 100%;
+}
+
+.art-exhibit {
+ border-radius: 8px;
+  min-height:350px;
+}
+
+.art-exhibit.portfolio-v1 img {
+    width: 100%;
+}
+
+h3.title {
+ color:white; 
+}
+
+.hide {
+ display:none; 
+}
+
+.media-kit-column{ 
+  padding:0 16px;
+}
+
+.left-btn {
+    text-align: right;
+}
+
+.right-btn {
+    text-align: left;
+}
+
+
+.media-kit-download-btn a{
+ background:#1e245e; 
+  color:white;
+  padding:12px 48px;
+  border: none;
+}
+.media-kit-download-btn a:hover{
+ background:#e00049; 
+  color:white;
+}
+
+.media-kit-download-btn .btn-theme:after {
+  top:8px;
+}
+
+.media-kit-coo-s1 img {
+    height: unset;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+.media-kit-coo-s2 {
+    padding: 30px;
+}
+
+.media-kit-coo-s2 .content {
+    font-size: 1.2rem;
+}
+
+.mk-gallery-sec .gsc-image img {
+    height: auto;
+    aspect-ratio: 4 / 3;
+ 	border-radius: 16px;
+    margin: 0;
+  	object-fit: cover;
+}
+.mk-gallery-sec .gsc-image {
+    padding: 16px;
+}
+
+.media-kit-column .title-desc {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.mk-press-release-btn {
+  /*position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  */
+    border-radius: 50px;
+    width: max-content;
+}
+
+.widget.gsc-heading .title-desc{
+  
+  text-align:justify;
+  text-align-last: center;
+}
+
+@media screen and (max-width: 767px) {
+   .media-kit-coo-s1 img {
+        width: 250px;
+    }
+  
+  .left-btn ,.right-btn {
+    text-align: center;
+  }
+}
+
+
+
+
+.vote-text span{
+  color:#ffffff; 
+}
+header .header-main {
+    padding: 0;
+    background: linear-gradient(180deg, black, transparent); 
+}
+
+/*add below map pdf to support center align in Map details page*/
+.field--name-field-map-pdf {
+    text-align: center;
+    padding: 30px;
+    background: #f5f5f5;
+}
+
+
+:lang(ar) h1, :lang(ar) h2, :lang(ar) h3, :lang(ar) h4, :lang(ar) h5, :lang(ar) h6, :lang(ar) .h1, :lang(ar) .h2, :lang(ar) .h3, :lang(ar) .h4, :lang(ar) .h5, :lang(ar) .h6, :lang(ar) .gavias_sliderlayer .sub-title, :lang(ar) #gavias_slider_single .sub-title, :lang(ar) .gavias_sliderlayer .text-large, :lang(ar) #gavias_slider_single .text-large, :lang(ar) .gavias_sliderlayer .text-big, :lang(ar) #gavias_slider_single .text-big, :lang(ar) .gavias_sliderlayer .text-medium, :lang(ar) #gavias_slider_single .text-medium, :lang(ar) .gavias_sliderlayer .btn-slide, :lang(ar) #gavias_slider_single .btn-slide,:lang(ar) .page-notfound .big-title,:lang(ar) .page-notfound .action a,:lang(ar) .post-block .post-title a,:lang(ar) .post-block .post-categories a,:lang(ar) .post-style-grid.v2 .post-title a,:lang(ar) .portfolio-v1 .content .title a,:lang(ar) .portfolio-v2 .content-inner .title,:lang(ar) .portfolio-v2 .content-inner .category,:lang(ar) .testimonial-node-v2 .info .title,:lang(ar) .testimonial-node-v3 .content-inner .title,:lang(ar) .team-node-v1 .team-name,:lang(ar) .team-node-v1 .team-position,:lang(ar) .team-node-v2 .team-name,:lang(ar) .team-node-v2 .team-position,:lang(ar) .team-node-v3 .team-name,:lang(ar) .team-node-v3 .team-position,:lang(ar) .text-big,:lang(ar) .text-large,:lang(ar) .nav-tabs > li > a,:lang(ar) .owl-carousel.carousel-thumbnail.text.top .owl-dots .owl-dot,:lang(ar) .owl-carousel.carousel-thumbnail.text.vertical .owl-dots .owl-dot,:lang(ar) .btn,:lang(ar) .node-link a:not(.btn-theme),:lang(ar) .btn-theme,:lang(ar) .btn-theme-submit,:lang(ar) .progress-label,:lang(ar) .pricing-table .content-wrap .plan-price .price-value .dollar,:lang(ar) .pricing-table .content-wrap .plan-price .price-value .value,:lang(ar) .pricing-table .content-wrap .plan-price .interval,:lang(ar) .wrap-block-f-col h3,:lang(ar) .rotate-text .primary-text,:lang(ar) .block .block-title > span,:lang(ar) .block.block-simplenews input#edit-subscribe,:lang(ar) .navigation .gva_menu > li > a,:lang(ar) .navigation .gva_menu .sub-menu > li > a,:lang(ar) .more-link a,:lang(ar) .small-list .item-list ul > li a,:lang(ar) .tags-list .item-list > ul > li a,:lang(ar) .portfolio-carousel-single .portfolio-item .portfolio-content .title a,:lang(ar) .widget.gsc-call-to-action .title,:lang(ar) .widget.gsc-chart .content .title,:lang(ar) .widget.milestone-block .milestone-text,:lang(ar) .gsc-box-info .content .subtitle,:lang(ar) .gsc-hover-background .front h2,:lang(ar) .gsc-button {
+    font-family: 'neo-sans';
+    letter-spacing: normal;
+}
+
+.hide-content {
+ display:none; 
+}
+
+
+
+:lang(ar) .footer .block .block-title span {
+    font-size: 18px;
+}
+
+:lang(ar) h3 span, h3 p {
+    color: #1e245e;
+    font-size: 24px;
+}
+
+:lang(ar) h2 span, h2 p {
+font-family: 'regularFontAR';
+    font-size: 28px;
+}
+
+:lang(ar) body,:lang(ar) .post-style-grid.v2 .post-categories a,:lang(ar) .post-style-grid.v2 .post-categories a,:lang(ar) .post-style-list.small .post-title a,:lang(ar) .portfolio-v1 .content .category a,:lang(ar) .block.block-blocktabs .ui-widget,:lang(ar) .block.block-blocktabs .ui-tabs-nav > li > a,:lang(ar) .gva-mega-menu .block-blocktabs .ui-widget,:lang(ar) .gva-mega-menu .block-blocktabs .ui-tabs-nav > li > a,:lang(ar) .widget.gsc-heading .title-sub,:lang(ar) .gsc-hover-box .box-title {
+    font-family: 'neo-sans';
+    letter-spacing: normal;
+}
+
+:lang(ar) .widget.gsc-heading .title, :lang(ar) .widget.gsc-heading .title-desc {
+    font-family: 'neo-sans';
+    letter-spacing: normal;
+}
+
+
+
+.header-v3 .header-main-inner {
+    background: transparent;
+}
+
+.header-v3 .gva-search-region .icon {
+    color: #ffffff;
+}
+
+.stuck.header-main {
+    background: #1e245e;
+    padding-bottom: 10px;
+}
+
+.header-v3 .stuck.header-main .gva-search-region .icon {
+    color: #ffffff;
+}
+
+.header-v1 .header-main .gva-search-region .icon {
+    color: #ffffff;
+}
+
+.header-v1 .stuck.header-main .gva-search-region .icon {
+    color: #ffffff;
+}
+
+.header-v3 .gva-search-region .icon {
+    color: #ffffff;
+}
+
+header .area-main-menu .gva-search-region .icon {
+    color: #ffffff;
+}
+
+.menu-bar span {
+    background-color: #ffffff;
+}
+
+.main-menu ul.gva_menu > li > a {
+    color: #ffffff;
+    font-family: 'Effra Light';
+}
+
+:lang(ar) .navigation .gva_menu li a {
+    text-align: right;
+}
+
+.header-v1 .header-main {
+   background: #1e245e;
+   padding-bottom: 15px;
+}
+
+
+.covid-updates-homepage .content .title {
+  font-size: 26px;
+  margin-bottom: 12px;
+}
+
+.covid-updates-homepage .button-action a  {
+  color: #ffffff;
+  background: #1e245e;
+}
+
+.vote-now {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+
+.press-releases-title-main {
+  padding-bottom: 50px;
+}
+
+.latest-news-main {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 250px;
+  padding-bottom: 30px;
+}
+
+.visit-qatar-home {
+  filter: brightness(200%);
+}
+
+.attractions-tours-more {
+  margin: auto;
+  text-align: center;
+  display: block;
+  width: 250px;
+  filter: brightness(45%);
+}
+
+.airline-directory-logo {
+  display: inline-block;
+  width:103px;
+  height: auto;
+  float: left;
+}
+
+.post-style-list .post-block .airline-directory-logo img {
+  height: auto;
+  width: 400%;
+}
+
+div#page-main-content.main-content.col-md-12.col-xs-12 {
+  padding-bottom: 243px;
+}
+
+.portfolio-v1 .content .title {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   /* padding-top: 150px;*/
+    color: #ffffff;
+    font-family: 'Effra Regular';
+}
+
+.portfolio-content p {
+    color: white;
+}
+
+.portfolio-v1 .content {
+    color: #ffffff;
+}
+
+.portfolio-v1 img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-v1 .portfolio-content:after {
+  background: #000027;
+}
+
+.portfolio-v1 .content .title a {
+    font-family: 'Effra Regular';
+}
+
+.dine-tiles .portfolio-filter {
+    display: none;
+}
+.relax-tiles .portfolio-filter {
+    display: none;
+}
+
+.portfolio-v1 {
+ 	border: 1px solid rgba(0,0,0,0.1); 
+    text-align: center;
+   	height: 256px;
+}
+
+.widget.gsc-heading .title {
+    font-family: "Effra";
+    font-style: normal;
+   /* font-weight: 500; */
+}
+
+.widget.gsc-heading .title-desc {
+    font-family: "Effra Light";
+    font-style: normal;
+ 	color: #555;
+}
+
+.vote-for-us .widget.gsc-heading .title-desc {
+    color: white;
+}
+
+.shop-tiles .portfolio-filter .nav-tabs > li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.dine-tiles .portfolio-filter .nav-tabs > li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+.relax-tiles .portfolio-filter .nav-tabs > li {
+  float: left;
+  margin-bottom: 10px;
+}
+
+/** Link hover color for Shop, Dine & Relax Tiles **/
+.portfolio-v1 .content .title a:hover {
+    color: #e00049;
+}
+
+.gsc-hover-box {
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+.gsc-hover-box .box-title {
+  color: #1e245e;
+}
+
+.gsc-hover-box:hover {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 5px rgba(189, 195, 199, 0.4);
+  color: #AB003F;
+  transform: translateY(0px);
+}
+
+.gsc-hover-box:hover .box-title {
+  color: #AB003F;
+}
+
+.gsc-hover-box .link a {
+  color: #555;
+  font-family: "Effra Light";
+  position: relative;
+}
+
+.gsc-hover-box:hover .link a {
+    color: #555;
+}
+
+.gsc-hover-box .icon {
+  /*width: 305px;*/
+  height: 200px;
+  background: #ffffff;
+  padding: 0px;
+}
+
+.gsc-hover-box .icon img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    object-position: top;
+}
+
+.gsc-hover-box:hover {
+   cursor: hand;
+   cursor: pointer;
+   opacity: .9;
+}
+
+.gsc-hover-box a {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   text-decoration: none;
+   /* Makes sure the link doesn't get underlined */
+   z-index: 10;
+   /* raises anchor tag above everything else in div */
+}
+
+
+.gavias_sliderlayer .btn-slide, #gavias_slider_single .btn-slide {
+  background: #1e245e;
+  color: #ffffff;
+}
+
+.gavias_sliderlayer .btn-slide a, #gavias_slider_single .btn-slide a {
+  color: #ffffff;
+}
+.gavias_sliderlayer .btn-slide:hover, #gavias_slider_single .btn-slide:hover {
+  background: #e00049;
+  color: #ffffff;
+}
+.gavias_sliderlayer .btn-slide:hover a, #gavias_slider_single .btn-slide:hover a {
+  background: #e00049;
+  color: #ffffff;
+}
+
+.language-switcher-language-url , .language-switcher-language-url ul {
+	float: right;
+	margin:0px;
+  list-style: none;
+  list-style: none;
+}
+
+.language-switcher-language-url {
+ 	float: right; 
+}
+
+.language-switcher-language-url a {
+  color: white;
+}
+
+.language-switcher-language-url .is-active {
+    display: none;
+}
+
+.weather-image {
+ 	width: 24px;
+ 	height: 24px;
+}
+.block-weather {
+ float:right; 
+}
+
+/*.block-weather:lang(ar) {
+ float:left; 
+}*/
+
+
+.site-alert-header, .site-alert-header .block {
+  background: #ffd52d; 
+  margin: 0px;
+}
+
+.site-alert-header .item {
+ margin-bottom: 0;
+ padding: 8px;
+ text-align: center;
+ border-bottom: #c7b00e 1px solid;
+  position: relative;
+}
+
+.site-alert-header .item img {
+  position:absolute;
+  right:48px;
+  top:8px;
+  width:24px;
+  height:24px;
+  cursor: pointer; 
+}
+.site-alert-header .item img:hover {
+	filter: invert(17%) sepia(100%) saturate(3280%) hue-rotate(328deg) brightness(96%) contrast(91%);
+}
+
+.alert-item div span a {
+    color: #252525;
+    font-family: 'Effra Light';
+    font-weight: 600;
+}
+
+.alert-item div span a:hover {
+    color: #d61755;
+    font-family: 'Effra Light';
+    font-weight: 600;
+}
+
+.alert-id {
+display: none;
+}
+
+header.header-v3 .area-main-menu .navigation ul.gva_menu {
+    padding-top: 22px;
+}
+
+@media (max-width: 991px){
+header.header-v3 .navigation .gva_menu > li > a {
+    padding-top: 0px;
+   font-family: 'Effra Light';
+
+}
+}
+
+@media (min-width: 992px){
+header.header-v3 .navigation .gva_menu > li > a {
+    padding-top: 12px;
+    font-family: 'Effra Light';
+
+}
+}
+
+.topbar .navigation .gva_menu > li > a {
+    color: white;
+    text-transform: capitalize;
+    padding: 0 16px;
+    font-weight: 600;
+    /**padding-top: 10px;**/
+    padding-bottom: 0px;
+    font-family: 'Effra Light';
+}
+.topbar div {
+    color: white;
+    font-weight: 600;
+    font-family: 'Effra Light';
+}
+  
+.topbar .navigation {
+    display: inline;
+}
+
+.topbar {
+  padding: 6px 0;
+}
+
+@media (max-width: 767px){
+  .topbar {
+      display: block;
+  }
+  
+  header.header-v3 .header-main-inner {
+  margin-top: 10px;
+  }
+}
+
+.topbar ul.gva_menu {
+    margin: 0px;
+    float: right;
+}
+
+.topbar a {
+    font-size: 13px ! important;
+}
+  
+
+
+.read-more a {
+  color: #e91e63;
+}
+
+.field--name-field-alert-banner img {
+   margin-bottom: 15px;
+}
+
+.brand-grid img {
+  object-fit: cover; 
+}
+
+.brand-grid ul {
+  padding: 0px;
+}
+
+.link-tree-main {
+  text-align: center;
+}
+
+.link-tree-main .gsc-button {
+  width: 350px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.fids-search-main {
+  margin: auto;
+  text-align: center;
+  /*width: 200px;*/
+  background: #1e245e;
+  color: #ffffff;
+  border: 0px;
+}
+
+.fids-search-main:hover{
+  background: #e00049;
+  color: #ffffff;
+  border: 0px;
+}
+
+.fids-container .tabButton {
+  font-size: 1.65em;
+}
+
+.find-your-flight {
+  width: 300px;
+}
+
+/*
+.fids-container #findYourFlight {
+  opacity: 60%;
+}*/
+
+.fids-container #flightStatusBlock .tabButton .icon {
+  padding-right: 100px;
+}
+
+.fids-container #flightStatusBlock .tabButton .icon-arrive, .fids-container #flightStatusBlock .tabButton .icon-depart {
+    font-size: 30px;
+    /*padding-right: 20px;*/
+}
+
+:lang(ar ).fids-container #flightStatusBlock .tabButton .icon-arrive, .fids-container #flightStatusBlock .tabButton .icon-depart {
+    font-size: 30px;
+    /*padding-left: 20px;*/
+}
+
+/*label[for=arrivals]
+{
+    font-size: 1.1em;
+    color: white;
+    padding: 0 24px;
+    font-family: 'Effra Light';
+    font-weight: bold;
+    border-radius: 60px;
+    background: #e00049;
+}
+
+label[for=departures]
+{
+    font-size: 1.1em;
+    color: #1e245e;
+    padding: 0 24px;
+    font-family: 'Effra Light';
+    font-weight: bold;
+}
+*/
+
+.flight-search-input-border {
+ position: relative; 
+  padding: 5px;
+  box-shadow: 0 0 2px 2px rgb(0 0 0 / 2%) inset; 
+  border: 1px solid rgba(0,0,0,0.5);
+  border-radius: 30px;
+  display: inline-block; 
+}
+
+.flight-search-icon {
+ padding: 0 10px 
+}
+
+.flight-type {
+    display: inline-block;
+    background: #f5f5f5;
+  padding:6px;
+    border-radius: 90px;
+}
+ .searchbtn-mob {
+   display:none; 
+  }
+.flight-type label {
+ 	margin-bottom: 0px; 
+}
+
+.flight-type label div {
+ 	width: 160px;
+    font-family: 'Effra Light';
+    font-size: 1.1em;
+    color: #1e245e;
+}
+
+.flight-type label input:checked ~ div {
+  background: #e00049;
+  border-radius: 100px;
+  color: white;
+}
+.flight-type label input:checked ~ div img{
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(295deg) brightness(105%) contrast(101%);
+}
+
+ .searchbtn-mob {
+   display:none; 
+  } 
+
+@media (max-width: 768px){
+  .searchbtn-mob {
+   display:block; 
+  }
+  .searchbtn-web {
+   display: none; 
+  }
+  
+}
+/*@media (min-width: 768px){
+  .searchbtn-mob {
+   display:none; 
+  }
+  .searchbtn-web {
+   display: block; 
+  }
+  
+}
+*/
+
+
+input[type=radio] { display: none; }
+
+input[type="radio"] + .fa,
+input[type="radio"] + label > .fa { cursor: pointer; }
+
+input[type="radio"] + .fa-plane:before,
+input[type="radio"] + label > .fa-plane:before { content: "\f072"; color: #1e245e; font-size: 20px; margin-right: 5px;}
+
+input[type="radio"]:checked + .fa-plane:before,
+input[type="radio"]:checked + label > .fa-plane:before { content: "\f072"; color: #e00049; margin-right: 8px; font-size: 30px;}
+
+
+.covid19-impact-faq-list a {
+    color: #1e245e;
+ 
+}
+
+.covid19-impact-faq-list a:hover {
+    color: #AB003F;
+}
+
+.airline-development-faq-list a {
+    color: #1e245e;
+}
+
+.airline-development-faq-list a:hover {
+    color: #AB003F;
+}
+
+.owl-carousel-arabic-fix {
+    direction: ltr;
+    position: relative;
+}
+
+.maps-arabic-center {
+    padding-top: 20px;
+    text-align: center;
+    direction: ltr; /*Fix for mixed English and Arabic text*/
+}
+
+.relax-tiles-text-fix .portfolio-v1 .content .title a {
+   /* padding-bottom: 150px; */
+}
+
+:lang(ar) .post-block {
+    text-align: right;
+} 
+
+
+/*Contact list fix for width and Arabic*/
+.gsc-icon-box {
+    padding: 15px 50px 50px;
+    width: 500px;
+} 
+
+@media (max-width: 767px){
+	 .gsc-icon-box {
+		padding: 15px 24px 24px 24px;
+		width: 100%;
+	}
+}
+
+
+:lang(ar) .gsc-icon-box {
+    text-align: right;
+    padding: 15px 50px 50px;
+    width: 500px;
+} 
+
+
+
+:lang(ar) .gsc-icon-box .highlight-icon {
+    text-align: right;
+    float: right;
+}
+
+:lang(ar) .gsc-icon-box .highlight_content {
+    text-align: right;
+    padding-right: 56px;
+} 
+
+.eu-cookie-compliance-message h2 {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.eu-cookie-compliance-default-button {
+     color: #ffffff;
+    background: #e00049;
+    font-weight: normal;
+    text-shadow: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: none;
+    padding: 4px 18px;
+    font-family: 'Effra Regular';
+}
+
+:lang(ar) .eu-cookie-compliance-default-button {
+
+}
+
+
+.eu-cookie-compliance-default-button:hover {
+    background: #ed155b;
+}
+
+
+.hide-block {
+ 	display : none;
+}
+
+.gsc-button {
+	font-size: 0.8em;
+    font-family: 'Effra Light';
+}
+
+.post-block .post-title a {
+    font-family: 'Effra Regular';
+    color: #1e245e;
+    font-weight: normal;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.post-style-grid .post-block .post-body {
+    font-family: 'Effra Light';
+}
+
+p {
+    font-family: 'Effra Light';
+    color: #555;
+    /* font-size: 14px; */
+}
+
+ul li {
+    list-style: inherit;
+    font-family: 'Effra Light';
+    color: #555;
+}
+
+:lang(ar) ul li {
+    list-style: inherit;
+    font-family: 'Effra Light';
+    font-weight: normal;
+    color: #555;
+}
+
+
+.contact-info ul li {
+  /* color: white; */
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Effra Regular';
+  font-weight: 500;
+}
+
+a {
+    color: #d61755;
+    text-decoration: none;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer span {
+    color: white;
+}
+
+.footer-first, .footer-second, .footer-third, .footer-four {
+    padding: 0 32px;
+}
+
+#sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu-cookie-withdraw-tab {
+    color: #ffffff;
+}
+
+div#block-gavias-tico-copyright .text-center {
+    font-family: 'Effra Light';
+    /* color: white; */
+}
+
+.custom-shape-divider-top-1648995248 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave div {
+ padding: 0; 
+}
+.exp-wave-top {
+ 	margin-top: -10px; 
+}
+.exp-wave-bottom {
+ 	margin-top: -10px; 
+	border-top: 25px solid #1e245e;
+}
+
+span.description {
+    font-family: 'Effra Light';
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* Marwan Changes */
+
+.maps-block p {
+    text-align: center;
+    padding: 10px 0;
+    color: black;
+}
+
+.maps-block img {
+    object-fit: cover;
+    height: 255px;
+    width: 100%;
+}
+
+.maps-block .column-content {
+    background: white;
+}
+
+.other-maps-block {
+    display: grid;
+    padding: 24px 24px 0 24px;
+    margin: 10px;
+    transition: transform .2s;
+    background: white;
+    text-align: center;
+    grid-auto-rows: 0.7fr;
+    box-shadow: rgb(0 0 0 / 5%) 0px 6px 24px 0px, rgb(0 0 0 / 8%) 0px 0px 0px 1px;
+}
+
+.other-maps-block:hover {
+    transform: scale(1.1);
+}
+
+.other-maps-block a {
+    color: #333333;
+    font-family: 'Effra Light';
+    font-weight: 600;
+}
+
+.other-maps-block img {
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.other-maps-block .views-field-title {
+    padding: 16px 0;
+}
+
+#block-views-block-related-maps-block-1 .more-link a {
+    margin-top: 16px;
+    width: 150px;
+    font-family: 'Effra Light';
+    font-weight: 600;
+    background: #1e245e;
+    color: white;
+}
+
+#block-views-block-related-maps-block-1 .more-link a:hover {
+    background: #e00029;
+    border: 2px solid #e00029;
+}
+
+#block-views-block-related-maps-block-1 .block-title > span {
+    font-family: 'Effra Regular';
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-menu ul.sub-menu > li.menu-item.menu-item--active-trail > a {
+    color: #e00029;
+}
+
+.main-menu ul.gva_menu_main > li.menu-item.menu-item--active-trail > a { 
+  color: #e00029; 
+}
+
+
+/*Contact list fix for width and Arabic*/
+
+.home-tiles-web {
+    width: 33.333%;
+    display: inline-block;
+} 
+
+.home-tiles-section .row-wrapper.clearfix {
+      display: block;
+      width: 100%;
+    }
+
+.home-tiles-section {
+    overflow: auto;
+}
+
+.home-tiles-header > div {
+  padding-bottom: 0px  
+}
+
+.home-tiles-section > div {
+  padding-top: 0px  
+}
+
+.home-at-the-airport {
+    width: 50%;
+    display: inline-block;
+}
+
+.home-airport-guide .row-wrapper.clearfix {
+    width: 100%;
+    display: block;
+}
+
+.home-airport-guide {
+    overflow: auto;
+}
+
+.home-airport-guide > div {
+    padding-top: 0px;
+}
+
+.home-airportguide-heading > div {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 767px){
+	 .home-tiles-web {
+		width: calc((100%/3));
+    	display: inline-block;
+	}
+    
+    .home-at-the-airport {
+     	width: calc((100%/4));
+    	display: inline-block;
+	}
+  
+    .home-tiles-section .row-wrapper.clearfix {
+      overflow-x: scroll;
+      display: block;
+      overflow: auto;
+       /* white-space: nowrap;*/
+      width: calc((100% * 3) - 150px);
+    }
+  
+   .home-airport-guide .row-wrapper.clearfix {
+      overflow-x: scroll;
+      display: block;
+      overflow: auto;
+     /* white-space: nowrap;*/
+      width: calc((100% * 4) - 150px);
+    }
+  
+  }
+
+.post-banner-title {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Effra Medium';
+    margin-top: 20px;
+    color: #1e245e;
+}
+
+.fifa-height{
+	height:450px;
+}
+
+.block-hide {
+ 	display:none; 
+}
+.iframe-holder-muzn{
+    position:relative;
+    width:calc(100% - 60px);
+  	height:480px;
+    text-align: center;
+    margin: 0 30px 30px 30px;
+}
+
+.iframe-holder-muzn iframe {
+ 	position:absolute;
+  	top:0;
+  	left:0;
+  	width:100%;
+  	height:100%;
+}
+.muzn-container{
+      text-align: center;
+  	  padding-bottom:60px;
+}
+.socialmedialogos {
+    width: 12px;
+    height: 12px;
+    margin: 6px;
+}
+:lang(ar) .vote-text span {
+    color: #ffffff;
+}
+
+.skytax-voting-2025-title .subtitle {
+    font-size: 18px;
+    text-transform: none;
+    font-family: 'Effra Light';
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+:lang(ar) .skytax-voting-2025-title .subtitle {
+	font-size: 24px;
+  font-weight: normal;
+}
+
+:lang(ar) .skytax-voting-2025-title .content {
+  text-align: center;
+}
+  
+.skytax-voting-2025-title .title {
+    font-size: 24px ! important;
+    font-family: 'Effra Light';
+  	text-align: center;
+    text-transform: none;
+}
+.skytax-voting-2025-title h3 span {
+    color: #d2a832;
+    letter-spacing: 1px;
+    font-family: 'Effra Regular';
+    font-size: 24px;
+}
+:lang(ar) .skytax-voting-2025-title h3 span {
+	font-size: 32px;
+  font-weight: normal;
+}
+.skytax-voting-2025-title strong {
+    color: #d2a832;
+}
+
+.skytax-voting-2025-title .button-action {
+      text-align: center;
+}
+
+.skytax-voting-2025-title .button-action a {
+    background: #d2a832;
+    color: white;
+}
+
+
+.end-of-year-campaign .title-sub {
+    color: #e00049;
+    font-size: 14px;
+  	font-family: 'Effra Light';
+    text-transform: uppercase;
+}
+
+.eoy-campaign .btn {
+    background: #1e245e;
+    font-size: 16px;
+    font-family: 'Effra Light';
+}
+
+.eoy-campaign .btn:hover {
+    background: #e00049;
+}
+.eoy-benefits .link.container {
+    display: none;
+}
+
+.eoy-benefits .gsc-hover-box .box-title {
+    font-family: 'Effra Regular';
+    font-size: 18px;
+    font-weight: normal;
+}
+.gsc-hover-box .content {
+    font-size: 14px;
+    font-family: 'Effra Light';
+}
+
+.eoy-benefits .gsc-hover-box:hover .content {
+    color:#fff;
+}
+
+.widget.gsc-call-to-action.text-light .content .title {
+    font-family: 'Effra Regular';
+    font-size: 32px;
+}
+
+.widget.gsc-call-to-action.button-bottom .content {
+    text-align: left;
+    padding: 0;
+    font-family: 'Effra Light';
+    width: 100%;
+    font-size: 24px;
+}
+
+.eoy-cta-section {
+    background: linear-gradient(45deg, #1e245e, #e00049);
+}
+.eoy-benefits .pricing-table {
+    padding: 16px;
+    background: #fff;
+    font-family: 'Effra Regular';
+    border-radius: 16px;
+}
+
+.eoy-benefits .pricing-table .interval {
+    display: none;
+}
+
+.pricing-table .content-wrap .plan-price .price-value .dollar {
+    font-family: 'Effra Light';
+    color: #e00049;
+}
+
+.pricing-table .content-wrap .plan-price .price-value .value {
+    font-family: 'Effra';
+}
+
+.pricing-table .plan-list {
+    padding: 25px 0 0;
+    font-family: 'Effra Light';
+}
+
+.egates-icon img {
+    width: 100%;
+    height: 250px;
+    background: #d5d9ff;
+    padding: 24px;
+    object-fit: contain;
+    border-radius: 24px;
+}
+
+.title-desc {
+    font-family: 'Effra Light';
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+}
+.widget.gsc-icon-box.top-center .highlight-image {
+  margin:16px;
+}
+.section-head {
+    font-family: 'Effra Medium';
+    font-size: x-large;
+}
+
+.desc {
+    font-family: 'Effra Light';
+    font-size: 18px;
+    -webkit-text-stroke: 0.025rem;
+}
+.requirements {
+    font-size: 24px;
+    font-family: 'Effra Regular';
+}
